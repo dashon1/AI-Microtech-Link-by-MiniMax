@@ -1,4 +1,5 @@
 export const apps = [
+  { id: 'santa-tracker', name: "Santa Tracker", category: "Holiday", description: "Real-time Santa tracking dashboard with holiday games and countdown", icon: "Map", status: "Live", link: "https://santatracker.google.com" },
   { id: 1, name: "Directors Studio", category: "Creative", description: "AI-powered creative production and content planning platform", icon: "Film" },
   { id: 2, name: "Math Hero", category: "Education", description: "Intelligent math tutoring with adaptive learning pathways", icon: "Calculator" },
   { id: 3, name: "PixQR", category: "Social Media", description: "Smart QR code generation with analytics and custom branding", icon: "QrCode" },

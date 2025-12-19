@@ -9,6 +9,7 @@ export default function HomePage() {
     <div>
       {/* Hero Section */}
       <section className="gradient-hero text-white py-20 lg:py-32">
+        {/* ... existing hero content ... */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
@@ -48,6 +49,29 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Holiday Feature Banner */}
+      <section className="bg-red-600 text-white py-4 overflow-hidden relative">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between relative z-10">
+          <div className="flex items-center space-x-3 mb-2 sm:mb-0">
+            <span className="text-2xl">🎅</span>
+            <div>
+              <span className="font-bold text-lg">Holiday Special:</span>
+              <span className="ml-2">Track Santa in Real-Time with our AI Tracker!</span>
+            </div>
+          </div>
+          <a
+            href="https://santatracker.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-red-600 px-6 py-2 rounded-full font-bold hover:bg-gray-100 transition-colors flex items-center space-x-2"
+          >
+            <span>Track Santa Now</span>
+            <ArrowRight size={16} />
+          </a>
+        </div>
+        {/* Snowflakes effect could be added here */}
+      </section>
+
       {/* Mission Section */}
       <section className="section-container">
         <div className="text-center max-w-3xl mx-auto">
@@ -71,19 +95,19 @@ export default function HomePage() {
             From custom AI development to business automation, we deliver solutions that transform how you work.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
-            <ServiceCard 
+            <ServiceCard
               icon={<Briefcase className="text-primary" size={32} />}
               title="Streamline Your Business"
               description="Custom AI applications that automate processes, optimize workflows, and boost productivity across your organization."
               link="/services#business"
             />
-            <ServiceCard 
+            <ServiceCard
               icon={<Lightbulb className="text-secondary" size={32} />}
               title="Unleash Your Creativity"
               description="AI-powered tools for content creation, design automation, and innovative solutions that push creative boundaries."
               link="/services#creative"
             />
-            <ServiceCard 
+            <ServiceCard
               icon={<Puzzle className="text-primary" size={32} />}
               title="Solve Complex Challenges"
               description="Tailored AI applications that tackle your unique challenges with intelligent, adaptive solutions."

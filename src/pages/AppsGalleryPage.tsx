@@ -1,7 +1,9 @@
+
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Search, ArrowRight, Film, Calculator, QrCode, Heart, Sparkles, CloudRain, Map, Activity, TrendingUp, Languages, Music, LineChart, Users, CreditCard, Code, Home, Scale, Wand2, Sun, LayoutGrid, Shield } from 'lucide-react'
-import { apps, categories } from '../data/content'
+import { categories } from '../data/content'
+import { useApp } from '../context/AppContext'
 
 const iconMap: Record<string, React.ReactNode> = {
   Film: <Film size={24} />,
@@ -30,11 +32,13 @@ const iconMap: Record<string, React.ReactNode> = {
 export default function AppsGalleryPage() {
   const [selectedCategory, setSelectedCategory] = useState("All")
   const [searchQuery, setSearchQuery] = useState("")
+  const { apps } = useApp()
 
   const filteredApps = apps.filter(app => {
+    const appName = app.title || app.name || '';
     const matchesCategory = selectedCategory === "All" || app.category === selectedCategory
-    const matchesSearch = app.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         app.description.toLowerCase().includes(searchQuery.toLowerCase())
+    const matchesSearch = appName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      app.description.toLowerCase().includes(searchQuery.toLowerCase())
     return matchesCategory && matchesSearch
   })
 
@@ -69,11 +73,10 @@ export default function AppsGalleryPage() {
                 <button
                   key={cat}
                   onClick={() => setSelectedCategory(cat)}
-                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                    selectedCategory === cat
+                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${selectedCategory === cat
                       ? 'bg-primary text-white'
                       : 'bg-gray-100 text-neutral-gray-dark hover:bg-gray-200'
-                  }`}
+                    }`}
                 >
                   {cat}
                 </button>
@@ -88,18 +91,18 @@ export default function AppsGalleryPage() {
         <p className="text-neutral-gray-dark mb-8">{filteredApps.length} applications found</p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {filteredApps.map((app) => (
-            <div key={app.id} className="card group hover:scale-105">
+            <Link to={`/apps/${app.id}`} key={app.id} className="card group hover:scale-105 block">
               <div className="flex items-center space-x-4 mb-4">
                 <div className="w-12 h-12 bg-primary-light rounded-xl flex items-center justify-center text-primary">
                   {iconMap[app.icon] || <Sparkles size={24} />}
                 </div>
                 <div>
-                  <h3 className="font-semibold group-hover:text-primary transition-colors">{app.name}</h3>
+                  <h3 className="font-semibold group-hover:text-primary transition-colors">{app.title || app.name}</h3>
                   <span className="text-sm text-secondary">{app.category}</span>
                 </div>
               </div>
               <p className="text-sm text-neutral-gray-dark">{app.description}</p>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
