@@ -3,7 +3,7 @@
   "description": "Professional AI development company website featuring ARA M5 AI Super Assistant",
   "version": "1.0.0",
   "type": "module",
-  "author": "MiniMax Agent",
+  "author": "AI Microtech Link",
   "license": "MIT",
   "scripts": {
     "dev": "pnpm install --prefer-offline && vite",
