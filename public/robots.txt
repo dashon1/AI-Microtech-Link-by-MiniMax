@@ -1,0 +1,17 @@
+# Robots.txt for aimicrotechlink.com
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://aimicrotechlink.com/sitemap.xml
+
+# Disallow admin/private paths (if any)
+Disallow: /api/
+Disallow: /admin/
+
+# Allow crawlers to access all public content
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
