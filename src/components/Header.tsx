@@ -18,6 +18,25 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
+      {/* Holiday Special Banner */}
+      <div className="bg-red-600 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between py-2">
+            <div className="flex items-center space-x-2">
+              <span className="text-sm">🎄</span>
+              <span className="text-sm font-medium">Holiday Special: Track Santa in Real-Time with our AI Tracker!</span>
+            </div>
+            <a 
+              href="https://santa-s-ai-journey-tracker-779952728668.us-west1.run.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-red-600 px-4 py-1 rounded-full text-sm font-semibold hover:bg-gray-100 transition-colors"
+            >
+              Track Santa Now →
+            </a>
+          </div>
+        </div>
+      </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-3">
