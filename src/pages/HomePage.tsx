@@ -60,7 +60,7 @@ export default function HomePage() {
             </div>
           </div>
           <a
-            href="https://santatracker.google.com"
+            href="https://santa-s-ai-journey-tracker-779952728668.us-west1.run.app"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-red-600 px-6 py-2 rounded-full font-bold hover:bg-gray-100 transition-colors flex items-center space-x-2"
