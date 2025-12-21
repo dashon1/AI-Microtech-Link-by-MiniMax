@@ -2,7 +2,7 @@
 
 ## 🚀 Project Overview
 
-AI Microtech Link is a professional AI development company website showcasing cutting-edge artificial intelligence solutions. Built with modern web technologies and deployed via MiniMax Agent, this project represents a complete business presence for an AI development company based in Clearwater, Florida.
+AI Microtech Link is a professional AI development company website showcasing cutting-edge artificial intelligence solutions. Built with modern web technologies, this project represents a complete business presence for an AI development company based in Clearwater, Florida.
 
 ## 🌟 Key Features
 
@@ -17,7 +17,7 @@ AI Microtech Link is a professional AI development company website showcasing cu
 - **Styling**: Tailwind CSS for responsive design
 - **Components**: Shadcn/ui component library
 - **Icons**: Lucide React icon library
-- **Deployment**: MiniMax Agent hosting platform
+- **Deployment**: Vercel hosting platform
 
 ### ARA M5 Showcase
 - **Product Landing**: Dedicated page for ARA M5 AI Super Assistant
@@ -188,6 +188,6 @@ This project represents AI Microtech Link's intellectual property and business w
 
 ---
 
-**Built with MiniMax Agent** - Professional AI development platform
+**Built with Modern Tech** - Professional AI development platform
 **Technology**: React + TypeScript + Tailwind CSS
-**Hosting**: MiniMax Agent deployment system
+**Hosting**: Vercel deployment system
