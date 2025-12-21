@@ -1,95 +1,81 @@
+import { useState } from 'react'
 
-import React from 'react';
-import { useApp } from '../context/AppContext';
-import { Link, useNavigate } from 'react-router-dom';
-import { Plus, Edit, Trash, LogIn, LogOut } from 'lucide-react';
+export default function AdminPage() {
+    const [isAuthenticated, setIsAuthenticated] = useState(false)
+    const [password, setPassword] = useState('')
 
-const AdminPage = () => {
-    const { apps, deleteApp, isAdmin, login, logout } = useApp();
-    const navigate = useNavigate();
+    const handleLogin = (e: React.FormEvent) => {
+        e.preventDefault()
+        if (password === 'admin123') {
+            setIsAuthenticated(true)
+        } else {
+            alert('Incorrect password')
+        }
+    }
 
-    if (!isAdmin) {
+    if (!isAuthenticated) {
         return (
-            <div className="min-h-screen pt-24 pb-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
-                <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">Admin Access</h1>
-                <button
-                    onClick={login}
-                    className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg"
-                >
-                    <LogIn className="h-5 w-5" />
-                    <span>Login as Admin</span>
-                </button>
+            <div className="min-h-[60vh] flex items-center justify-center">
+                <form onSubmit={handleLogin} className="bg-white p-8 rounded-xl shadow-lg border max-w-sm w-full">
+                    <h1 className="text-2xl font-bold mb-6 text-center text-primary-dark">Admin Access</h1>
+                    <input
+                        type="password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        className="border p-3 w-full mb-4 rounded-lg focus:ring-2 focus:ring-primary"
+                        placeholder="Enter Admin Password"
+                    />
+                    <button type="submit" className="btn-primary w-full py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+                        Login
+                    </button>
+                    <p className="text-xs text-gray-400 mt-4 text-center">Default: admin123</p>
+                </form>
             </div>
-        );
+        )
     }
 
     return (
-        <div className="min-h-screen pt-24 pb-12 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto">
-                <div className="flex justify-between items-center mb-8">
-                    <h1 className="text-3xl font-bold text-gray-900 dark:text-white">App Management</h1>
-                    <div className="flex space-x-4">
-                        <Link
-                            to="/admin/new"
-                            className="flex items-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg"
-                        >
-                            <Plus className="h-5 w-5" />
-                            <span>Add New App</span>
-                        </Link>
-                        <button
-                            onClick={logout}
-                            className="flex items-center space-x-2 bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg"
-                        >
-                            <LogOut className="h-5 w-5" />
-                            <span>Logout</span>
+        <div className="max-w-7xl mx-auto px-4 py-12">
+            <div className="flex justify-between items-center mb-8">
+                <h1 className="text-3xl font-bold">Admin Dashboard</h1>
+                <button onClick={() => setIsAuthenticated(false)} className="text-red-500 hover:underline">Logout</button>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+                {/* Apps Management Card */}
+                <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <h2 className="text-xl font-bold mb-4">Manage Apps</h2>
+                    <p className="text-gray-600 mb-6">
+                        Update application listings, descriptions, and statuses shown in the App Gallery.
+                    </p>
+                    <div className="space-y-4">
+                        <div className="flex items-center justify-between p-3 bg-gray-50 rounded">
+                            <span className="font-medium">Santa Tracker</span>
+                            <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full">Active</span>
+                        </div>
+                        <div className="flex items-center justify-between p-3 bg-gray-50 rounded">
+                            <span className="font-medium">Director's Studio</span>
+                            <span className="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full">Draft</span>
+                        </div>
+                        <button className="w-full mt-2 text-primary font-medium hover:underline">
+                            + Add New App
                         </button>
                     </div>
                 </div>
 
-                <div className="bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden">
-                    <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
-                        <thead className="bg-gray-50 dark:bg-gray-700">
-                            <tr>
-                                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">App Name</th>
-                                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Category</th>
-                                <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
-                            {apps.map((app) => (
-                                <tr key={app.id}>
-                                    <td className="px-6 py-4 whitespace-nowrap">
-                                        <div className="text-sm font-medium text-gray-900 dark:text-white">{app.title || app.name}</div>
-                                    </td>
-                                    <td className="px-6 py-4 whitespace-nowrap">
-                                        <div className="text-sm text-gray-500 dark:text-gray-400">{app.category}</div>
-                                    </td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                                        <button
-                                            onClick={() => navigate(`/admin/edit/${app.id}`)}
-                                            className="text-indigo-600 hover:text-indigo-900 dark:text-indigo-400 dark:hover:text-indigo-300 mr-4"
-                                        >
-                                            <Edit className="h-5 w-5 inline" />
-                                        </button>
-                                        <button
-                                            onClick={() => {
-                                                if (confirm('Are you sure you want to delete this app?')) {
-                                                    deleteApp(app.id);
-                                                }
-                                            }}
-                                            className="text-red-600 hover:text-red-900 dark:text-red-400 dark:hover:text-red-300"
-                                        >
-                                            <Trash className="h-5 w-5 inline" />
-                                        </button>
-                                    </td>
-                                </tr>
-                            ))}
-                        </tbody>
-                    </table>
+                {/* CMS Configuration Card */}
+                <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <h2 className="text-xl font-bold mb-4">Site Content</h2>
+                    <p className="text-gray-600 mb-6">
+                        Manage global site settings, hero banners, and service listings.
+                    </p>
+                    <div className="p-4 bg-blue-50 text-blue-800 rounded-lg">
+                        <p className="text-sm">
+                            <strong>Note:</strong> Content management needs to be connected to a database (Supabase/Firebase) to save changes permanently.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    );
-};
-
-export default AdminPage;
+    )
+}

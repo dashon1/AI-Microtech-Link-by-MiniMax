@@ -22,40 +22,39 @@ export default function ContactPage() {
   const [newsletterStatus, setNewsletterStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
   const [errorMessage, setErrorMessage] = useState('')
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     setSubmitStatus('loading')
     setErrorMessage('')
-    
-    try {
-      const response = await fetch(API_CONFIG.CONTACT_FORM_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      })
 
-      const data = await response.json()
+    // Construct mailto link
+    const subject = `New Contact Form Submission from ${formData.name}`;
+    const body = `
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+Company: ${formData.company}
+Service Interest: ${formData.service_interest}
+Location: ${formData.county}
 
-      if (!response.ok) {
-        throw new Error(data.error || 'Failed to submit form')
-      }
+Message:
+${formData.message}
+    `.trim();
 
-      setSubmitStatus('success')
-      trackFormSubmission('contact_form', true)
-      setFormData({ name: '', email: '', phone: '', company: '', service_interest: '', county: '', message: '' })
-    } catch (error) {
-      setSubmitStatus('error')
-      setErrorMessage(error instanceof Error ? error.message : 'Something went wrong')
-      trackFormSubmission('contact_form', false)
-    }
+    const mailtoUrl = `mailto:dashonmcfarlanemarketing@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    // Open default email client
+    window.location.href = mailtoUrl;
+
+    setSubmitStatus('success')
+    trackFormSubmission('contact_form', true)
+    setFormData({ name: '', email: '', phone: '', company: '', service_interest: '', county: '', message: '' })
   }
 
   const handleNewsletter = async (e: React.FormEvent) => {
     e.preventDefault()
     setNewsletterStatus('loading')
-    
+
     try {
       const response = await fetch(API_CONFIG.NEWSLETTER_SIGNUP_URL, {
         method: 'POST',
@@ -135,8 +134,8 @@ export default function ContactPage() {
                   <CheckCircle className="mx-auto text-success mb-4" size={48} />
                   <h3 className="text-xl font-semibold mb-2">Message Received!</h3>
                   <p className="text-neutral-gray-dark">Thank you for reaching out. We will get back to you within 24 hours.</p>
-                  <button 
-                    onClick={() => setSubmitStatus('idle')} 
+                  <button
+                    onClick={() => setSubmitStatus('idle')}
                     className="mt-6 text-primary hover:underline"
                   >
                     Send another message
@@ -145,38 +144,38 @@ export default function ContactPage() {
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
-                    <Input label="Name" required value={formData.name} onChange={e => setFormData({...formData, name: e.target.value})} />
-                    <Input label="Email" type="email" required value={formData.email} onChange={e => setFormData({...formData, email: e.target.value})} />
-                    <Input label="Phone" value={formData.phone} onChange={e => setFormData({...formData, phone: e.target.value})} />
-                    <Input label="Company" value={formData.company} onChange={e => setFormData({...formData, company: e.target.value})} />
+                    <Input label="Name" required value={formData.name} onChange={e => setFormData({ ...formData, name: e.target.value })} />
+                    <Input label="Email" type="email" required value={formData.email} onChange={e => setFormData({ ...formData, email: e.target.value })} />
+                    <Input label="Phone" value={formData.phone} onChange={e => setFormData({ ...formData, phone: e.target.value })} />
+                    <Input label="Company" value={formData.company} onChange={e => setFormData({ ...formData, company: e.target.value })} />
                   </div>
                   <div className="grid md:grid-cols-2 gap-6">
-                    <Select 
-                      label="Service Interest" 
-                      value={formData.service_interest} 
-                      onChange={e => setFormData({...formData, service_interest: e.target.value})}
+                    <Select
+                      label="Service Interest"
+                      value={formData.service_interest}
+                      onChange={e => setFormData({ ...formData, service_interest: e.target.value })}
                       options={["ARA M5 AI Super Assistant", "Custom AI Development", "Business Process Automation", "App Gallery Solutions", "General Consultation"]}
                     />
-                    <Select 
-                      label="County/Location" 
-                      value={formData.county} 
-                      onChange={e => setFormData({...formData, county: e.target.value})}
+                    <Select
+                      label="County/Location"
+                      value={formData.county}
+                      onChange={e => setFormData({ ...formData, county: e.target.value })}
                       options={["Hillsborough County", "Pinellas County", "Pasco County", "Sarasota/Manatee County", "Polk County", "Other Florida County", "Outside Florida"]}
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-medium mb-2">Message *</label>
-                    <textarea 
-                      required 
-                      rows={5} 
+                    <textarea
+                      required
+                      rows={5}
                       className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
                       value={formData.message}
-                      onChange={e => setFormData({...formData, message: e.target.value})}
+                      onChange={e => setFormData({ ...formData, message: e.target.value })}
                       placeholder="Tell us about your project, challenges, or questions..."
                     />
                   </div>
-                  <button 
-                    type="submit" 
+                  <button
+                    type="submit"
                     disabled={submitStatus === 'loading'}
                     className="btn-primary w-full flex items-center justify-center space-x-2"
                   >
