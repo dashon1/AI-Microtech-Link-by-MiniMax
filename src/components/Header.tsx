@@ -26,14 +26,12 @@ export default function Header() {
               <span className="text-sm">🎄</span>
               <span className="text-sm font-medium">Holiday Special: Track Santa in Real-Time with our AI Tracker!</span>
             </div>
-            <a 
-              href="https://santa-s-ai-journey-tracker-779952728668.us-west1.run.app"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link 
+              to="/santa-signup"
               className="bg-white text-red-600 px-4 py-1 rounded-full text-sm font-semibold hover:bg-gray-100 transition-colors"
             >
               Track Santa Now →
-            </a>
+            </Link>
           </div>
         </div>
       </div>

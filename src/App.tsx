@@ -8,6 +8,7 @@ import AppsGalleryPage from './pages/AppsGalleryPage'
 import AboutPage from './pages/AboutPage'
 import FloridaPage from './pages/FloridaPage'
 import ContactPage from './pages/ContactPage'
+import SantaSignupPage from './pages/SantaSignupPage'
 import AdminPage from './pages/AdminPage'
 import AppFormPage from './pages/AppFormPage'
 import AppDetailPage from './pages/AppDetailPage'
@@ -30,6 +31,7 @@ function App() {
               <Route path="/about" element={<AboutPage />} />
               <Route path="/florida" element={<FloridaPage />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/santa-signup" element={<SantaSignupPage />} />
               <Route path="/signup" element={<SignUpPage />} />
 
               {/* Admin Routes */}
