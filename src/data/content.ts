@@ -27,26 +27,20 @@ export const categories = ["All", "Social Media", "Business", "Health", "Finance
 
 export const services = [
   {
-    title: "Custom AI Development",
-    description: "Tailored AI applications using the most advanced language models and AI technologies.",
-    features: ["Custom AI applications", "LLM integration", "Multi-agent systems", "API development"]
+    title: "Autonomous Enterprise Infrastructure",
+    description: "Deployable AI Agents for Enterprise Scale.",
+    features: ["Autonomous Agent Orchestration", "LLM integration", "Multi-agent systems", "API development"]
   },
   {
-    title: "Business Process Automation",
+    title: "Enterprise Workflow Orchestration",
     description: "Transform operations with AI solutions that streamline workflows and reduce costs.",
     features: ["Process automation", "Customer analysis", "Inventory management", "Marketing automation"]
   },
   {
-    title: "AI Strategy Consulting",
+    title: "Strategic AI Implementation",
     description: "Expert guidance on AI implementation and digital transformation.",
     features: ["AI roadmap planning", "Technology assessment", "ROI analysis", "Training programs"]
   }
 ];
 
-export const counties = [
-  { name: "Hillsborough County", city: "Tampa", focus: ["Healthcare", "Financial services", "Manufacturing"] },
-  { name: "Pinellas County", city: "Clearwater & St. Petersburg", focus: ["Tourism", "Healthcare", "Real estate"] },
-  { name: "Pasco County", city: "Wesley Chapel", focus: ["Healthcare", "Small business", "Real estate"] },
-  { name: "Sarasota/Manatee", city: "Sarasota", focus: ["Professional services", "Healthcare", "Cultural industry"] },
-  { name: "Polk County", city: "Lakeland", focus: ["Manufacturing", "Logistics", "Agriculture"] }
-];
+export const counties = [];

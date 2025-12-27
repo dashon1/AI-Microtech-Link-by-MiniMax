@@ -18,10 +18,10 @@ export default function HomePage() {
                 <span className="text-sm">Small But Mighty</span>
               </div>
               <h1 className="text-4xl lg:text-6xl font-extrabold mb-6 leading-tight">
-                ARA M5: The Operating System for Autonomous Agents
+                ARA M5: The Operating System for Autonomous Intelligence
               </h1>
               <p className="text-lg lg:text-xl text-gray-200 mb-8">
-                Orchestrate your enterprise with the world's first multi-agent neural network.
+                A proprietary multi-agent framework orchestrating enterprise workflows on Google Cloud. Built for scale, not just automation.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/products" className="btn-accent flex items-center justify-center space-x-2">
@@ -79,10 +79,10 @@ export default function HomePage() {
             Our Mission: Giving You Your Life Back
           </h2>
           <p className="text-lg text-neutral-gray-dark mb-8">
-            We believe AI should enhance your life, not complicate it. Our mission is simple: create AI solutions that give you and your business the freedom to focus on what matters most.
+            We are an AI Product Company. Our flagship platform, ARA M5, leverages advanced reasoning models to solve complex problems autonomously. We don't just build apps; we engineer intelligence.
           </p>
           <p className="text-xl font-semibold text-secondary">
-            "Small but mighty. AI that allows us to do very big things."
+            "Automating the future of enterprise."
           </p>
         </div>
       </section>
@@ -116,7 +116,7 @@ export default function HomePage() {
           </div>
           <div className="text-center mt-12">
             <Link to="/services" className="btn-primary inline-flex items-center space-x-2">
-              <span>Explore Platform</span>
+              <span>View Agent Library</span>
               <ArrowRight size={18} />
             </Link>
           </div>
@@ -160,9 +160,9 @@ export default function HomePage() {
       {/* Apps Gallery Preview */}
       <section className="bg-primary-dark text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4">The ARA Ecosystem</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4">Powered by ARA M5 Core</h2>
           <p className="text-gray-300 text-center mb-12 max-w-2xl mx-auto">
-            From social media management to financial planning - our ecosystem has modules for every aspect of your enterprise.
+            Our ecosystem showcases the power and versatility of the ARA M5 Operating System.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {featuredApps.map((app) => (

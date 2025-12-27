@@ -25,7 +25,7 @@ export default function Header() {
               <span className="text-sm">🎄</span>
               <span className="text-sm font-medium">Holiday Special: Track Santa in Real-Time with our AI Tracker!</span>
             </div>
-            <Link 
+            <Link
               to="/santa-signup"
               className="bg-white text-red-600 px-4 py-1 rounded-full text-sm font-semibold hover:bg-gray-100 transition-colors"
             >
@@ -46,8 +46,8 @@ export default function Header() {
                 key={link.path}
                 to={link.path}
                 className={`text-sm font-medium transition-colors ${location.pathname === link.path
-                    ? 'text-primary'
-                    : 'text-neutral-black hover:text-primary'
+                  ? 'text-primary'
+                  : 'text-neutral-black hover:text-primary'
                   }`}
               >
                 {link.name}
