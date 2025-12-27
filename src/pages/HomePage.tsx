@@ -18,10 +18,10 @@ export default function HomePage() {
                 <span className="text-sm">Small But Mighty</span>
               </div>
               <h1 className="text-4xl lg:text-6xl font-extrabold mb-6 leading-tight">
-                AI Solutions That Give You Your Life Back
+                ARA M5: The Operating System for Autonomous Agents
               </h1>
               <p className="text-lg lg:text-xl text-gray-200 mb-8">
-                From Clearwater, Florida to the world - We build AI applications that let you live again and reach new heights. Leveraging the latest AI technologies to solve real problems.
+                Orchestrate your enterprise with the world's first multi-agent neural network.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/products" className="btn-accent flex items-center justify-center space-x-2">
@@ -90,15 +90,15 @@ export default function HomePage() {
       {/* Services Preview */}
       <section className="bg-neutral-gray-light py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4">AI Solutions for Every Need</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4">Platform Capabilities</h2>
           <p className="text-neutral-gray-dark text-center mb-12 max-w-2xl mx-auto">
-            From custom AI development to business automation, we deliver solutions that transform how you work.
+            From pre-built agents to business automation, our platform transforms how you work.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             <ServiceCard
               icon={<Briefcase className="text-primary" size={32} />}
               title="Streamline Your Business"
-              description="Custom AI applications that automate processes, optimize workflows, and boost productivity across your organization."
+              description="Pre-built AI Agents that automate processes, optimize workflows, and boost productivity across your organization."
               link="/services#business"
             />
             <ServiceCard
@@ -116,7 +116,7 @@ export default function HomePage() {
           </div>
           <div className="text-center mt-12">
             <Link to="/services" className="btn-primary inline-flex items-center space-x-2">
-              <span>View All Services</span>
+              <span>Explore Platform</span>
               <ArrowRight size={18} />
             </Link>
           </div>
@@ -160,9 +160,9 @@ export default function HomePage() {
       {/* Apps Gallery Preview */}
       <section className="bg-primary-dark text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4">100+ AI Applications Ready</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4">The ARA Ecosystem</h2>
           <p className="text-gray-300 text-center mb-12 max-w-2xl mx-auto">
-            From social media management to financial planning - we have AI solutions for every aspect of your life and business.
+            From social media management to financial planning - our ecosystem has modules for every aspect of your enterprise.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {featuredApps.map((app) => (
@@ -181,46 +181,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Florida Section */}
-      <section className="section-container">
-        <div className="bg-gradient-to-r from-primary to-primary-dark rounded-2xl p-8 lg:p-12 text-white">
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <MapPin size={24} className="text-secondary" />
-                <span className="font-semibold">Based in Clearwater, Florida</span>
-              </div>
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-                Proudly Serving Florida
-              </h2>
-              <p className="text-gray-200 mb-6">
-                Serving Hillsborough, Pinellas, Pasco, Sarasota/Manatee, and Polk Counties with AI solutions that understand local needs. From Tampa Bay businesses to Central Florida, we are your neighbors bringing world-class AI technology home.
-              </p>
-              <Link to="/florida" className="btn-accent inline-flex items-center space-x-2">
-                <span>Connect Locally</span>
-                <ArrowRight size={18} />
-              </Link>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              {["Personal Service", "Local Understanding", "Rapid Response", "Community Focus"].map((item) => (
-                <div key={item} className="bg-white/10 rounded-lg p-4">
-                  <p className="font-medium">{item}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Florida Section Removed */}
 
       {/* CTA Section */}
       <section className="bg-secondary py-16">
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4">Ready to Transform Your Business?</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4">Ready to Transform Your Enterprise?</h2>
           <p className="text-lg mb-8 opacity-90">
-            Schedule a free consultation and discover how AI can give you your life back.
+            Join the waitlist and discover how ARA M5 can orchestrate your success.
           </p>
-          <Link to="/contact" className="bg-white text-secondary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-block">
-            Get Started Today
+          <Link to="/signup" className="bg-white text-secondary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-block">
+            Join Waitlist
           </Link>
         </div>
       </section>

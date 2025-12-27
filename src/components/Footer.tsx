@@ -13,7 +13,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center space-x-2 text-gray-300">
               <MapPin size={16} />
-              <span>Clearwater, Florida</span>
+              <span>Global Enterprise</span>
             </div>
           </div>
 
@@ -21,8 +21,8 @@ export default function Footer() {
             <h4 className="font-semibold text-lg mb-4">Solutions</h4>
             <ul className="space-y-3">
               <li><Link to="/products" className="text-gray-300 hover:text-white transition-colors">ARA M5 AI Assistant</Link></li>
-              <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">AI Development</Link></li>
-              <li><Link to="/apps" className="text-gray-300 hover:text-white transition-colors">Apps Gallery</Link></li>
+              <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">AI Infrastructure</Link></li>
+              <li><Link to="/apps" className="text-gray-300 hover:text-white transition-colors">Ecosystem</Link></li>
               <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">Business Automation</Link></li>
             </ul>
           </div>
@@ -31,7 +31,7 @@ export default function Footer() {
             <h4 className="font-semibold text-lg mb-4">Company</h4>
             <ul className="space-y-3">
               <li><Link to="/about" className="text-gray-300 hover:text-white transition-colors">About Us</Link></li>
-              <li><Link to="/florida" className="text-gray-300 hover:text-white transition-colors">Florida Service Areas</Link></li>
+
               <li><Link to="/contact" className="text-gray-300 hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
@@ -62,7 +62,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone size={16} />
-                <span>Contact for consultation</span>
+                <span>Contact for demo</span>
               </div>
             </div>
           </div>

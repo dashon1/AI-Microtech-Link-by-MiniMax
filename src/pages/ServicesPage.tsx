@@ -8,9 +8,9 @@ export default function ServicesPage() {
       {/* Hero */}
       <section className="gradient-hero text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl lg:text-5xl font-bold mb-6">AI Development & Problem-Solving Services</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold mb-6">Platform Features & Capabilities</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-            From concept to deployment - we build AI applications that solve real problems and drive real results.
+            From autonomous agents to enterprise scale - our platform solves real problems and drives real results.
           </p>
         </div>
       </section>
@@ -19,12 +19,12 @@ export default function ServicesPage() {
       <section id="business" className="section-container">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold mb-6">Custom AI Application Development</h2>
+            <h2 className="text-3xl font-bold mb-6">Scalable AI Infrastructure</h2>
             <p className="text-neutral-gray-dark mb-6">
-              We build tailored AI applications using the most advanced language models and AI technologies. From simple automation tools to complex multi-agent systems, we create solutions that fit your specific needs.
+              Deploy tailored AI agents using the most advanced language models and AI technologies. From simple automation tools to complex multi-agent systems, our platform adapts to your specific needs.
             </p>
             <div className="space-y-4">
-              {["Custom AI application development", "LLM integration and optimization", "Multi-agent system architecture", "API development and integration", "AI model training and fine-tuning"].map((item) => (
+              {["Autonomous Agent Orchestration", "LLM integration and optimization", "Multi-agent system architecture", "API development and integration", "Proprietary Model Fine-tuning"].map((item) => (
                 <div key={item} className="flex items-start space-x-3">
                   <CheckCircle className="text-primary mt-1 flex-shrink-0" size={20} />
                   <span>{item}</span>
@@ -34,7 +34,7 @@ export default function ServicesPage() {
           </div>
           <div className="bg-primary-light rounded-2xl p-8">
             <div className="grid grid-cols-2 gap-4">
-              <IconBox icon={<Code />} label="Custom Apps" />
+              <IconBox icon={<Code />} label="Agent Core" />
               <IconBox icon={<Brain />} label="AI Models" />
               <IconBox icon={<Cloud />} label="Cloud Deploy" />
               <IconBox icon={<Shield />} label="Security" />
@@ -123,10 +123,10 @@ export default function ServicesPage() {
         <div className="bg-gradient-to-r from-secondary to-secondary-dark rounded-2xl p-8 lg:p-12 text-white text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Business?</h2>
           <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
-            Contact us for a free consultation to discuss your AI needs and discover how we can help.
+            Join the waitlist to discuss your enterprise needs and discover how our platform can orchestrate your success.
           </p>
-          <Link to="/contact" className="bg-white text-secondary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center space-x-2">
-            <span>Schedule Consultation</span>
+          <Link to="/signup" className="bg-white text-secondary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center space-x-2">
+            <span>Join Waitlist</span>
             <ArrowRight size={18} />
           </Link>
         </div>

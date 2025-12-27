@@ -4,11 +4,10 @@ import { Menu, X } from 'lucide-react'
 
 const navLinks = [
   { name: 'Home', path: '/' },
-  { name: 'Services', path: '/services' },
+  { name: 'Platform', path: '/services' },
   { name: 'ARA M5', path: '/products', badge: 'Soon' },
   { name: 'Apps', path: '/apps' },
   { name: 'About', path: '/about' },
-  { name: 'Florida', path: '/florida' },
   { name: 'Contact', path: '/contact' },
 ] as const
 
@@ -46,11 +45,10 @@ export default function Header() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-medium transition-colors ${
-                  location.pathname === link.path
+                className={`text-sm font-medium transition-colors ${location.pathname === link.path
                     ? 'text-primary'
                     : 'text-neutral-black hover:text-primary'
-                }`}
+                  }`}
               >
                 {link.name}
               </Link>
@@ -79,9 +77,8 @@ export default function Header() {
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`text-base font-medium ${
-                    location.pathname === link.path ? 'text-primary' : 'text-neutral-black'
-                  }`}
+                  className={`text-base font-medium ${location.pathname === link.path ? 'text-primary' : 'text-neutral-black'
+                    }`}
                   onClick={() => setIsOpen(false)}
                 >
                   {link.name}
