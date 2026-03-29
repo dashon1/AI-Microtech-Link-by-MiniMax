@@ -13,6 +13,8 @@ import AdminPage from './pages/AdminPage'
 import AppFormPage from './pages/AppFormPage'
 import AppDetailPage from './pages/AppDetailPage'
 import SignUpPage from './pages/SignUpPage'
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
+import TermsPage from './pages/TermsPage'
 import { AppProvider } from './context/AppContext'
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/santa-signup" element={<SantaSignupPage />} />
               <Route path="/signup" element={<SignUpPage />} />
+              <Route path="/privacy" element={<PrivacyPolicyPage />} />
+              <Route path="/terms" element={<TermsPage />} />
 
               {/* Admin Routes */}
               <Route path="/admin" element={<AdminPage />} />
