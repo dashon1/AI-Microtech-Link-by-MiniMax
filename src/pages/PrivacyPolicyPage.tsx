@@ -17,12 +17,10 @@ export default function PrivacyPolicyPage() {
       </ul>
 
       <h2 className="text-xl font-bold mt-8 mb-4">2. SMS and Text Messaging</h2>
-      <ul className="list-disc pl-6 mb-6 space-y-2">
-        <li>No mobile information will be shared with third parties/affiliates for marketing/promotional purposes.</li>
-        <li>All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.</li>
-        <li>SMS opt-in and consent data is collected solely for the purpose of delivering the requested service.</li>
-        <li>You may opt out of SMS messages at any time by replying STOP.</li>
-      </ul>
+      <div className="bg-blue-50 border-l-4 border-pink-500 p-4 my-6 rounded-r">
+        <h3 className="font-bold text-gray-900 mb-2">SMS Privacy Policy</h3>
+        <p className="text-gray-900 m-0">AI Microtechlink Inc. values your privacy. No mobile information will be shared with third parties or affiliates for marketing or promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties. By providing your phone number, you consent to receive automated text messages (e.g., missed call text-backs) from AI Microtechlink Inc. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies.</p>
+      </div>
 
       <h2 className="text-xl font-bold mt-8 mb-4">3. How We Use Your Information</h2>
       <ul className="list-disc pl-6 mb-6 space-y-2">

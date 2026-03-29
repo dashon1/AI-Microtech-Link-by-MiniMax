@@ -15,7 +15,7 @@ const trackFormSubmission = (formType: string, success: boolean) => {
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: '', email: '', phone: '', company: '',
-    service_interest: '', county: '', message: ''
+    service_interest: '', county: '', message: '', smsConsent: false
   })
   const [newsletter, setNewsletter] = useState('')
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
@@ -33,6 +33,7 @@ export default function ContactPage() {
 Name: ${formData.name}
 Email: ${formData.email}
 Phone: ${formData.phone}
+SMS Consent: ${formData.smsConsent ? 'Yes' : 'No'}
 Company: ${formData.company}
 Service Interest: ${formData.service_interest}
 Location: ${formData.county}
@@ -48,7 +49,7 @@ ${formData.message}
 
     setSubmitStatus('success')
     trackFormSubmission('contact_form', true)
-    setFormData({ name: '', email: '', phone: '', company: '', service_interest: '', county: '', message: '' })
+    setFormData({ name: '', email: '', phone: '', company: '', service_interest: '', county: '', message: '', smsConsent: false })
   }
 
   const handleNewsletter = async (e: React.FormEvent) => {
@@ -146,7 +147,21 @@ ${formData.message}
                   <div className="grid md:grid-cols-2 gap-6">
                     <Input label="Name" required value={formData.name} onChange={e => setFormData({ ...formData, name: e.target.value })} />
                     <Input label="Email" type="email" required value={formData.email} onChange={e => setFormData({ ...formData, email: e.target.value })} />
-                    <Input label="Phone" value={formData.phone} onChange={e => setFormData({ ...formData, phone: e.target.value })} />
+                    <div>
+                      <Input label="Phone" value={formData.phone} onChange={e => setFormData({ ...formData, phone: e.target.value })} />
+                      <div className="mt-2 flex items-start">
+                        <input
+                          type="checkbox"
+                          id="smsConsent"
+                          className="mt-1 mr-2 flex-shrink-0"
+                          checked={formData.smsConsent}
+                          onChange={e => setFormData({ ...formData, smsConsent: e.target.checked })}
+                        />
+                        <label htmlFor="smsConsent" className="text-xs text-gray-600 dark:text-gray-400">
+                          I agree to receive automated text messages from AI Microtechlink Inc. if my call is missed or for support inquiries. I understand that I can reply STOP to opt out at any time. Msg & data rates may apply.
+                        </label>
+                      </div>
+                    </div>
                     <Input label="Company" value={formData.company} onChange={e => setFormData({ ...formData, company: e.target.value })} />
                   </div>
                   <div className="grid md:grid-cols-2 gap-6">

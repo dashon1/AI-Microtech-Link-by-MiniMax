@@ -35,7 +35,7 @@ function App() {
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/santa-signup" element={<SantaSignupPage />} />
               <Route path="/signup" element={<SignUpPage />} />
-              <Route path="/privacy" element={<PrivacyPolicyPage />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
               <Route path="/terms" element={<TermsPage />} />
 
               {/* Admin Routes */}
