@@ -6,10 +6,10 @@ export default function TermsPage() {
       <h1 className="text-3xl font-bold mb-8 border-b pb-4 border-gray-200 dark:border-gray-700">Terms and Conditions</h1>
       <p className="font-semibold mb-6">Last updated: March 28, 2026</p>
 
-      <p className="mb-6">These Terms and Conditions govern your use of AI Microtech Link's services, including ReachRecover AI and all related applications. By using our services, you agree to these terms.</p>
+      <p className="mb-6">These Terms and Conditions govern your use of AI Microtechlink Inc.'s services, including ReachRecover AI and all related applications. By using our services, you agree to these terms.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">1. Services</h2>
-      <p className="mb-6">AI Microtech Link provides AI-powered business automation services including automated SMS text-back systems, lead recovery tools, and related SaaS applications.</p>
+      <p className="mb-6">AI Microtechlink Inc. provides AI-powered business automation services including automated SMS text-back systems, lead recovery tools, and related SaaS applications.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">2. SMS Messaging Terms</h2>
       <ul className="list-disc pl-6 mb-6 space-y-2">
@@ -32,13 +32,13 @@ export default function TermsPage() {
       <p className="mb-6">Subscription fees are billed monthly. You may cancel at any time. Refunds are not provided for partial billing periods.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">5. Limitation of Liability</h2>
-      <p className="mb-6">AI Microtech Link shall not be liable for any indirect, incidental, or consequential damages arising from your use of our services.</p>
+      <p className="mb-6">AI Microtechlink Inc. shall not be liable for any indirect, incidental, or consequential damages arising from your use of our services.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">6. Changes to Terms</h2>
       <p className="mb-6">We reserve the right to update these terms at any time. Continued use of our services constitutes acceptance of the updated terms.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">7. Contact Us</h2>
-      <p className="mb-2">AI Microtech Link</p>
+      <p className="mb-2">AI Microtechlink Inc.</p>
       <p className="mb-2">Clearwater, Florida</p>
       <p className="mb-2">Email: <a href="mailto:info@aimicrotechlink.com" className="text-blue-500 hover:underline">info@aimicrotechlink.com</a></p>
       <p className="mb-6">Website: aimicrotechlink.com</p>
