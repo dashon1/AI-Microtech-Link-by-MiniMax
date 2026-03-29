@@ -37,12 +37,12 @@ export default function PrivacyPolicyPage() {
       <p className="mb-6">We implement industry-standard security measures to protect your data. However, no method of transmission over the internet is 100% secure.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">6. Your Rights</h2>
-      <p className="mb-6">You have the right to access, correct, or delete your personal data at any time. Contact us at <a href="mailto:support@aimicrotechlink.com" className="text-blue-500 hover:underline">support@aimicrotechlink.com</a> to make a request.</p>
+      <p className="mb-6">You have the right to access, correct, or delete your personal data at any time. Contact us at <a href="mailto:info@aimicrotechlink.com" className="text-blue-500 hover:underline">info@aimicrotechlink.com</a> to make a request.</p>
 
       <h2 className="text-xl font-bold mt-8 mb-4">7. Contact Us</h2>
       <p className="mb-2">AI Microtech Link</p>
       <p className="mb-2">Clearwater, Florida</p>
-      <p className="mb-2">Email: <a href="mailto:support@aimicrotechlink.com" className="text-blue-500 hover:underline">support@aimicrotechlink.com</a></p>
+      <p className="mb-2">Email: <a href="mailto:info@aimicrotechlink.com" className="text-blue-500 hover:underline">info@aimicrotechlink.com</a></p>
       <p className="mb-6">Website: aimicrotechlink.com</p>
     </div>
   );

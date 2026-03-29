@@ -17,7 +17,7 @@ export default function TermsPage() {
         <li>Message and data rates may apply.</li>
         <li>Message frequency varies based on your usage and settings.</li>
         <li>You may opt out at any time by replying STOP to any message.</li>
-        <li>Reply HELP for help or contact us at support@aimicrotechlink.com.</li>
+        <li>Reply HELP for help or contact us at info@aimicrotechlink.com.</li>
         <li>Consent to receive SMS messages is not a condition of purchase.</li>
       </ul>
 
@@ -40,7 +40,7 @@ export default function TermsPage() {
       <h2 className="text-xl font-bold mt-8 mb-4">7. Contact Us</h2>
       <p className="mb-2">AI Microtech Link</p>
       <p className="mb-2">Clearwater, Florida</p>
-      <p className="mb-2">Email: <a href="mailto:support@aimicrotechlink.com" className="text-blue-500 hover:underline">support@aimicrotechlink.com</a></p>
+      <p className="mb-2">Email: <a href="mailto:info@aimicrotechlink.com" className="text-blue-500 hover:underline">info@aimicrotechlink.com</a></p>
       <p className="mb-6">Website: aimicrotechlink.com</p>
     </div>
   );
