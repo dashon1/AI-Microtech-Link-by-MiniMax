@@ -158,7 +158,7 @@ ${formData.message}
                           onChange={e => setFormData({ ...formData, smsConsent: e.target.checked })}
                         />
                         <label htmlFor="smsConsent" className="text-xs text-gray-600 dark:text-gray-400">
-                          I agree to receive automated text messages from AI Microtechlink Inc. if my call is missed or for support inquiries. I understand that I can reply STOP to opt out at any time. Msg & data rates may apply.
+                          I agree to receive automated text messages from AI Microtechlink Inc. for missed call responses or support. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out, HELP for help. Consent is not a condition of purchase.
                         </label>
                       </div>
                     </div>
