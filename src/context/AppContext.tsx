@@ -13,6 +13,10 @@ export interface AppData {
     link?: string;
     longDescription?: string;
     userImages?: string[];
+    available?: boolean;
+    setupFee?: number;
+    monthlyPrice?: number;
+    priceLabel?: string;
 }
 
 interface AppContextType {

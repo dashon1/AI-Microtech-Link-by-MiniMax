@@ -42,14 +42,24 @@ export default function AppsGalleryPage() {
     return matchesCategory && matchesSearch
   })
 
+  const getPriceDisplay = (app: ReturnType<typeof useApp>['apps'][0]) => {
+    if (app.priceLabel) return app.priceLabel
+    if (app.monthlyPrice) {
+      return app.setupFee
+        ? `$${app.monthlyPrice}/mo + $${app.setupFee} setup`
+        : `$${app.monthlyPrice}/mo`
+    }
+    return null
+  }
+
   return (
     <div>
       {/* Hero */}
       <section className="gradient-hero text-white py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl lg:text-5xl font-bold mb-4">100+ AI Applications</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold mb-4">AI App Gallery</h1>
           <p className="text-xl text-gray-200 max-w-2xl mx-auto">
-            Explore our comprehensive library of AI applications designed for businesses, individuals, and organizations across all industries.
+            Ready-to-deploy AI applications for your business. Get set up in 1–3 business days.
           </p>
         </div>
       </section>
@@ -90,20 +100,41 @@ export default function AppsGalleryPage() {
       <section className="section-container">
         <p className="text-neutral-gray-dark mb-8">{filteredApps.length} applications found</p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {filteredApps.map((app) => (
-            <Link to={`/apps/${app.id}`} key={app.id} className="card group hover:scale-105 block">
-              <div className="flex items-center space-x-4 mb-4">
-                <div className="w-12 h-12 bg-primary-light rounded-xl flex items-center justify-center text-primary">
-                  {iconMap[app.icon] || <Sparkles size={24} />}
-                </div>
-                <div>
-                  <h3 className="font-semibold group-hover:text-primary transition-colors">{app.title || app.name}</h3>
-                  <span className="text-sm text-secondary">{app.category}</span>
-                </div>
+          {filteredApps.map((app) => {
+            const price = getPriceDisplay(app)
+            return (
+              <div key={app.id} className={`card flex flex-col ${app.available ? 'border border-primary/20' : ''}`}>
+                <Link to={`/apps/${app.id}`} className="group flex-1">
+                  <div className="flex items-center space-x-4 mb-4">
+                    <div className="w-12 h-12 bg-primary-light rounded-xl flex items-center justify-center text-primary flex-shrink-0">
+                      {iconMap[app.icon] || <Sparkles size={24} />}
+                    </div>
+                    <div>
+                      <h3 className="font-semibold group-hover:text-primary transition-colors">{app.title || app.name}</h3>
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm text-secondary">{app.category}</span>
+                        {app.available && (
+                          <span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium">Available</span>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-sm text-neutral-gray-dark mb-4">{app.description}</p>
+                </Link>
+                {app.available && (
+                  <div className="mt-auto pt-4 border-t border-gray-100">
+                    {price && <p className="text-sm font-semibold text-primary mb-3">{price}</p>}
+                    <Link
+                      to={`/apps/${app.id}`}
+                      className="block w-full text-center bg-primary text-white text-sm font-medium py-2 rounded-lg hover:bg-primary-dark transition-colors"
+                    >
+                      Get This App →
+                    </Link>
+                  </div>
+                )}
               </div>
-              <p className="text-sm text-neutral-gray-dark">{app.description}</p>
-            </Link>
-          ))}
+            )
+          })}
         </div>
       </section>
 
