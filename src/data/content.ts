@@ -26,7 +26,7 @@ export const apps = [
   {
     id: 'hit',
     name: "HIT — Health Intelligence Tracker",
-    link: "https://hit-six-theta.vercel.app",
+    link: "https://hit-real.vercel.app",
     category: "Health",
     description: "Emergency-ready AI health platform. Track symptoms, meds, and mood — with one-tap Safety Beacon and AI-powered pattern insights.",
     icon: "Activity",
