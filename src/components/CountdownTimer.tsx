@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Clock } from 'lucide-react';
 
-// Early access deadline: April 2, 2026 11:59 PM
-const DEADLINE = new Date('2026-04-02T23:59:59');
+// Early access deadline: May 2, 2026 11:59 PM (30-day launch + 2 days marketing)
+const DEADLINE = new Date('2026-05-02T23:59:59');
 
 function getTimeLeft() {
     const diff = DEADLINE.getTime() - Date.now();
