@@ -33,7 +33,7 @@ export const apps = [
     status: "Beta" as const,
     available: true,
     priceLabel: "From $79 lifetime",
-    longDescription: "HIT is the first comprehensive health platform combining AI-powered insights, emergency response protocols, and sonic therapy for total well-being.\n\nPersonal ($79 one-time): Medication + symptom tracking, Safety Beacon emergency alerts with GPS, basic AI health insights, Sonic Therapy sessions.\n\nPremium ($149 one-time): Full AI correlation engine (sleep vs pain vs meds vs weather), unlimited history, all soundscapes, family sharing up to 3 members.\n\nPro ($249 one-time): Caregiver dashboard, exportable health reports, unlimited family members, priority support, Home Alone check-in mode.\n\nHIPAA compliant. End-to-end encrypted. Early access pricing — limited spots available.",
+    longDescription: "HIT is the first comprehensive health platform combining AI-powered insights, emergency response protocols, and sonic therapy for total well-being.\n\nPersonal ($79 one-time): Medication + symptom tracking, Safety Beacon emergency alerts with GPS, basic AI health insights, Sonic Therapy sessions.\n\nPremium ($149 one-time): Full AI correlation engine (sleep vs pain vs meds vs weather), unlimited history, all soundscapes, family sharing up to 3 members.\n\nPro ($249 one-time): Caregiver dashboard, exportable health reports, unlimited family members, priority support, Home Alone check-in mode.\n\nYour data stays on your device — nothing is stored on external servers. Early access pricing — limited spots available.",
   },
 
   // ── Coming Soon ───────────────────────────────────────────────────────────
