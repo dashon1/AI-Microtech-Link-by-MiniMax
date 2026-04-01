@@ -114,8 +114,10 @@ export default function AppsGalleryPage() {
                       <h3 className="font-semibold group-hover:text-primary transition-colors">{app.title || app.name}</h3>
                       <div className="flex items-center gap-2">
                         <span className="text-sm text-secondary">{app.category}</span>
-                        {app.available && (
+                        {app.available ? (
                           <span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium">Available</span>
+                        ) : (
+                          <span className="text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full font-medium">Coming Soon</span>
                         )}
                       </div>
                     </div>
