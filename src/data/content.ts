@@ -23,6 +23,18 @@ export const apps = [
     longDescription: "BatchRight eliminates the guesswork of recipe math. Scale any recipe from 2 servings to 200 with one tap — ingredients, quantities, and nutrition all update instantly.\n\nHome Cook ($49 one-time): Core recipe scaler, save up to 50 recipes, PDF export, basic meal planner.\n\nMeal Prepper ($79 one-time): Unlimited recipes, automated shopping list generation, full meal planner, AI Recipe Assistant (find recipes by ingredients you already have).\n\nCaterer ($149 one-time): Nutrition tracking per scaled serving, white-label PDF exports with your branding, recipe sharing and collaboration links, priority support.\n\nEarly access pricing — limited spots available.",
   },
 
+  {
+    id: 'hit',
+    name: "HIT — Health Intelligence Tracker",
+    category: "Health",
+    description: "Emergency-ready AI health platform. Track symptoms, meds, and mood — with one-tap Safety Beacon and AI-powered pattern insights.",
+    icon: "Activity",
+    status: "Beta" as const,
+    available: true,
+    priceLabel: "From $79 lifetime",
+    longDescription: "HIT is the first comprehensive health platform combining AI-powered insights, emergency response protocols, and sonic therapy for total well-being.\n\nPersonal ($79 one-time): Medication + symptom tracking, Safety Beacon emergency alerts with GPS, basic AI health insights, Sonic Therapy sessions.\n\nPremium ($149 one-time): Full AI correlation engine (sleep vs pain vs meds vs weather), unlimited history, all soundscapes, family sharing up to 3 members.\n\nPro ($249 one-time): Caregiver dashboard, exportable health reports, unlimited family members, priority support, Home Alone check-in mode.\n\nHIPAA compliant. End-to-end encrypted. Early access pricing — limited spots available.",
+  },
+
   // ── Coming Soon ───────────────────────────────────────────────────────────
   {
     id: 'revenueforge',
