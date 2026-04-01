@@ -175,17 +175,22 @@ ${formData.message}
                       placeholder="Tell us about your project, challenges, or questions..."
                     />
                   </div>
-                  <div className="flex items-start mt-4 mb-4">
-                    <input
-                      type="checkbox"
-                      id="smsConsent"
-                      className="mt-1 mr-2 flex-shrink-0"
-                      checked={formData.smsConsent}
-                      onChange={e => setFormData({ ...formData, smsConsent: e.target.checked })}
-                    />
-                    <label htmlFor="smsConsent" className="text-xs text-gray-600 dark:text-gray-400">
-                      I agree to receive automated text messages from AI Microtechlink Inc. for missed call responses or support. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out, HELP for help. Consent is not a condition of purchase. Your mobile information will not be sold or shared with third parties for promotional or marketing purposes. <a href="/privacy-policy" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-                    </label>
+                  <div className="mt-4 mb-4">
+                    <div className="flex items-start">
+                      <input
+                        type="checkbox"
+                        id="smsConsent"
+                        className="mt-1 mr-2 flex-shrink-0"
+                        checked={formData.smsConsent}
+                        onChange={e => setFormData({ ...formData, smsConsent: e.target.checked })}
+                      />
+                      <label htmlFor="smsConsent" className="text-xs text-gray-600 dark:text-gray-400">
+                        I agree to receive automated text messages from AI Microtechlink Inc. for missed call responses or support. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out, HELP for help. Consent is not a condition of purchase.
+                      </label>
+                    </div>
+                    <p className="text-xs mt-2 text-gray-500 dark:text-gray-400">
+                      Your mobile information will not be sold or shared with third parties for promotional or marketing purposes. <a href="/privacy-policy" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                    </p>
                   </div>
                   <button
                     type="submit"
