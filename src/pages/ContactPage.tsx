@@ -147,21 +147,7 @@ ${formData.message}
                   <div className="grid md:grid-cols-2 gap-6">
                     <Input label="Name" required value={formData.name} onChange={e => setFormData({ ...formData, name: e.target.value })} />
                     <Input label="Email" type="email" required value={formData.email} onChange={e => setFormData({ ...formData, email: e.target.value })} />
-                    <div>
-                      <Input label="Phone" value={formData.phone} onChange={e => setFormData({ ...formData, phone: e.target.value })} />
-                      <div className="mt-2 flex items-start">
-                        <input
-                          type="checkbox"
-                          id="smsConsent"
-                          className="mt-1 mr-2 flex-shrink-0"
-                          checked={formData.smsConsent}
-                          onChange={e => setFormData({ ...formData, smsConsent: e.target.checked })}
-                        />
-                        <label htmlFor="smsConsent" className="text-xs text-gray-600 dark:text-gray-400">
-                          I agree to receive automated text messages from AI Microtechlink Inc. for missed call responses or support. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out, HELP for help. Consent is not a condition of purchase.
-                        </label>
-                      </div>
-                    </div>
+                    <Input label="Phone" value={formData.phone} onChange={e => setFormData({ ...formData, phone: e.target.value })} />
                     <Input label="Company" value={formData.company} onChange={e => setFormData({ ...formData, company: e.target.value })} />
                   </div>
                   <div className="grid md:grid-cols-2 gap-6">
@@ -188,6 +174,18 @@ ${formData.message}
                       onChange={e => setFormData({ ...formData, message: e.target.value })}
                       placeholder="Tell us about your project, challenges, or questions..."
                     />
+                  </div>
+                  <div className="flex items-start mt-4 mb-4">
+                    <input
+                      type="checkbox"
+                      id="smsConsent"
+                      className="mt-1 mr-2 flex-shrink-0"
+                      checked={formData.smsConsent}
+                      onChange={e => setFormData({ ...formData, smsConsent: e.target.checked })}
+                    />
+                    <label htmlFor="smsConsent" className="text-xs text-gray-600 dark:text-gray-400">
+                      I agree to receive automated text messages from AI Microtechlink Inc. for missed call responses or support. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out, HELP for help. Consent is not a condition of purchase. Your mobile information will not be sold or shared with third parties for promotional or marketing purposes. <a href="/privacy-policy" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                    </label>
                   </div>
                   <button
                     type="submit"
