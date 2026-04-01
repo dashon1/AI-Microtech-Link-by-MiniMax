@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { Search, ArrowRight, Film, Calculator, QrCode, Heart, Sparkles, CloudRain, Map, Activity, TrendingUp, Languages, Music, LineChart, Users, CreditCard, Code, Home, Scale, Wand2, Sun, LayoutGrid, Shield } from 'lucide-react'
 import { categories } from '../data/content'
 import { useApp } from '../context/AppContext'
+import { CountdownTimer } from '../components/CountdownTimer'
 
 const iconMap: Record<string, React.ReactNode> = {
   Film: <Film size={24} />,
@@ -123,7 +124,12 @@ export default function AppsGalleryPage() {
                 </Link>
                 {app.available && (
                   <div className="mt-auto pt-4 border-t border-gray-100">
-                    {price && <p className="text-sm font-semibold text-primary mb-3">{price}</p>}
+                    {price && <p className="text-sm font-semibold text-primary mb-2">{price}</p>}
+                    {app.priceLabel?.includes('lifetime') && (
+                      <div className="mb-3">
+                        <CountdownTimer compact />
+                      </div>
+                    )}
                     <Link
                       to={`/apps/${app.id}`}
                       className="block w-full text-center bg-primary text-white text-sm font-medium py-2 rounded-lg hover:bg-primary-dark transition-colors"

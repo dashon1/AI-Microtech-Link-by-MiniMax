@@ -3,6 +3,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
 import { ArrowLeft, CheckCircle, Zap } from 'lucide-react';
+import { CountdownTimer } from '../components/CountdownTimer';
 
 const AppDetailPage = () => {
     const { id } = useParams();
@@ -85,10 +86,14 @@ const AppDetailPage = () => {
                         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 sticky top-28">
                             {app.available ? (
                                 <>
-                                    <div className="flex items-center gap-2 mb-6">
+                                    <div className="flex items-center gap-2 mb-4">
                                         <Zap className="text-green-500" size={20} />
                                         <span className="text-green-600 font-semibold text-sm">Available Now</span>
                                     </div>
+
+                                    {app.priceLabel?.includes('lifetime') && (
+                                        <CountdownTimer />
+                                    )}
 
                                     {price && (
                                         <div className="mb-2">
