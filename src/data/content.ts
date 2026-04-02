@@ -3,7 +3,7 @@ export const apps = [
   {
     id: 'kaloscan',
     name: "KaloriScan",
-    link: "https://kalori-scan-copy-0237daf9.base44.app",
+    link: "https://kaloriscan-app.vercel.app",
     category: "Health",
     description: "AI food scanning and calorie tracking with personalized nutrition insights and meal planning.",
     icon: "Activity",
@@ -15,7 +15,7 @@ export const apps = [
   {
     id: 'batchright',
     name: "BatchRight",
-    link: "https://portion-perfect-3cf34749.base44.app",
+    link: "https://batchright-app.vercel.app",
     category: "Health",
     description: "AI-powered recipe scaler and meal planner. Scale any recipe instantly, generate shopping lists, and cook smarter.",
     icon: "Wand2",
@@ -64,7 +64,7 @@ export const apps = [
   {
     id: 'pridereach',
     name: "PrideReach",
-    link: "https://pride-reach-66e72035.base44.app",
+    link: "https://pridereach-app.vercel.app",
     category: "Social Media",
     description: "Inclusive community management and multi-tier marketing platform for modern businesses.",
     icon: "Heart",
@@ -86,13 +86,13 @@ export const apps = [
   {
     id: 'lawprep',
     name: "LawPrep AI",
-    link: "https://star-ai-copy-63d77c26.base44.app",
+    link: "https://lawprep-ai-app.vercel.app",
     category: "Professional",
     description: "AI-powered legal research assistance and document preparation for legal professionals.",
     icon: "Scale",
     status: "Beta" as const,
     available: true,
-    priceLabel: "Coming Soon",
+    priceLabel: "From $29/mo",
     longDescription: "LawPrep AI accelerates legal research and document drafting. Search case law, generate document templates, and get AI-assisted analysis — saving hours on every matter.\n\nBuilt for solo practitioners, small firms, and paralegals who need the power of a full research team without the overhead.",
   },
 
