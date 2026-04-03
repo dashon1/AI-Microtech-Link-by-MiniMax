@@ -851,6 +851,187 @@ export const apps = [
     "available": false
   },
 
+  {
+    "id": "creditbuild",
+    "name": "Creditbuild",
+    "category": "Web App",
+    "description": "Business credit step by step",
+    "icon": "LayoutGrid",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "cryptobasics",
+    "name": "Cryptobasics",
+    "category": "Web App",
+    "description": "Base44 App: CryptoBasics",
+    "icon": "Shield",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "cryptovault-copy",
+    "name": "Cryptovault Copy",
+    "category": "Tool",
+    "description": "Base44 App: CryptoVault (Copy)",
+    "icon": "Activity",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "dealflow-lite",
+    "name": "Dealflow Lite",
+    "category": "Web App",
+    "description": "DealFlow Lite - lightweight lead pipeline app",
+    "icon": "Wand2",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "decision-simulator-gensparks",
+    "name": "Decision Simulator (Gensparks)",
+    "category": "Web App",
+    "description": "AI-powered decision simulator (gensparks) platform for business and creative automation.",
+    "icon": "TrendingUp",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "demodirector-ai",
+    "name": "DemoDirector AI",
+    "category": "Web App",
+    "description": "DemoDirector AI The app will allow a person to upload an image and take that image and make an infomercial, so to speak, for their video or trailer, or whatever you have, but basically make the demo for the video from the images or a prompt. The combination of both",
+    "icon": "Sparkles",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "demomagic",
+    "name": "Demomagic",
+    "category": "Web App",
+    "description": "Base44 App: DemoMagic",
+    "icon": "Heart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "demomagic-interactive-product-demos",
+    "name": "DemoMagic Interactive Product Demos",
+    "category": "Tool",
+    "description": "DemoMagic Interactive Product Demos",
+    "icon": "Map",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "designdata-hub",
+    "name": "Designdata Hub",
+    "category": "Web App",
+    "description": "Base44 App: DesignData Hub",
+    "icon": "Scale",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "docautofill",
+    "name": "DocAutoFill",
+    "category": "Web App",
+    "description": "Auto-fill your driver's license, vehicle registration, and insurance forms in seconds. Store your personal data securely and never fill out the same DMV paperwork again.",
+    "icon": "Film",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "docautofill-mimimax",
+    "name": "DocAutoFill Mimimax",
+    "category": "Web App",
+    "description": "AI-powered docautofill mimimax platform for business and creative automation.",
+    "icon": "Calculator",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "dynamic-illustration-generator",
+    "name": "Dynamic Illustration Generator",
+    "category": "Web App",
+    "description": "Base44 App: Dynamic Illustration Generator",
+    "icon": "QrCode",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "eventpix-qr",
+    "name": "Eventpix Qr",
+    "category": "Web App",
+    "description": "Base44 App: EVENTPIX QR",
+    "icon": "CloudRain",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "eventpix-qr-2-0",
+    "name": "Eventpix Qr 2 0",
+    "category": "Web App",
+    "description": "Base44 App: EVENTPIX QR 2.0",
+    "icon": "Languages",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "execuconnect",
+    "name": "Execuconnect",
+    "category": "Tool",
+    "description": "Base44 App: ExecuConnect",
+    "icon": "Music",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "facebook-ad-thief-competitor-ad-automation-tool",
+    "name": "Facebook Ad Thief Competitor Ad Automation Tool",
+    "category": "Web App",
+    "description": "AI-powered facebook ad thief competitor ad automation tool platform for business and creative automation.",
+    "icon": "LineChart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "familyhub",
+    "name": "Familyhub",
+    "category": "Tool",
+    "description": "Base44 App: FamilyHub",
+    "icon": "Users",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "feedbackflow",
+    "name": "Feedbackflow",
+    "category": "Web App",
+    "description": "Base44 App: FeedbackFlow",
+    "icon": "CreditCard",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "food-analyzer-ui",
+    "name": "Food Analyzer Ui",
+    "category": "Web App",
+    "description": "AI-powered food analyzer ui platform for business and creative automation.",
+    "icon": "Code",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "formforge-copy",
+    "name": "Formforge Copy",
+    "category": "Web App",
+    "description": "Base44 App: FormForge (Copy)",
+    "icon": "Home",
+    "status": "Coming Soon",
+    "available": false
+  },
+
 // ── Placeholder / Future Apps ────────────────────────────────────────────
   { id: 'santa-tracker', name: "Santa Tracker", category: "Holiday", description: "Real-time Santa tracking dashboard with holiday games and countdown", icon: "Map", status: "Live" as const, link: "https://santatracker.google.com" },
   { id: 1, name: "Directors Studio", category: "Creative", description: "AI-powered creative production and content planning platform", icon: "Film" },
