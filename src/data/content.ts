@@ -28,11 +28,11 @@ export const apps = [
     available: true,
     priceLabel: "From $49 lifetime",
     stripePrices: [
-      { label: "Home Cook", price: "$49", description: "Core recipe scaler, 50 saved recipes, PDF export, basic meal planner", priceId: "price_BATCHRIGHT_HOME", mode: "payment" as const },
-      { label: "Meal Prepper", price: "$79", description: "Unlimited recipes, shopping list generator, full meal planner, AI Recipe Assistant", priceId: "price_BATCHRIGHT_PREP", mode: "payment" as const },
-      { label: "Caterer", price: "$149", description: "Nutrition tracking, white-label PDF exports, recipe sharing, priority support", priceId: "price_BATCHRIGHT_CATER", mode: "payment" as const },
+      { label: "Starter", price: "$49", description: "Core yield tracker, 50 saved recipes, cost-per-plate calculator, PDF export", priceId: "price_BATCHRIGHT_HOME", mode: "payment" as const },
+      { label: "Food Business", price: "$79", description: "Unlimited recipes, ingredient cost tracking, shopping list generator, AI Recipe Assistant", priceId: "price_BATCHRIGHT_PREP", mode: "payment" as const },
+      { label: "Commercial Pro", price: "$149", description: "Full profit margin analysis, white-label PDF exports, multi-location support, priority support", priceId: "price_BATCHRIGHT_CATER", mode: "payment" as const },
     ],
-    longDescription: "BatchRight eliminates the guesswork of recipe math. Scale any recipe from 2 servings to 200 with one tap — ingredients, quantities, and nutrition all update instantly.\n\nHome Cook ($49 one-time): Core recipe scaler, save up to 50 recipes, PDF export, basic meal planner.\n\nMeal Prepper ($79 one-time): Unlimited recipes, automated shopping list generation, full meal planner, AI Recipe Assistant (find recipes by ingredients you already have).\n\nCaterer ($149 one-time): Nutrition tracking per scaled serving, white-label PDF exports with your branding, recipe sharing and collaboration links, priority support.\n\nEarly access pricing — limited spots available.",
+    longDescription: "BatchRight is built for food businesses that need to know their real numbers. Track ingredient costs, calculate true cost per plate, and scale recipes from 2 to 200 servings instantly — so you always know your margins before you price a menu or take a catering job.\n\nStarter ($49 one-time): Core yield tracker, cost-per-plate calculator, save up to 50 recipes, PDF export.\n\nFood Business ($79 one-time): Unlimited recipes, full ingredient cost tracking, shopping list generator, AI Recipe Assistant.\n\nCommercial Pro ($149 one-time): Full profit margin analysis, white-label PDF exports with your branding, multi-location support, priority support.\n\nEarly access pricing — limited spots available.",
   },
 
   {
