@@ -10,18 +10,28 @@ export const apps = [
     status: "Beta" as const,
     available: true,
     priceLabel: "From $49 lifetime",
+    stripePrices: [
+      { label: "Starter", price: "$49", description: "Photo calorie tracking, basic AI insights, 30-day history", priceId: "price_KALORISCAN_STARTER", mode: "payment" as const },
+      { label: "Pro", price: "$99", description: "Personalized goals, real-time tracking, 1-year history, AI coaching", priceId: "price_KALORISCAN_PRO", mode: "payment" as const },
+      { label: "Elite", price: "$199", description: "Unlimited history, advanced AI Nutrition Coach, detailed analytics, priority support", priceId: "price_KALORISCAN_ELITE", mode: "payment" as const },
+    ],
     longDescription: "KaloriScan uses AI-powered image recognition to instantly identify food items and calculate nutritional content. Just snap a photo of your meal and get detailed calories, macros, and personalized recommendations.\n\nStarter ($49 one-time): Photo-based calorie tracking, instant nutrition breakdowns, basic AI insights, 30-day food journal history.\n\nPro ($99 one-time): Personalized calorie and macro goals, real-time progress tracking, advanced AI insights, 1-year food journal, basic AI coaching.\n\nElite ($199 one-time): Unlimited food journal history, advanced AI Nutrition Coach with custom advice and weekly tips, detailed analytics, priority support.\n\nEarly access pricing — limited spots available.",
   },
   {
     id: 'batchright',
     name: "BatchRight",
     link: "https://batchright-app.vercel.app",
-    category: "Health",
-    description: "AI-powered recipe scaler and meal planner. Scale any recipe instantly, generate shopping lists, and cook smarter.",
+    category: "Food Business",
+    description: "AI-powered yield tracking and ingredient cost calculator for food businesses. Know your true cost per plate and maximize profit margins.",
     icon: "Wand2",
     status: "Beta" as const,
     available: true,
     priceLabel: "From $49 lifetime",
+    stripePrices: [
+      { label: "Home Cook", price: "$49", description: "Core recipe scaler, 50 saved recipes, PDF export, basic meal planner", priceId: "price_BATCHRIGHT_HOME", mode: "payment" as const },
+      { label: "Meal Prepper", price: "$79", description: "Unlimited recipes, shopping list generator, full meal planner, AI Recipe Assistant", priceId: "price_BATCHRIGHT_PREP", mode: "payment" as const },
+      { label: "Caterer", price: "$149", description: "Nutrition tracking, white-label PDF exports, recipe sharing, priority support", priceId: "price_BATCHRIGHT_CATER", mode: "payment" as const },
+    ],
     longDescription: "BatchRight eliminates the guesswork of recipe math. Scale any recipe from 2 servings to 200 with one tap — ingredients, quantities, and nutrition all update instantly.\n\nHome Cook ($49 one-time): Core recipe scaler, save up to 50 recipes, PDF export, basic meal planner.\n\nMeal Prepper ($79 one-time): Unlimited recipes, automated shopping list generation, full meal planner, AI Recipe Assistant (find recipes by ingredients you already have).\n\nCaterer ($149 one-time): Nutrition tracking per scaled serving, white-label PDF exports with your branding, recipe sharing and collaboration links, priority support.\n\nEarly access pricing — limited spots available.",
   },
 
@@ -34,8 +44,13 @@ export const apps = [
     icon: "Activity",
     status: "Beta" as const,
     available: true,
-    priceLabel: "From $79 lifetime",
-    longDescription: "HIT is the first comprehensive health platform combining AI-powered insights, emergency response protocols, and sonic therapy for total well-being.\n\nPersonal ($79 one-time): Medication + symptom tracking, Safety Beacon emergency alerts with GPS, basic AI health insights, Sonic Therapy sessions.\n\nPremium ($149 one-time): Full AI correlation engine (sleep vs pain vs meds vs weather), unlimited history, all soundscapes, family sharing up to 3 members.\n\nPro ($249 one-time): Caregiver dashboard, exportable health reports, unlimited family members, priority support, Home Alone check-in mode.\n\nYour data stays on your device — nothing is stored on external servers. Early access pricing — limited spots available.",
+    priceLabel: "From $79/mo",
+    stripePrices: [
+      { label: "Personal", price: "$79/mo", description: "Medication + symptom tracking, Safety Beacon, basic AI insights, Sonic Therapy", priceId: "price_HIT_PERSONAL", mode: "subscription" as const },
+      { label: "Premium", price: "$149/mo", description: "Full AI correlation engine, unlimited history, family sharing (3 members)", priceId: "price_HIT_PREMIUM", mode: "subscription" as const },
+      { label: "Pro", price: "$249/mo", description: "Caregiver dashboard, exportable reports, unlimited family, Home Alone check-in", priceId: "price_HIT_PRO", mode: "subscription" as const },
+    ],
+    longDescription: "HIT is the first comprehensive health platform combining AI-powered insights, emergency response protocols, and sonic therapy for total well-being.\n\nPersonal ($79/mo): Medication + symptom tracking, Safety Beacon emergency alerts with GPS, basic AI health insights, Sonic Therapy sessions.\n\nPremium ($149/mo): Full AI correlation engine (sleep vs pain vs meds vs weather), unlimited history, all soundscapes, family sharing up to 3 members.\n\nPro ($249/mo): Caregiver dashboard, exportable health reports, unlimited family members, priority support, Home Alone check-in mode.\n\nYour data stays on your device — nothing is stored on external servers.",
   },
 
   // ── Coming Soon ───────────────────────────────────────────────────────────
@@ -71,7 +86,12 @@ export const apps = [
     status: "Beta" as const,
     available: true,
     priceLabel: "From $299/mo",
-    longDescription: "PrideReach is a comprehensive community management and marketing platform with tiered plans for every stage of growth.\n\nGetting Started ($299–$599/mo): Core community tools, basic campaigns, standard analytics.\n\nGrowth Focused ($699–$1,199/mo): Advanced automation, A/B testing, priority support, expanded reach.\n\nMarket Leadership ($1,499–$2,199/mo): Full white-glove service, dedicated account manager, enterprise integrations, unlimited campaigns.\n\nAdd-ons available for all tiers.",
+    stripePrices: [
+      { label: "Getting Started", price: "$299/mo", description: "Core community tools, basic campaigns, standard analytics", priceId: "price_PRIDEREACH_START", mode: "subscription" as const },
+      { label: "Growth", price: "$699/mo", description: "Advanced automation, A/B testing, priority support, expanded reach", priceId: "price_PRIDEREACH_GROWTH", mode: "subscription" as const },
+      { label: "Market Leader", price: "$1,499/mo", description: "Full white-glove service, dedicated account manager, unlimited campaigns", priceId: "price_PRIDEREACH_LEADER", mode: "subscription" as const },
+    ],
+    longDescription: "PrideReach is a comprehensive community management and marketing platform with tiered plans for every stage of growth.\n\nGetting Started ($299/mo): Core community tools, basic campaigns, standard analytics.\n\nGrowth ($699/mo): Advanced automation, A/B testing, priority support, expanded reach.\n\nMarket Leader ($1,499/mo): Full white-glove service, dedicated account manager, enterprise integrations, unlimited campaigns.",
   },
   {
     id: 'haullogic',
@@ -93,7 +113,11 @@ export const apps = [
     status: "Beta" as const,
     available: true,
     priceLabel: "From $29/mo",
-    longDescription: "LawPrep AI accelerates legal research and document drafting. Search case law, generate document templates, and get AI-assisted analysis — saving hours on every matter.\n\nBuilt for solo practitioners, small firms, and paralegals who need the power of a full research team without the overhead.",
+    stripePrices: [
+      { label: "Solo", price: "$29/mo", description: "Case law search, 10 document templates/mo, basic AI drafting", priceId: "price_LAWPREP_SOLO", mode: "subscription" as const },
+      { label: "Firm", price: "$79/mo", description: "Unlimited templates, advanced AI analysis, team access (3 seats)", priceId: "price_LAWPREP_FIRM", mode: "subscription" as const },
+    ],
+    longDescription: "LawPrep AI accelerates legal research and document drafting. Search case law, generate document templates, and get AI-assisted analysis — saving hours on every matter.\n\nSolo ($29/mo): Case law search, 10 document templates/month, basic AI drafting assistance.\n\nFirm ($79/mo): Unlimited templates, advanced AI analysis, team access up to 3 seats.\n\nBuilt for solo practitioners, small firms, and paralegals who need the power of a full research team without the overhead.",
   },
 
   // ── Placeholder / Future Apps ────────────────────────────────────────────

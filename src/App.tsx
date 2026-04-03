@@ -15,6 +15,7 @@ import AppDetailPage from './pages/AppDetailPage'
 import SignUpPage from './pages/SignUpPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
 import TermsPage from './pages/TermsPage'
+import SuccessPage from './pages/SuccessPage'
 import { AppProvider } from './context/AppContext'
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
               <Route path="/signup" element={<SignUpPage />} />
               <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
               <Route path="/terms" element={<TermsPage />} />
+              <Route path="/success" element={<SuccessPage />} />
 
               {/* Admin Routes */}
               <Route path="/admin" element={<AdminPage />} />

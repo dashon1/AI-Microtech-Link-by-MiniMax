@@ -1,14 +1,17 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
-import { ArrowLeft, CheckCircle, Zap } from 'lucide-react';
+import { ArrowLeft, CheckCircle, Zap, Loader2 } from 'lucide-react';
 import { CountdownTimer } from '../components/CountdownTimer';
+import { redirectToCheckout, redirectToSubscription } from '../lib/stripe';
 
 const AppDetailPage = () => {
     const { id } = useParams();
     const { apps } = useApp();
     const app = apps.find(a => String(a.id) === id);
+    const [selectedTier, setSelectedTier] = useState(0);
+    const [loading, setLoading] = useState(false);
 
     if (!app) {
         return (
@@ -19,17 +22,35 @@ const AppDetailPage = () => {
         );
     }
 
-    const getPriceDisplay = () => {
-        if (app.priceLabel) return app.priceLabel;
-        if (app.monthlyPrice) {
-            return app.setupFee
-                ? `$${app.monthlyPrice}/mo`
-                : `$${app.monthlyPrice}/mo`;
+    const stripePrices = (app as any).stripePrices;
+    const activeTier = stripePrices?.[selectedTier];
+    const appName = (app as any).name || app.title || '';
+
+    const handleCheckout = async () => {
+        if (!activeTier) return;
+        setLoading(true);
+        try {
+            if (activeTier.mode === 'subscription') {
+                await redirectToSubscription(activeTier.priceId, appName);
+            } else {
+                await redirectToCheckout(activeTier.priceId, appName);
+            }
+        } catch (err) {
+            console.error('Checkout error:', err);
+        } finally {
+            setLoading(false);
         }
+    };
+
+    const getPriceDisplay = () => {
+        if (activeTier) return activeTier.price;
+        if ((app as any).priceLabel) return (app as any).priceLabel;
+        if (app.monthlyPrice) return `$${app.monthlyPrice}/mo`;
         return null;
     };
 
     const price = getPriceDisplay();
+    const isLifetime = activeTier?.mode === 'payment' || (app as any).priceLabel?.includes('lifetime');
 
     return (
         <div className="min-h-screen pt-24 pb-12 px-4 sm:px-6 lg:px-8">
@@ -60,7 +81,7 @@ const AppDetailPage = () => {
                                         </div>
 
                                         <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-                                            {app.title || (app as any).name}
+                                            {appName}
                                         </h1>
 
                                         <p className="text-xl text-gray-600 dark:text-gray-300">
@@ -91,23 +112,43 @@ const AppDetailPage = () => {
                                         <span className="text-green-600 font-semibold text-sm">Available Now</span>
                                     </div>
 
-                                    {app.priceLabel?.includes('lifetime') && (
-                                        <CountdownTimer />
+                                    {isLifetime && <CountdownTimer />}
+
+                                    {/* Tier selector */}
+                                    {stripePrices && stripePrices.length > 1 && (
+                                        <div className="mb-6 space-y-2">
+                                            {stripePrices.map((tier: any, i: number) => (
+                                                <button
+                                                    key={i}
+                                                    onClick={() => setSelectedTier(i)}
+                                                    className={`w-full text-left px-4 py-3 rounded-xl border-2 transition-all ${
+                                                        selectedTier === i
+                                                            ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30'
+                                                            : 'border-gray-200 dark:border-gray-700 hover:border-blue-300'
+                                                    }`}
+                                                >
+                                                    <div className="flex justify-between items-center">
+                                                        <span className="font-semibold text-sm text-gray-900 dark:text-white">{tier.label}</span>
+                                                        <span className="font-bold text-blue-600">{tier.price}</span>
+                                                    </div>
+                                                    <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{tier.description}</p>
+                                                </button>
+                                            ))}
+                                        </div>
                                     )}
 
-                                    {price && (
-                                        <div className="mb-2">
+                                    {/* Price display when no tiers */}
+                                    {!stripePrices && price && (
+                                        <div className="mb-6">
                                             <span className="text-3xl font-bold text-gray-900 dark:text-white">{price}</span>
                                         </div>
                                     )}
 
                                     {app.setupFee && (
-                                        <p className="text-sm text-gray-500 mb-6">+ ${app.setupFee} one-time setup fee</p>
+                                        <p className="text-sm text-gray-500 mb-4">+ ${app.setupFee} one-time setup fee</p>
                                     )}
 
-                                    {!app.setupFee && <div className="mb-6" />}
-
-                                    <div className="space-y-3 mb-8 text-sm text-gray-600 dark:text-gray-400">
+                                    <div className="space-y-3 mb-6 text-sm text-gray-600 dark:text-gray-400">
                                         <div className="flex items-center gap-2">
                                             <CheckCircle size={16} className="text-green-500 flex-shrink-0" />
                                             <span>Setup within 1–3 business days</span>
@@ -120,22 +161,36 @@ const AppDetailPage = () => {
                                             <CheckCircle size={16} className="text-green-500 flex-shrink-0" />
                                             <span>Ongoing technical support</span>
                                         </div>
-                                        <div className="flex items-center gap-2">
-                                            <CheckCircle size={16} className="text-green-500 flex-shrink-0" />
-                                            <span>Cancel anytime</span>
-                                        </div>
+                                        {!isLifetime && (
+                                            <div className="flex items-center gap-2">
+                                                <CheckCircle size={16} className="text-green-500 flex-shrink-0" />
+                                                <span>Cancel anytime</span>
+                                            </div>
+                                        )}
                                     </div>
 
-                                    <Link
-                                        to="/contact"
-                                        state={{ serviceInterest: app.title || (app as any).name }}
-                                        className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors"
-                                    >
-                                        Get This App
-                                    </Link>
+                                    {/* CTA — Stripe checkout or contact */}
+                                    {activeTier ? (
+                                        <button
+                                            onClick={handleCheckout}
+                                            disabled={loading}
+                                            className="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 disabled:opacity-60 text-white font-semibold py-3 px-6 rounded-xl transition-colors"
+                                        >
+                                            {loading && <Loader2 size={16} className="animate-spin" />}
+                                            {loading ? 'Redirecting...' : `Get ${activeTier.label} — ${activeTier.price}`}
+                                        </button>
+                                    ) : (
+                                        <Link
+                                            to="/contact"
+                                            state={{ serviceInterest: appName }}
+                                            className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors"
+                                        >
+                                            Get This App
+                                        </Link>
+                                    )}
 
                                     <p className="text-xs text-gray-400 text-center mt-4">
-                                        No credit card required to get started
+                                        {isLifetime ? 'One-time payment — yours forever' : 'Secure checkout powered by Stripe'}
                                     </p>
                                 </>
                             ) : (
