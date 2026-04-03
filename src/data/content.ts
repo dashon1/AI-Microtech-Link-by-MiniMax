@@ -670,6 +670,187 @@ export const apps = [
     "available": false
   },
 
+  {
+    "id": "audiogrampro",
+    "name": "Audiogrampro",
+    "category": "Web App",
+    "description": "Base44 App: AudiogramPro",
+    "icon": "Shield",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "auto-vault",
+    "name": "Auto Vault",
+    "category": "Web App",
+    "description": "A app that allows you to autofill all your personal documents",
+    "icon": "Activity",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "brandshorts-ai",
+    "name": "BrandShorts AI",
+    "category": "Web App",
+    "description": "BrandShorts AI Microtechlink builds tools for content creation, analytics, forecasting, and new business setup.",
+    "icon": "Wand2",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "brightseason",
+    "name": "BrightSeason",
+    "category": "Web App",
+    "description": "BrightSeason A seasonal mood and energy companion to help manage SAD and winter blues through personalized tracking and proactive planning.",
+    "icon": "TrendingUp",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "build-genie-craft",
+    "name": "Build Genie Craft",
+    "category": "Web App",
+    "description": "AI-powered build genie craft platform for business and creative automation.",
+    "icon": "Sparkles",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "building-our-dream",
+    "name": "Building Our Dream",
+    "category": "Web App",
+    "description": "AI-powered building our dream platform for business and creative automation.",
+    "icon": "Heart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "bytebot",
+    "name": "Bytebot",
+    "category": "Web App",
+    "description": "Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.",
+    "icon": "Map",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "calorieextractor",
+    "name": "Calorieextractor",
+    "category": "Web App",
+    "description": "Base44 App: CalorieExtractor",
+    "icon": "Scale",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "chargeguard-an-ev-charging-copilot-that-predicts-charging-",
+    "name": "ChargeGuard An EV Charging Copilot That Predicts Charging ",
+    "category": "Web App",
+    "description": "ChargeGuard An EV charging copilot that predicts charging success and provides real-time AI troubleshooting for failed sessions.",
+    "icon": "Film",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "chorecycler",
+    "name": "Chorecycler",
+    "category": "Web App",
+    "description": "Base44 App: ChoreCycler",
+    "icon": "Calculator",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "cineflow-ai-copy-copy",
+    "name": "Cineflow Ai Copy Copy",
+    "category": "Web App",
+    "description": "Base44 App: CineFlow AI (Copy) (Copy)",
+    "icon": "QrCode",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "citylink-",
+    "name": "CityLink ",
+    "category": "Web App",
+    "description": "CityLink Your unified smart city companion.",
+    "icon": "CloudRain",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "clockwork-media",
+    "name": "Clockwork Media",
+    "category": "Web App",
+    "description": "Base44 App: Clockwork Media",
+    "icon": "Languages",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "code-gen-ai-copy",
+    "name": "Code Gen Ai Copy",
+    "category": "Tool",
+    "description": "Base44 App: CODE GEN AI (Copy)",
+    "icon": "Music",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "code-tracker-gensparks-",
+    "name": "Code Tracker Gensparks ",
+    "category": "Web App",
+    "description": "AI-powered code tracker gensparks  platform for business and creative automation.",
+    "icon": "LineChart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "concept-to-app-starter",
+    "name": "Concept To App Starter",
+    "category": "Web App",
+    "description": "AI-powered concept to app starter platform for business and creative automation.",
+    "icon": "Users",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "cortex-second-brain-9350",
+    "name": "Cortex Second Brain 9350",
+    "category": "Web App",
+    "description": "AI-powered cortex second brain 9350 platform for business and creative automation.",
+    "icon": "CreditCard",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "creative-finance-real-estate-trainer",
+    "name": "Creative Finance Real Estate Trainer",
+    "category": "Web App",
+    "description": "Creative Finance Real Estate Trainer A 4-Agent AI training platform for real estate investors using a shared creative finance playbook.You are a simulated property owner in a real estate training environment",
+    "icon": "Code",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "creatorflow-studio-landing-copy-of-same-file",
+    "name": "Creatorflow Studio Landing Copy Of Same File",
+    "category": "Tool",
+    "description": "Landing page for CreatorFlow Studio - AI-powered workflow automation platform",
+    "icon": "Home",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "creatorflow-studio-minimax",
+    "name": "CreatorFlow Studio (MiniMax)",
+    "category": "Tool",
+    "description": "CreatorFlow Studio is a workflow automation SaaS platform for content creators to generate:  Video content (AI-powered video creation) Images (AI image generation) Chatbots (custom AI assistants) Podcasts (AI voice/podcast creation)",
+    "icon": "Sun",
+    "status": "Coming Soon",
+    "available": false
+  },
+
 // ── Placeholder / Future Apps ────────────────────────────────────────────
   { id: 'santa-tracker', name: "Santa Tracker", category: "Holiday", description: "Real-time Santa tracking dashboard with holiday games and countdown", icon: "Map", status: "Live" as const, link: "https://santatracker.google.com" },
   { id: 1, name: "Directors Studio", category: "Creative", description: "AI-powered creative production and content planning platform", icon: "Film" },
