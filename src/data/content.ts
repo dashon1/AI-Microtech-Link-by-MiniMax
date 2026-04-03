@@ -1032,6 +1032,187 @@ export const apps = [
     "available": false
   },
 
+  {
+    "id": "freelancer-inbox",
+    "name": "Freelancer Inbox",
+    "category": "Web App",
+    "description": "Unified inbox for freelancers to manage all client communication from different platforms in one place",
+    "icon": "Sun",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "freelancers-gensparks",
+    "name": "Freelancers (Gensparks)",
+    "category": "Web App",
+    "description": "AI-powered freelancers (gensparks) platform for business and creative automation.",
+    "icon": "LayoutGrid",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "glass-ui-gen",
+    "name": "Glass Ui Gen",
+    "category": "Web App",
+    "description": "A modern UI generator tool for building and exporting premium glassmorphism components and elements.",
+    "icon": "Shield",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "gridflow-smart-ev-charging-scheduler-that-optimizes-for-grid-health-costs-and-your-schedule.",
+    "name": "GridFlow Smart EV Charging Scheduler That Optimizes For Grid Health Costs And Your Schedule.",
+    "category": "Web App",
+    "description": "GridFlow Smart EV charging scheduler that optimizes for grid health, costs, and your schedule.",
+    "icon": "Activity",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "health-immune-tracker",
+    "name": "Health Immune Tracker",
+    "category": "Web App",
+    "description": "Health Immune Tracker Vitals Tracking: A dedicated section to log Temperature, Blood Pressure, Heart Rate, and Weight. Hydration Tracker: A visual counter to track daily water intake (cups). Activity & Movement: A section to log exercises or activities, including duration and intensity levels. Enhanced History: The history log now displays these ne",
+    "icon": "Wand2",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ice-king-ai-viral-content-machine",
+    "name": "Ice King Ai Viral Content Machine",
+    "category": "Web App",
+    "description": "AI-powered viral content generation tool for social media marketing",
+    "icon": "TrendingUp",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ideaflow",
+    "name": "Ideaflow",
+    "category": "Web App",
+    "description": "AI-powered idea discovery and MVP builder - scrapes pain points from 50+ platforms and generates app solutions",
+    "icon": "Sparkles",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "insight-to-reel",
+    "name": "Insight To Reel",
+    "category": "Web App",
+    "description": "AI-powered insight to reel platform for business and creative automation.",
+    "icon": "Heart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "instant-jobs-quote-gensparks",
+    "name": "Instant Jobs Quote (Gensparks)",
+    "category": "Web App",
+    "description": "AI-powered instant jobs quote (gensparks) platform for business and creative automation.",
+    "icon": "Map",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "inventorysync",
+    "name": "Inventorysync",
+    "category": "Web App",
+    "description": "Base44 App: InventorySync",
+    "icon": "Scale",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "investsmart",
+    "name": "Investsmart",
+    "category": "Web App",
+    "description": "Base44 App: InvestSmart",
+    "icon": "Film",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "k-8-multi-level-science-adventure-game-design",
+    "name": "K 8 Multi Level Science Adventure Game Design",
+    "category": "Mobile",
+    "description": "Science Quest is an educational quiz game for kids (grades K-8) that teaches science through fun, interactive challenges.  What it does:  8 levels covering Physics, Chemistry, Biology, and Earth Science 24 questions with multiple-choice answers and explanations Earn stars for correct answers to unlock new levels",
+    "icon": "Calculator",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "keyrotator-pro",
+    "name": "KeyRotator Pro",
+    "category": "Web App",
+    "description": "auto regenerating API tool",
+    "icon": "QrCode",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "legalease",
+    "name": "Legalease",
+    "category": "Web App",
+    "description": "Base44 App: LegalEase",
+    "icon": "CloudRain",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "lifeos",
+    "name": "LifeOS",
+    "category": "Web App",
+    "description": "A React-based personal AI assistant dashboard featuring memory management, agent execution, and secure user profiles with Firebase and PIN authentication.",
+    "icon": "Languages",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "linguaconnect",
+    "name": "Linguaconnect",
+    "category": "Tool",
+    "description": "Base44 App: LinguaConnect",
+    "icon": "Music",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "local-pricing-gensparks",
+    "name": "Local Pricing (Gensparks)",
+    "category": "Web App",
+    "description": "AI-powered local pricing (gensparks) platform for business and creative automation.",
+    "icon": "LineChart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "localmap",
+    "name": "Localmap",
+    "category": "Web App",
+    "description": "AI-powered localmap platform for business and creative automation.",
+    "icon": "Users",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "localpulse",
+    "name": "LocalPulse",
+    "category": "Web App",
+    "description": "LocalPulse is a hyperlocal business discovery and community support platform. One app that shows you: “What’s actually around you, who owns it, what’s special about it, and how to support them today.”",
+    "icon": "CreditCard",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "marketing-orchestrator",
+    "name": "Marketing Orchestrator",
+    "category": "Web App",
+    "description": "AI Marketing Orchestrator - Complete Application Overview 🚀 What is This Application? The AI Marketing Orchestrator is a revolutionary automated marketing platform that allows users to input any business URL and receive comprehensive AI-powered analysis identifying weaknesses, opportunities, and actionable improvement strategies",
+    "icon": "Code",
+    "status": "Coming Soon",
+    "available": false
+  },
+
 // ── Placeholder / Future Apps ────────────────────────────────────────────
   { id: 'santa-tracker', name: "Santa Tracker", category: "Holiday", description: "Real-time Santa tracking dashboard with holiday games and countdown", icon: "Map", status: "Live" as const, link: "https://santatracker.google.com" },
   { id: 1, name: "Directors Studio", category: "Creative", description: "AI-powered creative production and content planning platform", icon: "Film" },
