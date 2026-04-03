@@ -1213,6 +1213,187 @@ export const apps = [
     "available": false
   },
 
+  {
+    "id": "marketinghub-app",
+    "name": "MarketingHub App",
+    "category": "Web App",
+    "description": "This is a comprehensive all-in-one marketing platform that combines the best features of GoHighLevel and MarketingBlocks AI into a single powerful application. It's designed to replace multiple expensive marketing tools with one integrated solution.",
+    "icon": "Home",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "math-hero",
+    "name": "Math Hero",
+    "category": "Web App",
+    "description": "Base44 App: Math Hero",
+    "icon": "Sun",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "mathchat",
+    "name": "Mathchat",
+    "category": "Web App",
+    "description": "Base44 App: MathChat",
+    "icon": "LayoutGrid",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "micro-franchise-gensparks",
+    "name": "Micro Franchise (Gensparks)",
+    "category": "Web App",
+    "description": "AI-powered micro franchise (gensparks) platform for business and creative automation.",
+    "icon": "Shield",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "microtech-link-storyboard-productions",
+    "name": "Microtech Link Storyboard Productions",
+    "category": "Web App",
+    "description": "Storyboard productions For content creation",
+    "icon": "Activity",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "microtechlink-fusion-engine-v3.0",
+    "name": "MICROTECHLINK Fusion Engine V3.0",
+    "category": "Tool",
+    "description": "Microtechlink Character Fusion Studio",
+    "icon": "Wand2",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "microtechlink-lip-sync-studio",
+    "name": "Microtechlink Lip Sync Studio",
+    "category": "Web App",
+    "description": "lip sync engine – perfect bridge between your audio, character, and video tools.",
+    "icon": "TrendingUp",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "microtechlink-transcription-studio",
+    "name": "Microtechlink Transcription Studio",
+    "category": "Web App",
+    "description": "Microtechlink Transcription Studio",
+    "icon": "Sparkles",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "microtechlink-voice-agent-studio",
+    "name": "Microtechlink Voice Agent Studio",
+    "category": "Tool",
+    "description": "Microtechlink Voice Agent Studio Ready to capture your ideas. Select an agent mode above, then tap the mic to start brainstorming.",
+    "icon": "Heart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "microtechlink-voice-agent-studio33",
+    "name": "Microtechlink Voice Agent Studio33",
+    "category": "Web App",
+    "description": "Microtechlink Voice Agent Studio Ready to capture your ideas. Select an agent mode above, then tap the mic to start brainstorming.",
+    "icon": "Map",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "momentum",
+    "name": "Momentum",
+    "category": "Web App",
+    "description": "Base44 App: Momentum ⚡",
+    "icon": "Scale",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "musicpro-practice-with-purpose",
+    "name": "Musicpro Practice With Purpose",
+    "category": "Tool",
+    "description": "Base44 App: MusicPro Practice with Purpose",
+    "icon": "Film",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "n8n-developer-agent",
+    "name": "N8N Developer Agent",
+    "category": "Web App",
+    "description": "a web application that helps you create automation workflows for n8n (a popular workflow automation platform).",
+    "icon": "Calculator",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "n8n-video-analyzer",
+    "name": "N8n Video Analyzer",
+    "category": "Web App",
+    "description": "AI-powered tool that analyzes n8n workflow videos and generates implementation prompts with complete n8n JSON export. Built with React, Supabase, and Stripe for subscription management. Created by AI Microtech.",
+    "icon": "QrCode",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "n8n-workflow-genspark",
+    "name": "N8n Workflow (Genspark)",
+    "category": "Tool",
+    "description": "n8n workflow that generates videos from Google Sheets data using AI services",
+    "icon": "CloudRain",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "n8n-workflow-gensparks",
+    "name": "N8n Workflow (Gensparks)",
+    "category": "Tool",
+    "description": "AI-powered n8n workflow (gensparks) platform for business and creative automation.",
+    "icon": "Languages",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "nerdybird",
+    "name": "Nerdybird",
+    "category": "Web App",
+    "description": "Base44 App: NerdyBird",
+    "icon": "Music",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "one-billing",
+    "name": "One Billing",
+    "category": "Tool",
+    "description": "AI-powered one billing platform for business and creative automation.",
+    "icon": "LineChart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "os-system-minimax",
+    "name": "OS System (MiniMax)",
+    "category": "Web App",
+    "description": "AI Microtech OS is a comprehensive AI-powered content generation platform that provides multiple AI-powered tools for creators, marketers, and businesses. It uses a smart provider priority system to optimize costs while delivering high-quality results.",
+    "icon": "Users",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "painpoint-to-product",
+    "name": "Painpoint To Product",
+    "category": "Web App",
+    "description": "AI-powered painpoint to product platform for business and creative automation.",
+    "icon": "CreditCard",
+    "status": "Coming Soon",
+    "available": false
+  },
+
 // ── Placeholder / Future Apps ────────────────────────────────────────────
   { id: 'santa-tracker', name: "Santa Tracker", category: "Holiday", description: "Real-time Santa tracking dashboard with holiday games and countdown", icon: "Map", status: "Live" as const, link: "https://santatracker.google.com" },
   { id: 1, name: "Directors Studio", category: "Creative", description: "AI-powered creative production and content planning platform", icon: "Film" },
