@@ -489,6 +489,187 @@ export const apps = [
     "available": false
   },
 
+  {
+    "id": "-automated-web-to-ai-data-minimax",
+    "name": "Automated Web To AI Data (MiniMax)",
+    "category": "Web App",
+    "description": "Automatically converts any website into clean, AI-ready knowledge base files (Markdown, TXT, JSON) that can be used for training LLMs, building chatbots, and powering semantic search systems.",
+    "icon": "Activity",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "-autonomous-ai-agent-gensparks",
+    "name": "Autonomous AI Agent (Gensparks)",
+    "category": "AI Tool",
+    "description": "he system will use a multi-agent approach where specialized AI agents handle different marketing functions:  StrategyDirectorAgent - Creates marketing strategies and campaign plans CopywriterAgent - Generates SEO content, ads, emails, and social posts ProjectManagerAgent - Breaks down strategies into tasks and timelines ClientLiaisonAgent",
+    "icon": "Wand2",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ai-microtech-link---website-generator",
+    "name": "AI Microtech Link Website Generator",
+    "category": "Tool",
+    "description": "AI Microtech Link is an AI-powered website generator that creates multi-page websites from user prompts. It uses Google Gemini AI to generate the content and deploys directly to Netlify for live URLs.",
+    "icon": "TrendingUp",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ai-microtech-link-workflow-to-saas-platform-gensparks",
+    "name": "AI Microtech Link Workflow To SaaS Platform (Gensparks)",
+    "category": "Web App",
+    "description": "A unified platform that transforms all your n8n workflows into a production-ready SaaS application for small businesses and marketing agencies.  📋 Overview CreatorFlow Studio consolidates 10+ AI-powered workflows into one seamless experience:  🎥 Video Generation (UGC, Ads, Podcasts) 🖼️ Image Creation (Product Photos, Influencer Content) 💬 AI Ag",
+    "icon": "Sparkles",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ai-microtech-one-prompt-apps.-full-stack-generator",
+    "name": "AI Microtech One Prompt Apps. Full Stack Generator",
+    "category": "Web App",
+    "description": "AI Microtech Build STUNNING One-Prompt Apps. Full Stack Generator powered by Frontier AI Models",
+    "icon": "Heart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ai-microtech-os-base44",
+    "name": "Ai Microtech Os Base44",
+    "category": "Web App",
+    "description": "Base44 App: AI Microtech OS",
+    "icon": "Map",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ai-microtech-os-platform-v2.1-pro",
+    "name": "AI Microtech OS PLATFORM V2.1 PRO",
+    "category": "Web App",
+    "description": " PLATFORM V2.1  Illustrator Ad Editor MockupMaster Ad Studio Poster Drop Video Studio",
+    "icon": "Scale",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ai-microtech-shield-priority-first-insurance",
+    "name": "AI MicroTech Shield Priority First Insurance",
+    "category": "Web App",
+    "description": "Shield Priority First Insurance",
+    "icon": "Film",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ai-microtech-studio-pro-consistent-ai-character-story-creator-",
+    "name": "AI Microtech Studio Pro Consistent AI Character Story Creator ",
+    "category": "Web App",
+    "description": "AI Microtech Studio Pro Consistent AI Character Story Creator Purpose: Robert Tech Tool is an AI-powered tool built to generate consistent cartoon or any style characters using Gemini Nano Banana A",
+    "icon": "Calculator",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ai-microtechlink-2video-studio",
+    "name": "AI Microtechlink 2Video Studio",
+    "category": "Web App",
+    "description": "AI Microtechlink 2Video Studio  'AI Creative Assistant' section that takes a rough idea (e.g., 'funny 15s ad for fruit ice cream') and uses the Gemini API to generate a detailed main prompt and a 3-part scene breakdown, automatically populating the respective field",
+    "icon": "QrCode",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ai-microtechlink-os",
+    "name": "AI Microtechlink OS",
+    "category": "Web App",
+    "description": "AI assistant creator platform and marketing",
+    "icon": "CloudRain",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ai-microtechlink-roadmap-generator",
+    "name": "Ai Microtechlink Roadmap Generator",
+    "category": "Web App",
+    "description": "Base44 App: AI Microtechlink Roadmap Generator",
+    "icon": "Languages",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ai-pace-adoption-fatigue-control",
+    "name": "AI Pace Adoption Fatigue Control",
+    "category": "Web App",
+    "description": "AI Pace Adoption & Fatigue Control For AI Tools",
+    "icon": "Music",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ai-web-maestro",
+    "name": "Ai Web Maestro",
+    "category": "Web App",
+    "description": "AI-powered ai web maestro platform for business and creative automation.",
+    "icon": "LineChart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "api-watch",
+    "name": "Api Watch",
+    "category": "Web App",
+    "description": "Base44 App: API Watch",
+    "icon": "Users",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "appify-this-idea",
+    "name": "Appify This Idea",
+    "category": "Web App",
+    "description": "AI-powered appify this idea platform for business and creative automation.",
+    "icon": "CreditCard",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ara-m5-ai-studio-",
+    "name": "ARA M5 AI Studio ",
+    "category": "Web App",
+    "description": "ARA M5 GOOGLE AI Studio ",
+    "icon": "Code",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ara-m5-core-session-a",
+    "name": "Ara M5 Core Session A",
+    "category": "Web App",
+    "description": "Source archive from Minimax container – Session A",
+    "icon": "Home",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "aram5-sessions",
+    "name": "Aram5 Sessions",
+    "category": "Web App",
+    "description": "AEROS AI Secretary project - Complete archive of all 4 sessions (session1-4) including code, documentation, business analysis, and deployment reports",
+    "icon": "Sun",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "aram5_2026_core",
+    "name": "AraM5 2026 Core",
+    "category": "Web App",
+    "description": "AI-powered aram5 2026 core platform for business and creative automation.",
+    "icon": "LayoutGrid",
+    "status": "Coming Soon",
+    "available": false
+  },
+
 // ── Placeholder / Future Apps ────────────────────────────────────────────
   { id: 'santa-tracker', name: "Santa Tracker", category: "Holiday", description: "Real-time Santa tracking dashboard with holiday games and countdown", icon: "Map", status: "Live" as const, link: "https://santatracker.google.com" },
   { id: 1, name: "Directors Studio", category: "Creative", description: "AI-powered creative production and content planning platform", icon: "Film" },
