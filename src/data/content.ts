@@ -1394,6 +1394,187 @@ export const apps = [
     "available": false
   },
 
+  {
+    "id": "pawrentals",
+    "name": "Pawrentals",
+    "category": "Tool",
+    "description": "Base44 App: PawRentals",
+    "icon": "Code",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "permit-navigator-gensparks",
+    "name": "Permit Navigator (Gensparks)",
+    "category": "Web App",
+    "description": "AI-powered permit navigator (gensparks) platform for business and creative automation.",
+    "icon": "Home",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "photo-quote-gensparks",
+    "name": "Photo Quote (Gensparks)",
+    "category": "Tool",
+    "description": "AI-powered photo quote (gensparks) platform for business and creative automation.",
+    "icon": "Sun",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "pixi-sparkle-app",
+    "name": "Pixi Sparkle App",
+    "category": "Web App",
+    "description": "AI-powered pixi sparkle app platform for business and creative automation.",
+    "icon": "LayoutGrid",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "podclip",
+    "name": "Podclip",
+    "category": "Web App",
+    "description": "Base44 App: PodClip",
+    "icon": "Shield",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "pride-pulse-pro",
+    "name": "Pride Pulse Pro",
+    "category": "Web App",
+    "description": "AI-powered pride pulse pro platform for business and creative automation.",
+    "icon": "Activity",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "pridemarketing-gensparks",
+    "name": "Pridemarketing (Gensparks)",
+    "category": "Tool",
+    "description": "AI-powered pridemarketing (gensparks) platform for business and creative automation.",
+    "icon": "Wand2",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "product-and-ad-king",
+    "name": "Product And Ad King",
+    "category": "Web App",
+    "description": "Studio quality product and ad generation and videos",
+    "icon": "TrendingUp",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "prompt-enhancer-grove-32893",
+    "name": "Prompt Enhancer Grove 32893",
+    "category": "Tool",
+    "description": "AI-powered prompt enhancer grove 32893 platform for business and creative automation.",
+    "icon": "Sparkles",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "prompt-enhancer-grove-32893-1b1b91be",
+    "name": "Prompt Enhancer Grove 32893 1b1b91be",
+    "category": "Tool",
+    "description": "AI-powered prompt enhancer grove 32893 1b1b91be platform for business and creative automation.",
+    "icon": "Heart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "prompt-enhancer-grove-32893-f94fbbdc",
+    "name": "Prompt Enhancer Grove 32893 F94fbbdc",
+    "category": "Tool",
+    "description": "AI-powered prompt enhancer grove 32893 f94fbbdc platform for business and creative automation.",
+    "icon": "Map",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "prompt-foundry",
+    "name": "Prompt Foundry",
+    "category": "Web App",
+    "description": "Prompt Foundry is a comprehensive prompt generation platform that helps users create optimized prompts for AI models across 17 specialized categories. It features a modern dark-themed UI and supports multiple AI providers.",
+    "icon": "Scale",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "prompt-weaver",
+    "name": "Prompt Weaver",
+    "category": "Web App",
+    "description": "AI-powered prompt weaver platform for business and creative automation.",
+    "icon": "Film",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "quick-offer",
+    "name": "Quick Offer",
+    "category": "Web App",
+    "description": "AI-powered offer generator for freelancers",
+    "icon": "Calculator",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "re-investor-ai-trainer",
+    "name": "RE Investor AI Trainer",
+    "category": "Web App",
+    "description": "RE-Investor AI Trainer Master A 4-Agent AI training platform for real estate investors using a shared creative finance playbook.You are a simulated property owner in a real estate training environment. You are ROLEPLAYING the SELLER so that a student investor can practice live calls.",
+    "icon": "QrCode",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "real-estate-ai-dojo",
+    "name": "Real Estate AI Dojo",
+    "category": "Web App",
+    "description": "Real Estate AI Dojo Simulator",
+    "icon": "CloudRain",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "rehab-e-cam",
+    "name": "Rehab E Cam",
+    "category": "Web App",
+    "description": "Walk a property, snap photos, and get an investor-grade rehab scope, local cost estimate, and offer number in minutes",
+    "icon": "Languages",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "rehab-e-cam-app-marketing-minimax",
+    "name": "Rehab E Cam App Marketing (MiniMax)",
+    "category": "Tool",
+    "description": " \"Complete marketing package for Rehab-E-Cam - AI-powered real estate property inspection and deal analysis platform\"  Topics: rehab-e-cam, proptech, real-estate, marketing-package, ai-powered, property-analysis, investor-pitch, landing-page, social-media, content-marketing by MiniMax",
+    "icon": "Music",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "remoteflow",
+    "name": "Remoteflow",
+    "category": "Tool",
+    "description": "Base44 App: RemoteFlow",
+    "icon": "LineChart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "resale-profits-gensparks",
+    "name": "Resale Profits (Gensparks)",
+    "category": "Web App",
+    "description": "AI-powered resale profits (gensparks) platform for business and creative automation.",
+    "icon": "Users",
+    "status": "Coming Soon",
+    "available": false
+  },
+
 // ── Placeholder / Future Apps ────────────────────────────────────────────
   { id: 'santa-tracker', name: "Santa Tracker", category: "Holiday", description: "Real-time Santa tracking dashboard with holiday games and countdown", icon: "Map", status: "Live" as const, link: "https://santatracker.google.com" },
   { id: 1, name: "Directors Studio", category: "Creative", description: "AI-powered creative production and content planning platform", icon: "Film" },
