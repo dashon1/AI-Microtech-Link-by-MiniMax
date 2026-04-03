@@ -1731,5 +1731,75 @@
     "icon": "Music",
     "status": "Coming Soon",
     "available": false
+  },
+  {
+    "id": "ai-storyboard-generator",
+    "name": "AI Storyboard Generator",
+    "category": "Creative",
+    "description": "AI-powered storyboard creation tool. Generate visual story sequences, scene layouts, and production boards from text prompts.",
+    "icon": "Film",
+    "status": "Coming Soon",
+    "available": false,
+    "link": "https://github.com/dashon1/AI-Storyboard-Generator"
+  },
+  {
+    "id": "ai-video-ads-automation",
+    "name": "AI Video Ads Automation",
+    "category": "Marketing",
+    "description": "Automate the creation of video ad campaigns using AI. Generate scripts, visuals, and publish-ready ad content at scale.",
+    "icon": "Video",
+    "status": "Coming Soon",
+    "available": false,
+    "link": "https://github.com/dashon1/AI-Video-Ads-Automation-MiniMax"
+  },
+  {
+    "id": "ai-video-story-creator",
+    "name": "AI Video Story Creator",
+    "category": "Creative",
+    "description": "Create animated video clips from character images with consistent character preservation across multiple scenes.",
+    "icon": "Clapperboard",
+    "status": "Coming Soon",
+    "available": false,
+    "link": "https://github.com/dashon1/AI-Video-Story-Creator-MiniMax"
+  },
+  {
+    "id": "cal-ai-dashboard",
+    "name": "Cal AI Dashboard",
+    "category": "Health",
+    "description": "Mobile-first nutrition dashboard built on AI. Track meals, calories, and macros through a Telegram-based AI assistant.",
+    "icon": "Apple",
+    "status": "Coming Soon",
+    "available": false,
+    "link": "https://github.com/dashon1/cal-ai-dashboard"
+  },
+  {
+    "id": "codetracker",
+    "name": "CodeTracker",
+    "category": "Professional",
+    "description": "Developer productivity tracker. Log coding sessions, track progress across projects, and visualize your output over time.",
+    "icon": "Code",
+    "status": "Coming Soon",
+    "available": false,
+    "link": "https://github.com/dashon1/codetracker-genspark"
+  },
+  {
+    "id": "create-that-4me",
+    "name": "Create That 4Me",
+    "category": "Marketing",
+    "description": "AI-powered content creation pipeline. Manage and deliver marketing content projects through an intelligent workflow system.",
+    "icon": "PenTool",
+    "status": "Coming Soon",
+    "available": false,
+    "link": "https://github.com/dashon1/Create-that-4me-MiniMax"
+  },
+  {
+    "id": "creatorflow-studio",
+    "name": "CreatorFlow Studio",
+    "category": "Business",
+    "description": "AI-powered workflow automation platform for content creators. Generate videos, images, chatbots, and podcasts from one dashboard.",
+    "icon": "Workflow",
+    "status": "Coming Soon",
+    "available": false,
+    "link": "https://github.com/dashon1/creatorflow-studio"
   }
 ]
