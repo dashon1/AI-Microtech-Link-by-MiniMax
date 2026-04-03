@@ -4,19 +4,20 @@ export const apps = appsData;
 
 export const categories = [
   "All",
-  "Business",
-  "Health",
-  "Food Business",
-  "Social Media",
-  "Logistics",
-  "Professional",
-  "Web App",
-  "AI Tool",
-  "Tool",
-  "Real Estate",
+  "AI & Automation",
+  "Video & Creative",
+  "Marketing & Advertising",
+  "Health & Wellness",
+  "Finance & Business",
+  "Developer Tools",
+  "Productivity & Lifestyle",
   "Education",
-  "Finance",
-  "Entertainment"
+  "Legal & Professional",
+  "Real Estate",
+  "Logistics & Operations",
+  "Food & Restaurant",
+  "Community & Social",
+  "Events & QR"
 ];
 
 export const services = [
