@@ -141,7 +141,7 @@ const AppDetailPage = () => {
                                         </div>
                                     )}
 
-                                    {/* Tier selector */}
+                                    {/* Tier / billing period selector */}
                                     {stripePrices && stripePrices.length > 1 && (
                                         <div className="mb-6 space-y-2">
                                             {stripePrices.map((tier: any, i: number) => (
@@ -156,9 +156,14 @@ const AppDetailPage = () => {
                                                 >
                                                     <div className="flex justify-between items-center">
                                                         <span className="font-semibold text-sm text-gray-900 dark:text-white">{tier.label}</span>
-                                                        <span className="font-bold text-blue-600">{tier.price}</span>
+                                                        <div className="flex items-center gap-2">
+                                                            {tier.savings && (
+                                                                <span className="text-xs font-bold text-green-600 bg-green-100 px-2 py-0.5 rounded-full">{tier.savings}</span>
+                                                            )}
+                                                            <span className="font-bold text-blue-600">{tier.price}</span>
+                                                        </div>
                                                     </div>
-                                                    <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{tier.description}</p>
+                                                    {tier.description && <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{tier.description}</p>}
                                                 </button>
                                             ))}
                                         </div>
