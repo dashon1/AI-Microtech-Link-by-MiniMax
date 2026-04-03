@@ -86,12 +86,29 @@ export const apps = [
     status: "Beta" as const,
     available: true,
     priceLabel: "From $97/mo",
-    stripePrices: [
-      { label: "Starter", price: "$97/mo", description: "Core community tools, basic campaigns, standard analytics, up to 1,000 members", priceId: "price_PRIDEREACH_START", mode: "subscription" as const },
-      { label: "Growth", price: "$197/mo", description: "Advanced automation, A/B testing, priority support, up to 10,000 members", priceId: "price_PRIDEREACH_GROWTH", mode: "subscription" as const },
-      { label: "Scale", price: "$397/mo", description: "Dedicated account manager, unlimited members, enterprise integrations, unlimited campaigns", priceId: "price_PRIDEREACH_LEADER", mode: "subscription" as const },
+    pricingTabs: [
+      {
+        label: "Self-Service",
+        description: "You run it. We give you the platform.",
+        stripePrices: [
+          { label: "Starter", price: "$97/mo", description: "Core community tools, basic campaigns, standard analytics, up to 1,000 members", priceId: "price_PRIDEREACH_START", mode: "subscription" as const },
+          { label: "Growth", price: "$197/mo", description: "Advanced automation, A/B testing, priority support, up to 10,000 members", priceId: "price_PRIDEREACH_GROWTH", mode: "subscription" as const },
+          { label: "Scale", price: "$397/mo", description: "Unlimited members, enterprise integrations, unlimited campaigns, white-label ready", priceId: "price_PRIDEREACH_SCALE", mode: "subscription" as const },
+        ],
+      },
+      {
+        label: "Done-For-You",
+        description: "We manage everything. You get results.",
+        contactOnly: true,
+        stripePrices: [
+          { label: "Getting Started", price: "$1,499/mo", description: "Up to 12 platforms, 25 posts/mo, mixed content types, advanced strategy", priceId: "price_PRIDEREACH_DFY_START", mode: "subscription" as const },
+          { label: "Market Leader", price: "$1,699/mo", description: "Up to 15 platforms, 30+ posts/mo, advanced content, strategic planning, dedicated support", priceId: "price_PRIDEREACH_DFY_LEADER", mode: "subscription" as const },
+          { label: "Brand Authority", price: "$1,899/mo", description: "Up to 16 platforms, thought leadership, executive positioning, premium support", priceId: "price_PRIDEREACH_DFY_BRAND", mode: "subscription" as const },
+          { label: "Integrated Powerhouse", price: "$2,199/mo", description: "Up to 17 platforms, integrated campaigns, full-service management, dedicated account manager", priceId: "price_PRIDEREACH_DFY_POWER", mode: "subscription" as const },
+        ],
+      },
     ],
-    longDescription: "PrideReach is a comprehensive community management and marketing platform with tiered plans for every stage of growth.\n\nStarter ($97/mo): Core community tools, basic campaigns, standard analytics, up to 1,000 members.\n\nGrowth ($197/mo): Advanced automation, A/B testing, priority support, up to 10,000 members.\n\nScale ($397/mo): Dedicated account manager, unlimited members, enterprise integrations, unlimited campaigns.",
+    longDescription: "PrideReach is a comprehensive community management and marketing platform — use it yourself or let our team run it for you.\n\nSelf-Service plans give you full access to the platform to manage your own community, campaigns, and analytics.\n\nDone-For-You plans put our team to work — we handle content creation, platform management, strategy, and reporting across up to 17 platforms.",
   },
   {
     id: 'haullogic',

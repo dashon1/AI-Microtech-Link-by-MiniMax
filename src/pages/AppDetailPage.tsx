@@ -10,6 +10,7 @@ const AppDetailPage = () => {
     const { id } = useParams();
     const { apps } = useApp();
     const app = apps.find(a => String(a.id) === id);
+    const [selectedTab, setSelectedTab] = useState(0);
     const [selectedTier, setSelectedTier] = useState(0);
     const [loading, setLoading] = useState(false);
 
@@ -22,7 +23,9 @@ const AppDetailPage = () => {
         );
     }
 
-    const stripePrices = (app as any).stripePrices;
+    const pricingTabs = (app as any).pricingTabs;
+    const stripePrices = pricingTabs ? pricingTabs[selectedTab]?.stripePrices : (app as any).stripePrices;
+    const activeTabData = pricingTabs?.[selectedTab];
     const activeTier = stripePrices?.[selectedTier];
     const appName = (app as any).name || app.title || '';
 
@@ -114,6 +117,30 @@ const AppDetailPage = () => {
 
                                     {isLifetime && <CountdownTimer />}
 
+                                    {/* Tab toggle for dual-mode pricing (e.g. Self-Service vs Done-For-You) */}
+                                    {pricingTabs && (
+                                        <div className="mb-5">
+                                            <div className="flex rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700">
+                                                {pricingTabs.map((tab: any, i: number) => (
+                                                    <button
+                                                        key={i}
+                                                        onClick={() => { setSelectedTab(i); setSelectedTier(0); }}
+                                                        className={`flex-1 py-2 text-sm font-semibold transition-colors ${
+                                                            selectedTab === i
+                                                                ? 'bg-blue-600 text-white'
+                                                                : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-50'
+                                                        }`}
+                                                    >
+                                                        {tab.label}
+                                                    </button>
+                                                ))}
+                                            </div>
+                                            {activeTabData?.description && (
+                                                <p className="text-xs text-gray-500 dark:text-gray-400 text-center mt-2">{activeTabData.description}</p>
+                                            )}
+                                        </div>
+                                    )}
+
                                     {/* Tier selector */}
                                     {stripePrices && stripePrices.length > 1 && (
                                         <div className="mb-6 space-y-2">
@@ -169,8 +196,16 @@ const AppDetailPage = () => {
                                         )}
                                     </div>
 
-                                    {/* CTA — Stripe checkout or contact */}
-                                    {activeTier ? (
+                                    {/* CTA — Stripe checkout, contact for DFY, or generic */}
+                                    {activeTabData?.contactOnly ? (
+                                        <Link
+                                            to="/contact"
+                                            state={{ serviceInterest: `${appName} — ${activeTier?.label || 'Done-For-You'} (${activeTier?.price || ''})` }}
+                                            className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors"
+                                        >
+                                            {activeTier ? `Get Started — ${activeTier.price}` : 'Contact Us'}
+                                        </Link>
+                                    ) : activeTier ? (
                                         <button
                                             onClick={handleCheckout}
                                             disabled={loading}
