@@ -1575,6 +1575,187 @@ export const apps = [
     "available": false
   },
 
+  {
+    "id": "researchhub",
+    "name": "Researchhub",
+    "category": "Web App",
+    "description": "Base44 App: ResearchFlow",
+    "icon": "CreditCard",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "researchhub-academic-research-manager",
+    "name": "ResearchHub Academic Research Manager",
+    "category": "Tool",
+    "description": "AI-powered researchhub academic research manager platform for business and creative automation.",
+    "icon": "Code",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "saas-demo-builder",
+    "name": "SaaS Demo Builder",
+    "category": "Web App",
+    "description": "The SaaS Demo Builder is a tool that lets users create, customize, and embed interactive product demos on their SaaS websites. Think of it as a guided tour builder — you define steps with tooltips and highlights that walk visitors through your product's features.",
+    "icon": "Home",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "sagecall",
+    "name": "SageCall",
+    "category": "Web App",
+    "description": "SageCall is an on-demand, human-to-human video help platform. It connects: People who need immediate, practical help (fixing a leaky pipe, sewing a button, troubleshooting a car noise, calming a crying baby, basic cooking, etc.) With retired seniors and veterans (“Sages”) who have decades of experience and who want social connection, purpose, and a",
+    "icon": "Sun",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "santa-tracker",
+    "name": "Santa Tracker",
+    "category": "Web App",
+    "description": "A global Santa tracking app",
+    "icon": "LayoutGrid",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "scraper-workflow-genspark",
+    "name": "Scraper Workflow (Genspark)",
+    "category": "Tool",
+    "description": "AI-powered scraper workflow (genspark) platform for business and creative automation.",
+    "icon": "Shield",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "secretvault",
+    "name": "Secretvault",
+    "category": "Web App",
+    "description": "Base44 App: SecretVault",
+    "icon": "Activity",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "securevault",
+    "name": "Securevault",
+    "category": "Web App",
+    "description": "Base44 App: SecureVault",
+    "icon": "Wand2",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "sheetsync",
+    "name": "Sheetsync",
+    "category": "Web App",
+    "description": "Base44 App: SheetSync",
+    "icon": "TrendingUp",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "skill-architect-gensparks",
+    "name": "Skill Architect (Gensparks)",
+    "category": "Web App",
+    "description": "AI-powered skill architect (gensparks) platform for business and creative automation.",
+    "icon": "Sparkles",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "skillgenie",
+    "name": "SkillGenie",
+    "category": "Web App",
+    "description": "SkillSprint – “Master new skills in minutes a day with personalized learning paths, AI-powered tutoring, and engaging micro-lessons.”",
+    "icon": "Heart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "skillswap-gensparks",
+    "name": "Skillswap (Gensparks)",
+    "category": "Web App",
+    "description": "AI-powered skillswap (gensparks) platform for business and creative automation.",
+    "icon": "Map",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "socialhub",
+    "name": "Socialhub",
+    "category": "Web App",
+    "description": "Base44 App: SocialHub",
+    "icon": "Scale",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "story-canvas",
+    "name": "Story Canvas",
+    "category": "Web App",
+    "description": "Creative Suite that does images story and videos with a editor",
+    "icon": "Film",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "storyweaver-ai---consistent-character-generator",
+    "name": "StoryWeaver AI Consistent Character Generator",
+    "category": "Web App",
+    "description": "Motion Studio Powered by Google Veo 3",
+    "icon": "Calculator",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "subscribe",
+    "name": "Subscribe",
+    "category": "Web App",
+    "description": "Base44 App: SubScribe",
+    "icon": "QrCode",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "synchride",
+    "name": "SynchRide",
+    "category": "Web App",
+    "description": "Synchronized Car Audio Mesh Network",
+    "icon": "CloudRain",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "top-10-ai-video-creation-app",
+    "name": "Top 10 AI Video Creation App",
+    "category": "Web App",
+    "description": "AI-powered top 10 ai video creation app platform for business and creative automation.",
+    "icon": "Languages",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "top-10-countdown",
+    "name": "Top 10 Countdown",
+    "category": "Web App",
+    "description": "Top 10 Countdown - AI YouTube Video Automation App",
+    "icon": "Music",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "top-10-minimax",
+    "name": "Top 10 (MiniMax)",
+    "category": "Web App",
+    "description": "This is a full-stack AI-powered video creation application that generates engaging video content using artificial intelligence and automated workflow management. It's designed to create \"Top 10\" countdown style videos automatically.",
+    "icon": "LineChart",
+    "status": "Coming Soon",
+    "available": false
+  },
+
 // ── Placeholder / Future Apps ────────────────────────────────────────────
   { id: 'santa-tracker', name: "Santa Tracker", category: "Holiday", description: "Real-time Santa tracking dashboard with holiday games and countdown", icon: "Map", status: "Live" as const, link: "https://santatracker.google.com" },
   { id: 1, name: "Directors Studio", category: "Creative", description: "AI-powered creative production and content planning platform", icon: "Film" },
