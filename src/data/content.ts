@@ -44,13 +44,13 @@ export const apps = [
     icon: "Activity",
     status: "Beta" as const,
     available: true,
-    priceLabel: "From $79/mo",
+    priceLabel: "From $9.99/mo",
     stripePrices: [
-      { label: "Personal", price: "$79/mo", description: "Medication + symptom tracking, Safety Beacon, basic AI insights, Sonic Therapy", priceId: "price_HIT_PERSONAL", mode: "subscription" as const },
-      { label: "Premium", price: "$149/mo", description: "Full AI correlation engine, unlimited history, family sharing (3 members)", priceId: "price_HIT_PREMIUM", mode: "subscription" as const },
-      { label: "Pro", price: "$249/mo", description: "Caregiver dashboard, exportable reports, unlimited family, Home Alone check-in", priceId: "price_HIT_PRO", mode: "subscription" as const },
+      { label: "Personal", price: "$9.99/mo", description: "Medication + symptom tracking, Safety Beacon, basic AI insights, Sonic Therapy", priceId: "price_HIT_PERSONAL", mode: "subscription" as const },
+      { label: "Premium", price: "$19.99/mo", description: "Full AI correlation engine, unlimited history, all soundscapes, family sharing (3 members)", priceId: "price_HIT_PREMIUM", mode: "subscription" as const },
+      { label: "Pro", price: "$34.99/mo", description: "Caregiver dashboard, exportable health reports, unlimited family members, Home Alone check-in, priority support", priceId: "price_HIT_PRO", mode: "subscription" as const },
     ],
-    longDescription: "HIT is the first comprehensive health platform combining AI-powered insights, emergency response protocols, and sonic therapy for total well-being.\n\nPersonal ($79/mo): Medication + symptom tracking, Safety Beacon emergency alerts with GPS, basic AI health insights, Sonic Therapy sessions.\n\nPremium ($149/mo): Full AI correlation engine (sleep vs pain vs meds vs weather), unlimited history, all soundscapes, family sharing up to 3 members.\n\nPro ($249/mo): Caregiver dashboard, exportable health reports, unlimited family members, priority support, Home Alone check-in mode.\n\nYour data stays on your device — nothing is stored on external servers.",
+    longDescription: "HIT is the first comprehensive health platform combining AI-powered insights, emergency response protocols, and sonic therapy for total well-being.\n\nPersonal ($9.99/mo): Medication + symptom tracking, Safety Beacon emergency alerts with GPS, basic AI health insights, Sonic Therapy sessions.\n\nPremium ($19.99/mo): Full AI correlation engine (sleep vs pain vs meds vs weather), unlimited history, all soundscapes, family sharing up to 3 members.\n\nPro ($34.99/mo): Caregiver dashboard, exportable health reports, unlimited family members, priority support, Home Alone check-in mode.\n\nYour data stays on your device — nothing is stored on external servers.",
   },
 
   // ── Coming Soon ───────────────────────────────────────────────────────────
@@ -85,13 +85,13 @@ export const apps = [
     icon: "Heart",
     status: "Beta" as const,
     available: true,
-    priceLabel: "From $299/mo",
+    priceLabel: "From $97/mo",
     stripePrices: [
-      { label: "Getting Started", price: "$299/mo", description: "Core community tools, basic campaigns, standard analytics", priceId: "price_PRIDEREACH_START", mode: "subscription" as const },
-      { label: "Growth", price: "$699/mo", description: "Advanced automation, A/B testing, priority support, expanded reach", priceId: "price_PRIDEREACH_GROWTH", mode: "subscription" as const },
-      { label: "Market Leader", price: "$1,499/mo", description: "Full white-glove service, dedicated account manager, unlimited campaigns", priceId: "price_PRIDEREACH_LEADER", mode: "subscription" as const },
+      { label: "Starter", price: "$97/mo", description: "Core community tools, basic campaigns, standard analytics, up to 1,000 members", priceId: "price_PRIDEREACH_START", mode: "subscription" as const },
+      { label: "Growth", price: "$197/mo", description: "Advanced automation, A/B testing, priority support, up to 10,000 members", priceId: "price_PRIDEREACH_GROWTH", mode: "subscription" as const },
+      { label: "Scale", price: "$397/mo", description: "Dedicated account manager, unlimited members, enterprise integrations, unlimited campaigns", priceId: "price_PRIDEREACH_LEADER", mode: "subscription" as const },
     ],
-    longDescription: "PrideReach is a comprehensive community management and marketing platform with tiered plans for every stage of growth.\n\nGetting Started ($299/mo): Core community tools, basic campaigns, standard analytics.\n\nGrowth ($699/mo): Advanced automation, A/B testing, priority support, expanded reach.\n\nMarket Leader ($1,499/mo): Full white-glove service, dedicated account manager, enterprise integrations, unlimited campaigns.",
+    longDescription: "PrideReach is a comprehensive community management and marketing platform with tiered plans for every stage of growth.\n\nStarter ($97/mo): Core community tools, basic campaigns, standard analytics, up to 1,000 members.\n\nGrowth ($197/mo): Advanced automation, A/B testing, priority support, up to 10,000 members.\n\nScale ($397/mo): Dedicated account manager, unlimited members, enterprise integrations, unlimited campaigns.",
   },
   {
     id: 'haullogic',
