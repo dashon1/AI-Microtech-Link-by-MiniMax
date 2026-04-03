@@ -1756,6 +1756,187 @@ export const apps = [
     "available": false
   },
 
+  {
+    "id": "twilio-elevenlabs-scheduling",
+    "name": "Twilio ElevenLabs Scheduling",
+    "category": "Web App",
+    "description": "This is an AI Phone Call Appointment Scheduling System - a simulation of how an intelligent phone receptionist works.",
+    "icon": "Users",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "u-codewise",
+    "name": "U Codewise",
+    "category": "Web App",
+    "description": "Base44 App: U CodeWise",
+    "icon": "CreditCard",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ugc-express",
+    "name": "UGC Express",
+    "category": "Web App",
+    "description": "UGC Express is a full-stack web application for content generation and workflow automation. Here's the complete breakdown:",
+    "icon": "Code",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ugc-google-ad-generator-ai",
+    "name": "UGC Google AD Generator AI",
+    "category": "Web App",
+    "description": "Make UGC style commercials",
+    "icon": "Home",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ultimate-media-agent",
+    "name": "Ultimate Media Agent",
+    "category": "Tool",
+    "description": "Ultimate Media Agent - Core Features 1. Creative Studio (AI Content Generation) Image Generation: Create AI-generated images from text prompts Video Generation: Produce AI-generated videos from text descriptions Audio Generation: Generate AI audio content (music, voiceovers, sound effects) Real-time Generation: Direct AI ",
+    "icon": "Sun",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ultimate-media-agent-minimax",
+    "name": "Ultimate Media Agent (MiniMax)",
+    "category": "Tool",
+    "description": "This is a React-based web dashboard that serves as a GUI for your n8n automation workflows. It provides a visual interface to control all the media creation and automation features",
+    "icon": "LayoutGrid",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ultra-escape",
+    "name": "Ultra Escape",
+    "category": "Web App",
+    "description": "AI-powered ultra escape platform for business and creative automation.",
+    "icon": "Shield",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "universal-analyzer",
+    "name": "Universal Analyzer",
+    "category": "Web App",
+    "description": "Analyze any image doc to understand it completely",
+    "icon": "Activity",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "velocity",
+    "name": "Velocity",
+    "category": "Web App",
+    "description": "Create viral content in seconds Stop staring at blank screens. Generate scroll-stopping content for Twitter, LinkedIn, Instagram, YouTube, and more.",
+    "icon": "Wand2",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "ventureforge",
+    "name": "Ventureforge",
+    "category": "Web App",
+    "description": "Base44 App: VentureForge",
+    "icon": "TrendingUp",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "veo3-json-prompt-generator-copy",
+    "name": "Veo3 Json Prompt Generator Copy",
+    "category": "Web App",
+    "description": "Base44 App: Veo3 JSON Prompt Generator (Copy)",
+    "icon": "Sparkles",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "videostyle-pro",
+    "name": "Videostyle Pro",
+    "category": "Web App",
+    "description": "VideoStyle Pro — browser-based video editing platform with multi-scene timeline, trim/cut/filters, and AI features",
+    "icon": "Heart",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "virtutalent-manager",
+    "name": "VirtuTalent Manager",
+    "category": "Web App",
+    "description": "AI Influencer\" you are likely referring to is Xania Monet. She recently made headlines (around November 2025) for signing a $3 million record deal with Hallwood Media—a massive contract that legitimized AI artists in the mainstream music industry.",
+    "icon": "Map",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "weathershield-basic",
+    "name": "WeatherShield Basic",
+    "category": "Web App",
+    "description": "WeatherShield Basic",
+    "icon": "Scale",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "weathershield1-",
+    "name": "WeatherShield1 ",
+    "category": "Tool",
+    "description": "WeatherShield1 A personalized extreme weather preparedness companion that turns forecasts into actionable, health-centric plans.",
+    "icon": "Film",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "web-design-code",
+    "name": "Web Design Code",
+    "category": "Tool",
+    "description": "AI-powered web design code platform for business and creative automation.",
+    "icon": "Calculator",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "workflow-analysis-prompt-minimax",
+    "name": "Workflow Analysis Prompt (MiniMax)",
+    "category": "Web App",
+    "description": "This is an n8n Video Analyzer - a web application that helps users extract AI automation workflows from YouTube videos.",
+    "icon": "QrCode",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "workflow-genai-architect",
+    "name": "Workflow GenAI Architect",
+    "category": "Web App",
+    "description": "Workflow GenAI Architect take a n8n workflow and recreate that in a app. ",
+    "icon": "CloudRain",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "yieldflow",
+    "name": "Yieldflow",
+    "category": "Web App",
+    "description": "Base44 App: YieldFlow",
+    "icon": "Languages",
+    "status": "Coming Soon",
+    "available": false
+  },
+  {
+    "id": "youtube-starter-kits",
+    "name": "YouTube Starter Kits",
+    "category": "AI Tool",
+    "description": "AI-powered youtube starter kits platform for business and creative automation.",
+    "icon": "Music",
+    "status": "Coming Soon",
+    "available": false
+  },
+
 // ── Placeholder / Future Apps ────────────────────────────────────────────
   { id: 'santa-tracker', name: "Santa Tracker", category: "Holiday", description: "Real-time Santa tracking dashboard with holiday games and countdown", icon: "Map", status: "Live" as const, link: "https://santatracker.google.com" },
   { id: 1, name: "Directors Studio", category: "Creative", description: "AI-powered creative production and content planning platform", icon: "Film" },
