@@ -412,9 +412,9 @@
   },
   {
     "id": "ara-m5-core-session-a",
-    "name": "Ara M5 Core Session A",
-    "category": "Productivity & Lifestyle",
-    "description": "Source archive from Minimax container – Session A",
+    "name": "AraM5 Core — Session A",
+    "category": "AI & Automation",
+    "description": "AraM5 AI agent core system — Session A archive and configuration.",
     "icon": "Home",
     "status": "Coming Soon",
     "available": false
@@ -431,8 +431,8 @@
   {
     "id": "aram5_2026_core",
     "name": "AraM5 2026 Core",
-    "category": "Developer Tools",
-    "description": "AI-powered aram5 2026 core platform for business and creative automation.",
+    "category": "AI & Automation",
+    "description": "The AraM5 AI holding company operating system — orchestrates all business agents, workflows, and memory.",
     "icon": "LayoutGrid",
     "status": "Coming Soon",
     "available": false
@@ -574,9 +574,9 @@
   },
   {
     "id": "cortex-second-brain-9350",
-    "name": "Cortex Second Brain 9350",
+    "name": "Cortex — Second Brain",
     "category": "Productivity & Lifestyle",
-    "description": "AI-powered cortex second brain 9350 platform for business and creative automation.",
+    "description": "AI-powered second brain for capturing, connecting, and retrieving knowledge and ideas.",
     "icon": "CreditCard",
     "status": "Coming Soon",
     "available": false
@@ -628,9 +628,9 @@
   },
   {
     "id": "cryptovault-copy",
-    "name": "Cryptovault Copy",
+    "name": "CryptoVault",
     "category": "Finance & Business",
-    "description": "Base44 App: CryptoVault (Copy)",
+    "description": "Secure crypto portfolio tracker and vault management with AI insights.",
     "icon": "Activity",
     "status": "Coming Soon",
     "available": false
@@ -664,18 +664,18 @@
   },
   {
     "id": "demomagic",
-    "name": "Demomagic",
+    "name": "DemoMagic",
     "category": "Marketing & Advertising",
-    "description": "Base44 App: DemoMagic",
+    "description": "Interactive AI-powered product demos — create live, clickable demos to convert prospects faster.",
     "icon": "Heart",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "demomagic-interactive-product-demos",
-    "name": "DemoMagic Interactive Product Demos",
+    "name": "DemoMagic — Interactive Product Demos",
     "category": "Marketing & Advertising",
-    "description": "DemoMagic Interactive Product Demos",
+    "description": "Interactive AI-powered product demos — create live, clickable demos to convert prospects faster.",
     "icon": "Map",
     "status": "Coming Soon",
     "available": false
@@ -727,9 +727,9 @@
   },
   {
     "id": "eventpix-qr-2-0",
-    "name": "Eventpix Qr 2 0",
+    "name": "EVENTPIX QR 2.0",
     "category": "Events & QR",
-    "description": "Base44 App: EVENTPIX QR 2.0",
+    "description": "Next-generation event QR code platform — smart check-in, photo sharing, and attendee engagement.",
     "icon": "Languages",
     "status": "Coming Soon",
     "available": false
@@ -1097,18 +1097,18 @@
   },
   {
     "id": "n8n-workflow-genspark",
-    "name": "N8n Workflow (Genspark)",
+    "name": "n8n Video Generator Workflow",
     "category": "Developer Tools",
-    "description": "n8n workflow that generates videos from Google Sheets data using AI services",
+    "description": "n8n workflow that generates videos from Google Sheets data using AI services.",
     "icon": "CloudRain",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "n8n-workflow-gensparks",
-    "name": "N8n Workflow (Gensparks)",
+    "name": "n8n AI Automation Workflow",
     "category": "Developer Tools",
-    "description": "AI-powered n8n workflow (gensparks) platform for business and creative automation.",
+    "description": "n8n workflow for AI-powered business automation and content generation.",
     "icon": "Languages",
     "status": "Coming Soon",
     "available": false
@@ -1223,27 +1223,27 @@
   },
   {
     "id": "prompt-enhancer-grove-32893",
-    "name": "Prompt Enhancer Grove 32893",
+    "name": "Prompt Enhancer",
     "category": "AI & Automation",
-    "description": "AI-powered prompt enhancer grove 32893 platform for business and creative automation.",
+    "description": "AI-powered prompt enhancement tool — improve and optimize prompts for better AI outputs.",
     "icon": "Sparkles",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "prompt-enhancer-grove-32893-1b1b91be",
-    "name": "Prompt Enhancer Grove 32893 1b1b91be",
+    "name": "Prompt Enhancer (v2)",
     "category": "AI & Automation",
-    "description": "AI-powered prompt enhancer grove 32893 1b1b91be platform for business and creative automation.",
+    "description": "AI-powered prompt enhancement tool — improve and optimize prompts for better AI outputs.",
     "icon": "Heart",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "prompt-enhancer-grove-32893-f94fbbdc",
-    "name": "Prompt Enhancer Grove 32893 F94fbbdc",
+    "name": "Prompt Enhancer (v3)",
     "category": "AI & Automation",
-    "description": "AI-powered prompt enhancer grove 32893 f94fbbdc platform for business and creative automation.",
+    "description": "AI-powered prompt enhancement tool — improve and optimize prompts for better AI outputs.",
     "icon": "Map",
     "status": "Coming Soon",
     "available": false
@@ -1295,18 +1295,18 @@
   },
   {
     "id": "rehab-e-cam",
-    "name": "Rehab E Cam",
-    "category": "Health & Wellness",
-    "description": "Walk a property, snap photos, and get an investor-grade rehab scope, local cost estimate, and offer number in minutes",
+    "name": "Rehab-E-Cam",
+    "category": "Finance & Business",
+    "description": "Walk a property, snap photos, and get an investor-grade rehab scope, local cost estimate, and deal offer number in minutes.",
     "icon": "Languages",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "rehab-e-cam-app-marketing-minimax",
-    "name": "Rehab E Cam App Marketing (MiniMax)",
-    "category": "Health & Wellness",
-    "description": " \"Complete marketing package for Rehab-E-Cam - AI-powered real estate property inspection and deal analysis platform\"  Topics: rehab-e-cam, proptech, real-estate, marketing-package, ai-powered, property-analysis, investor-pitch, landing-page, social-media, content-marketing by MiniMax",
+    "name": "Rehab-E-Cam (Marketing)",
+    "category": "Finance & Business",
+    "description": "Marketing and pitch materials for Rehab-E-Cam — AI-powered real estate property inspection and deal analysis.",
     "icon": "Music",
     "status": "Coming Soon",
     "available": false
@@ -1331,18 +1331,18 @@
   },
   {
     "id": "researchhub",
-    "name": "Researchhub",
+    "name": "ResearchHub",
     "category": "Education",
-    "description": "Base44 App: ResearchFlow",
+    "description": "AI-powered academic research manager — organize papers, generate summaries, and manage citations.",
     "icon": "CreditCard",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "researchhub-academic-research-manager",
-    "name": "ResearchHub Academic Research Manager",
+    "name": "ResearchHub — Academic Research Manager",
     "category": "Education",
-    "description": "AI-powered researchhub academic research manager platform for business and creative automation.",
+    "description": "AI-powered academic research manager — organize papers, generate summaries, and manage citations.",
     "icon": "Code",
     "status": "Coming Soon",
     "available": false
@@ -1549,7 +1549,7 @@
     "id": "ultimate-media-agent",
     "name": "Ultimate Media Agent",
     "category": "Video & Creative",
-    "description": "Ultimate Media Agent - Core Features 1. Creative Studio (AI Content Generation) Image Generation: Create AI-generated images from text prompts Video Generation: Produce AI-generated videos from text descriptions Audio Generation: Generate AI audio content (music, voiceovers, sound effects) Real-time Generation: Direct AI ",
+    "description": "AI creative studio: image generation, video creation, social content, ad copy, and brand assets in one platform.",
     "icon": "Sun",
     "status": "Coming Soon",
     "available": false
@@ -1697,7 +1697,7 @@
     "icon": "Film",
     "status": "Coming Soon",
     "available": false,
-    "link": "https://github.com/dashon1/AI-Storyboard-Generator"
+    "link": ""
   },
   {
     "id": "ai-video-ads-automation",
