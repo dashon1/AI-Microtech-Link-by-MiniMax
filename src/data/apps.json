@@ -536,15 +536,6 @@
     "available": false
   },
   {
-    "id": "calorieextractor",
-    "name": "Calorieextractor",
-    "category": "Health & Wellness",
-    "description": "Base44 App: CalorieExtractor",
-    "icon": "Scale",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
     "id": "chargeguard-an-ev-charging-copilot-that-predicts-charging-",
     "name": "ChargeGuard An EV Charging Copilot That Predicts Charging ",
     "category": "Logistics & Operations",
@@ -816,12 +807,13 @@
   },
   {
     "id": "food-analyzer-ui",
-    "name": "Food Analyzer Ui",
-    "category": "Food & Restaurant",
-    "description": "AI-powered food analyzer ui platform for business and creative automation.",
-    "icon": "Code",
-    "status": "Coming Soon",
-    "available": false
+    "name": "Aria \u2014 All-in-One AI Assistant",
+    "category": "Marketing & Advertising",
+    "description": "AI marketing strategist + food analyzer in one. Competitor analysis, content calendars, SEO, captions, meal planning, and more.",
+    "icon": "Sparkles",
+    "status": "Beta",
+    "available": true,
+    "link": "https://lovable.dev/projects/ac972e30-8165-47ee-b5f8-59719f258d96"
   },
   {
     "id": "formforge-copy",
