@@ -55,10 +55,10 @@
   },
   {
     "id": "hit",
-    "name": "HIT \u2014 Health Intelligence Tracker",
+    "name": "HIT — Health Intelligence Tracker",
     "link": "https://hit-real.vercel.app",
     "category": "Health & Wellness",
-    "description": "Emergency-ready AI health platform. Track symptoms, meds, and mood \u2014 with one-tap Safety Beacon and AI-powered pattern insights.",
+    "description": "Emergency-ready AI health platform. Track symptoms, meds, and mood — with one-tap Safety Beacon and AI-powered pattern insights.",
     "icon": "Activity",
     "status": "Beta",
     "available": true,
@@ -231,18 +231,18 @@
   },
   {
     "id": "automated-web-to-ai-data-minimax",
-    "name": "Automated Web-to-AI Data (MiniMax)",
+    "name": "Automated Web-to-AI Data",
     "category": "AI & Automation",
-    "description": "Automatically converts any website into clean, AI-ready knowledge base files.",
+    "description": "Automatically converts any website into clean AI-ready knowledge base files (Markdown, TXT, JSON) for training LLMs, chatbots, and semantic search.",
     "icon": "Wand2",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "autonomous-ai-agent-gensparks",
-    "name": "Autonomous AI Agent (Gensparks)",
+    "name": "Autonomous AI Marketing Agent",
     "category": "Marketing & Advertising",
-    "description": "Multi-agent approach for marketing functions.",
+    "description": "Multi-agent system for marketing: StrategyDirector, Copywriter, ProjectManager, and ClientLiaison agents work together to automate campaigns end-to-end.",
     "icon": "Sparkles",
     "status": "Coming Soon",
     "available": false
@@ -251,133 +251,98 @@
     "id": "advidai",
     "name": "AdvidAI",
     "category": "Marketing & Advertising",
-    "description": "Modern professional development and advertising platform.",
+    "description": "AI-powered advertising platform for creating, managing, and optimizing ad campaigns across channels.",
     "icon": "Activity",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "ai-microtech-link-website-generator",
-    "name": "AI Microtech Link - Website Generator",
+    "name": "AI Microtech Website Generator",
     "category": "Developer Tools",
-    "description": "AI-powered website generator.",
+    "description": "AI-powered website generator — creates multi-page websites from a single prompt and deploys directly to Netlify.",
     "icon": "Sparkles",
     "status": "Coming Soon",
-    "available": false
+    "available": false,
+    "link": "https://fnqcbw8iok51.space.minimax.io"
   },
   {
     "id": "workflow-to-saas-platform-gensparks",
-    "name": "Workflow to SaaS Platform (Gensparks)",
+    "name": "Workflow to SaaS Platform",
     "category": "Developer Tools",
-    "description": "Transforms n8n workflows into SaaS.",
+    "description": "Transforms n8n workflows into a production-ready SaaS for small businesses and marketing agencies — video, image, AI agent, and content automation in one dashboard.",
     "icon": "LayoutGrid",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "ai-microtechlink-leadflow-gensparks",
-    "name": "AI MicrotechLink LeadFlow (Gensparks)",
+    "name": "AI MicrotechLink LeadFlow",
     "category": "Marketing & Advertising",
-    "description": "AI-powered lead management.",
+    "description": "AI-powered lead capture, scoring, and follow-up automation for marketing teams.",
     "icon": "TrendingUp",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "ai-powered-ugc-video-creation-app-gensparks",
-    "name": "AI-Powered UGC Video Creation App (Gensparks)",
+    "name": "AI UGC Video Creation",
     "category": "Video & Creative",
-    "description": "Video creation automation.",
+    "description": "Automate user-generated content (UGC) video creation with AI — scripts, voiceover, and assembly.",
     "icon": "Film",
     "status": "Coming Soon",
     "available": false
   },
   {
-    "id": "-automated-web-to-ai-data-minimax",
-    "name": "Automated Web To AI Data (MiniMax)",
-    "category": "AI & Automation",
-    "description": "Automatically converts any website into clean, AI-ready knowledge base files (Markdown, TXT, JSON) that can be used for training LLMs, building chatbots, and powering semantic search systems.",
-    "icon": "Activity",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "-autonomous-ai-agent-gensparks",
-    "name": "Autonomous AI Agent (Gensparks)",
-    "category": "Marketing & Advertising",
-    "description": "he system will use a multi-agent approach where specialized AI agents handle different marketing functions:  StrategyDirectorAgent - Creates marketing strategies and campaign plans CopywriterAgent - Generates SEO content, ads, emails, and social posts ProjectManagerAgent - Breaks down strategies into tasks and timelines ClientLiaisonAgent",
-    "icon": "Wand2",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-microtech-link---website-generator",
-    "name": "AI Microtech Link Website Generator",
-    "category": "Developer Tools",
-    "description": "AI Microtech Link is an AI-powered website generator that creates multi-page websites from user prompts. It uses Google Gemini AI to generate the content and deploys directly to Netlify for live URLs.",
-    "icon": "TrendingUp",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-microtech-link-workflow-to-saas-platform-gensparks",
-    "name": "AI Microtech Link Workflow To SaaS Platform (Gensparks)",
-    "category": "Developer Tools",
-    "description": "A unified platform that transforms all your n8n workflows into a production-ready SaaS application for small businesses and marketing agencies.  \ud83d\udccb Overview CreatorFlow Studio consolidates 10+ AI-powered workflows into one seamless experience:  \ud83c\udfa5 Video Generation (UGC, Ads, Podcasts) \ud83d\uddbc\ufe0f Image Creation (Product Photos, Influencer Content) \ud83d\udcac AI Ag",
-    "icon": "Sparkles",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
     "id": "ai-microtech-one-prompt-apps.-full-stack-generator",
-    "name": "AI Microtech One Prompt Apps. Full Stack Generator",
+    "name": "One-Prompt Full Stack Generator",
     "category": "Developer Tools",
-    "description": "AI Microtech Build STUNNING One-Prompt Apps. Full Stack Generator powered by Frontier AI Models",
+    "description": "Generate stunning full-stack applications from a single prompt using frontier AI models.",
     "icon": "Heart",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "ai-microtech-os-base44",
-    "name": "Ai Microtech Os Base44",
+    "name": "AI Microtech OS",
     "category": "AI & Automation",
-    "description": "Base44 App: AI Microtech OS",
+    "description": "AI Microtech OS — unified AI-powered operating environment for managing projects, apps, and workflows.",
     "icon": "Map",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "ai-microtech-os-platform-v2.1-pro",
-    "name": "AI Microtech OS PLATFORM V2.1 PRO",
+    "name": "AI Microtech OS Platform",
     "category": "Video & Creative",
-    "description": " PLATFORM V2.1  Illustrator Ad Editor MockupMaster Ad Studio Poster Drop Video Studio",
+    "description": "All-in-one AI creative platform: Illustrator, Ad Editor, MockupMaster, Ad Studio, Poster Drop, and Video Studio.",
     "icon": "Scale",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "ai-microtech-shield-priority-first-insurance",
-    "name": "AI MicroTech Shield Priority First Insurance",
+    "name": "AI MicroTech Shield Insurance",
     "category": "Finance & Business",
-    "description": "Shield Priority First Insurance",
+    "description": "AI-powered insurance platform built for Priority First — policy management, claims, and customer support.",
     "icon": "Film",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "ai-microtech-studio-pro-consistent-ai-character-story-creator-",
-    "name": "AI Microtech Studio Pro Consistent AI Character Story Creator ",
+    "name": "AI Studio Pro — Character Story Creator",
     "category": "Video & Creative",
-    "description": "AI Microtech Studio Pro Consistent AI Character Story Creator Purpose: Robert Tech Tool is an AI-powered tool built to generate consistent cartoon or any style characters using Gemini Nano Banana A",
+    "description": "Generate consistent cartoon and stylized AI characters for stories, ads, and content using AI.",
     "icon": "Calculator",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "ai-microtechlink-2video-studio",
-    "name": "AI Microtechlink 2Video Studio",
+    "name": "AI 2Video Studio",
     "category": "Video & Creative",
-    "description": "AI Microtechlink 2Video Studio  'AI Creative Assistant' section that takes a rough idea (e.g., 'funny 15s ad for fruit ice cream') and uses the Gemini API to generate a detailed main prompt and a 3-part scene breakdown, automatically populating the respective field",
+    "description": "AI creative assistant for video ads — generates detailed prompts and 3-part scene breakdowns from a rough idea.",
     "icon": "QrCode",
     "status": "Coming Soon",
     "available": false
@@ -385,44 +350,44 @@
   {
     "id": "ai-microtechlink-os",
     "name": "AI Microtechlink OS",
-    "category": "Marketing & Advertising",
-    "description": "AI assistant creator platform and marketing",
+    "category": "AI & Automation",
+    "description": "AI assistant creator and marketing operations platform for building branded AI experiences.",
     "icon": "CloudRain",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "ai-microtechlink-roadmap-generator",
-    "name": "Ai Microtechlink Roadmap Generator",
+    "name": "AI Microtechlink Roadmap Generator",
     "category": "Developer Tools",
-    "description": "Base44 App: AI Microtechlink Roadmap Generator",
+    "description": "AI-powered roadmap and strategy generator for products, projects, and business initiatives.",
     "icon": "Languages",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "ai-pace-adoption-fatigue-control",
-    "name": "AI Pace Adoption Fatigue Control",
+    "name": "AI Pace & Adoption Fatigue Control",
     "category": "Productivity & Lifestyle",
-    "description": "AI Pace Adoption & Fatigue Control For AI Tools",
+    "description": "Tool for managing AI adoption pace and preventing tool fatigue across teams and businesses.",
     "icon": "Music",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "ai-web-maestro",
-    "name": "Ai Web Maestro",
-    "category": "Developer Tools",
-    "description": "AI-powered ai web maestro platform for business and creative automation.",
+    "name": "AI Web Maestro",
+    "category": "AI & Automation",
+    "description": "AI-powered web automation and orchestration platform for business workflows.",
     "icon": "LineChart",
     "status": "Coming Soon",
     "available": false
   },
   {
     "id": "api-watch",
-    "name": "Api Watch",
+    "name": "API Watch",
     "category": "Developer Tools",
-    "description": "Base44 App: API Watch",
+    "description": "Monitor and track API usage, health, and performance across your integrations.",
     "icon": "Users",
     "status": "Coming Soon",
     "available": false
@@ -431,7 +396,7 @@
     "id": "appify-this-idea",
     "name": "Appify This Idea",
     "category": "Developer Tools",
-    "description": "AI-powered appify this idea platform for business and creative automation.",
+    "description": "Turn any idea into a structured app concept — AI-generated specs, user flows, and feature breakdowns.",
     "icon": "CreditCard",
     "status": "Coming Soon",
     "available": false
@@ -449,7 +414,7 @@
     "id": "ara-m5-core-session-a",
     "name": "Ara M5 Core Session A",
     "category": "Productivity & Lifestyle",
-    "description": "Source archive from Minimax container \u2013 Session A",
+    "description": "Source archive from Minimax container – Session A",
     "icon": "Home",
     "status": "Coming Soon",
     "available": false
@@ -807,7 +772,7 @@
   },
   {
     "id": "food-analyzer-ui",
-    "name": "Aria \u2014 All-in-One AI Assistant",
+    "name": "Aria — All-in-One AI Assistant",
     "category": "Marketing & Advertising",
     "description": "AI marketing strategist + food analyzer in one. Competitor analysis, content calendars, SEO, captions, meal planning, and more.",
     "icon": "Sparkles",
@@ -990,7 +955,7 @@
     "id": "localpulse",
     "name": "LocalPulse",
     "category": "Community & Social",
-    "description": "LocalPulse is a hyperlocal business discovery and community support platform. One app that shows you: \u201cWhat\u2019s actually around you, who owns it, what\u2019s special about it, and how to support them today.\u201d",
+    "description": "LocalPulse is a hyperlocal business discovery and community support platform. One app that shows you: “What’s actually around you, who owns it, what’s special about it, and how to support them today.”",
     "icon": "CreditCard",
     "status": "Coming Soon",
     "available": false
@@ -999,7 +964,7 @@
     "id": "marketing-orchestrator",
     "name": "Marketing Orchestrator",
     "category": "Marketing & Advertising",
-    "description": "AI Marketing Orchestrator - Complete Application Overview \ud83d\ude80 What is This Application? The AI Marketing Orchestrator is a revolutionary automated marketing platform that allows users to input any business URL and receive comprehensive AI-powered analysis identifying weaknesses, opportunities, and actionable improvement strategies",
+    "description": "AI Marketing Orchestrator - Complete Application Overview 🚀 What is This Application? The AI Marketing Orchestrator is a revolutionary automated marketing platform that allows users to input any business URL and receive comprehensive AI-powered analysis identifying weaknesses, opportunities, and actionable improvement strategies",
     "icon": "Code",
     "status": "Coming Soon",
     "available": false
@@ -1062,7 +1027,7 @@
     "id": "microtechlink-lip-sync-studio",
     "name": "Microtechlink Lip Sync Studio",
     "category": "Video & Creative",
-    "description": "lip sync engine \u2013 perfect bridge between your audio, character, and video tools.",
+    "description": "lip sync engine – perfect bridge between your audio, character, and video tools.",
     "icon": "TrendingUp",
     "status": "Coming Soon",
     "available": false
@@ -1098,7 +1063,7 @@
     "id": "momentum",
     "name": "Momentum",
     "category": "Productivity & Lifestyle",
-    "description": "Base44 App: Momentum \u26a1",
+    "description": "Base44 App: Momentum ⚡",
     "icon": "Scale",
     "status": "Coming Soon",
     "available": false
@@ -1386,7 +1351,7 @@
     "id": "saas-demo-builder",
     "name": "SaaS Demo Builder",
     "category": "Developer Tools",
-    "description": "The SaaS Demo Builder is a tool that lets users create, customize, and embed interactive product demos on their SaaS websites. Think of it as a guided tour builder \u2014 you define steps with tooltips and highlights that walk visitors through your product's features.",
+    "description": "The SaaS Demo Builder is a tool that lets users create, customize, and embed interactive product demos on their SaaS websites. Think of it as a guided tour builder — you define steps with tooltips and highlights that walk visitors through your product's features.",
     "icon": "Home",
     "status": "Coming Soon",
     "available": false
@@ -1395,7 +1360,7 @@
     "id": "sagecall",
     "name": "SageCall",
     "category": "Marketing & Advertising",
-    "description": "SageCall is an on-demand, human-to-human video help platform. It connects: People who need immediate, practical help (fixing a leaky pipe, sewing a button, troubleshooting a car noise, calming a crying baby, basic cooking, etc.) With retired seniors and veterans (\u201cSages\u201d) who have decades of experience and who want social connection, purpose, and a",
+    "description": "SageCall is an on-demand, human-to-human video help platform. It connects: People who need immediate, practical help (fixing a leaky pipe, sewing a button, troubleshooting a car noise, calming a crying baby, basic cooking, etc.) With retired seniors and veterans (“Sages”) who have decades of experience and who want social connection, purpose, and a",
     "icon": "Sun",
     "status": "Coming Soon",
     "available": false
@@ -1458,7 +1423,7 @@
     "id": "skillgenie",
     "name": "SkillGenie",
     "category": "Education",
-    "description": "SkillSprint \u2013 \u201cMaster new skills in minutes a day with personalized learning paths, AI-powered tutoring, and engaging micro-lessons.\u201d",
+    "description": "SkillSprint – “Master new skills in minutes a day with personalized learning paths, AI-powered tutoring, and engaging micro-lessons.”",
     "icon": "Heart",
     "status": "Coming Soon",
     "available": false
@@ -1647,7 +1612,7 @@
     "id": "videostyle-pro",
     "name": "Videostyle Pro",
     "category": "Video & Creative",
-    "description": "VideoStyle Pro \u2014 browser-based video editing platform with multi-scene timeline, trim/cut/filters, and AI features",
+    "description": "VideoStyle Pro — browser-based video editing platform with multi-scene timeline, trim/cut/filters, and AI features",
     "icon": "Heart",
     "status": "Coming Soon",
     "available": false
@@ -1656,7 +1621,7 @@
     "id": "virtutalent-manager",
     "name": "VirtuTalent Manager",
     "category": "Legal & Professional",
-    "description": "AI Influencer\" you are likely referring to is Xania Monet. She recently made headlines (around November 2025) for signing a $3 million record deal with Hallwood Media\u2014a massive contract that legitimized AI artists in the mainstream music industry.",
+    "description": "AI Influencer\" you are likely referring to is Xania Monet. She recently made headlines (around November 2025) for signing a $3 million record deal with Hallwood Media—a massive contract that legitimized AI artists in the mainstream music industry.",
     "icon": "Map",
     "status": "Coming Soon",
     "available": false
