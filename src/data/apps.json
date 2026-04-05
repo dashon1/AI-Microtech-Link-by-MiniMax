@@ -55,10 +55,10 @@
   },
   {
     "id": "hit",
-    "name": "HIT — Health Intelligence Tracker",
+    "name": "HIT \u2014 Health Intelligence Tracker",
     "link": "https://hit-real.vercel.app",
     "category": "Health & Wellness",
-    "description": "Emergency-ready AI health platform. Track symptoms, meds, and mood — with one-tap Safety Beacon and AI-powered pattern insights.",
+    "description": "Emergency-ready AI health platform. Track symptoms, meds, and mood \u2014 with one-tap Safety Beacon and AI-powered pattern insights.",
     "icon": "Activity",
     "status": "Beta",
     "available": true,
@@ -259,7 +259,7 @@
   {
     "id": "ai-microtech-link-website-generator",
     "name": "AI Microtech Link - Website Generator",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI-powered website generator.",
     "icon": "Sparkles",
     "status": "Coming Soon",
@@ -268,7 +268,7 @@
   {
     "id": "workflow-to-saas-platform-gensparks",
     "name": "Workflow to SaaS Platform (Gensparks)",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "Transforms n8n workflows into SaaS.",
     "icon": "LayoutGrid",
     "status": "Coming Soon",
@@ -313,7 +313,7 @@
   {
     "id": "ai-microtech-link---website-generator",
     "name": "AI Microtech Link Website Generator",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI Microtech Link is an AI-powered website generator that creates multi-page websites from user prompts. It uses Google Gemini AI to generate the content and deploys directly to Netlify for live URLs.",
     "icon": "TrendingUp",
     "status": "Coming Soon",
@@ -322,8 +322,8 @@
   {
     "id": "ai-microtech-link-workflow-to-saas-platform-gensparks",
     "name": "AI Microtech Link Workflow To SaaS Platform (Gensparks)",
-    "category": "Video & Creative",
-    "description": "A unified platform that transforms all your n8n workflows into a production-ready SaaS application for small businesses and marketing agencies.  📋 Overview CreatorFlow Studio consolidates 10+ AI-powered workflows into one seamless experience:  🎥 Video Generation (UGC, Ads, Podcasts) 🖼️ Image Creation (Product Photos, Influencer Content) 💬 AI Ag",
+    "category": "Developer Tools",
+    "description": "A unified platform that transforms all your n8n workflows into a production-ready SaaS application for small businesses and marketing agencies.  \ud83d\udccb Overview CreatorFlow Studio consolidates 10+ AI-powered workflows into one seamless experience:  \ud83c\udfa5 Video Generation (UGC, Ads, Podcasts) \ud83d\uddbc\ufe0f Image Creation (Product Photos, Influencer Content) \ud83d\udcac AI Ag",
     "icon": "Sparkles",
     "status": "Coming Soon",
     "available": false
@@ -331,7 +331,7 @@
   {
     "id": "ai-microtech-one-prompt-apps.-full-stack-generator",
     "name": "AI Microtech One Prompt Apps. Full Stack Generator",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI Microtech Build STUNNING One-Prompt Apps. Full Stack Generator powered by Frontier AI Models",
     "icon": "Heart",
     "status": "Coming Soon",
@@ -358,7 +358,7 @@
   {
     "id": "ai-microtech-shield-priority-first-insurance",
     "name": "AI MicroTech Shield Priority First Insurance",
-    "category": "AI & Automation",
+    "category": "Finance & Business",
     "description": "Shield Priority First Insurance",
     "icon": "Film",
     "status": "Coming Soon",
@@ -394,7 +394,7 @@
   {
     "id": "ai-microtechlink-roadmap-generator",
     "name": "Ai Microtechlink Roadmap Generator",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "Base44 App: AI Microtechlink Roadmap Generator",
     "icon": "Languages",
     "status": "Coming Soon",
@@ -403,7 +403,7 @@
   {
     "id": "ai-pace-adoption-fatigue-control",
     "name": "AI Pace Adoption Fatigue Control",
-    "category": "AI & Automation",
+    "category": "Productivity & Lifestyle",
     "description": "AI Pace Adoption & Fatigue Control For AI Tools",
     "icon": "Music",
     "status": "Coming Soon",
@@ -412,7 +412,7 @@
   {
     "id": "ai-web-maestro",
     "name": "Ai Web Maestro",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI-powered ai web maestro platform for business and creative automation.",
     "icon": "LineChart",
     "status": "Coming Soon",
@@ -421,7 +421,7 @@
   {
     "id": "api-watch",
     "name": "Api Watch",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "Base44 App: API Watch",
     "icon": "Users",
     "status": "Coming Soon",
@@ -430,7 +430,7 @@
   {
     "id": "appify-this-idea",
     "name": "Appify This Idea",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI-powered appify this idea platform for business and creative automation.",
     "icon": "CreditCard",
     "status": "Coming Soon",
@@ -449,7 +449,7 @@
     "id": "ara-m5-core-session-a",
     "name": "Ara M5 Core Session A",
     "category": "Productivity & Lifestyle",
-    "description": "Source archive from Minimax container – Session A",
+    "description": "Source archive from Minimax container \u2013 Session A",
     "icon": "Home",
     "status": "Coming Soon",
     "available": false
@@ -466,7 +466,7 @@
   {
     "id": "aram5_2026_core",
     "name": "AraM5 2026 Core",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI-powered aram5 2026 core platform for business and creative automation.",
     "icon": "LayoutGrid",
     "status": "Coming Soon",
@@ -484,7 +484,7 @@
   {
     "id": "auto-vault",
     "name": "Auto Vault",
-    "category": "AI & Automation",
+    "category": "Finance & Business",
     "description": "A app that allows you to autofill all your personal documents",
     "icon": "Activity",
     "status": "Coming Soon",
@@ -511,7 +511,7 @@
   {
     "id": "build-genie-craft",
     "name": "Build Genie Craft",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI-powered build genie craft platform for business and creative automation.",
     "icon": "Sparkles",
     "status": "Coming Soon",
@@ -520,7 +520,7 @@
   {
     "id": "building-our-dream",
     "name": "Building Our Dream",
-    "category": "AI & Automation",
+    "category": "Real Estate",
     "description": "AI-powered building our dream platform for business and creative automation.",
     "icon": "Heart",
     "status": "Coming Soon",
@@ -529,7 +529,7 @@
   {
     "id": "bytebot",
     "name": "Bytebot",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.",
     "icon": "Map",
     "status": "Coming Soon",
@@ -547,7 +547,7 @@
   {
     "id": "chargeguard-an-ev-charging-copilot-that-predicts-charging-",
     "name": "ChargeGuard An EV Charging Copilot That Predicts Charging ",
-    "category": "Finance & Business",
+    "category": "Logistics & Operations",
     "description": "ChargeGuard An EV charging copilot that predicts charging success and provides real-time AI troubleshooting for failed sessions.",
     "icon": "Film",
     "status": "Coming Soon",
@@ -601,7 +601,7 @@
   {
     "id": "code-tracker-gensparks-",
     "name": "Code Tracker Gensparks ",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI-powered code tracker gensparks  platform for business and creative automation.",
     "icon": "LineChart",
     "status": "Coming Soon",
@@ -610,7 +610,7 @@
   {
     "id": "concept-to-app-starter",
     "name": "Concept To App Starter",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI-powered concept to app starter platform for business and creative automation.",
     "icon": "Users",
     "status": "Coming Soon",
@@ -619,7 +619,7 @@
   {
     "id": "cortex-second-brain-9350",
     "name": "Cortex Second Brain 9350",
-    "category": "AI & Automation",
+    "category": "Productivity & Lifestyle",
     "description": "AI-powered cortex second brain 9350 platform for business and creative automation.",
     "icon": "CreditCard",
     "status": "Coming Soon",
@@ -637,7 +637,7 @@
   {
     "id": "creatorflow-studio-landing-copy-of-same-file",
     "name": "Creatorflow Studio Landing Copy Of Same File",
-    "category": "AI & Automation",
+    "category": "Video & Creative",
     "description": "Landing page for CreatorFlow Studio - AI-powered workflow automation platform",
     "icon": "Home",
     "status": "Coming Soon",
@@ -691,7 +691,7 @@
   {
     "id": "decision-simulator-gensparks",
     "name": "Decision Simulator (Gensparks)",
-    "category": "AI & Automation",
+    "category": "Productivity & Lifestyle",
     "description": "AI-powered decision simulator (gensparks) platform for business and creative automation.",
     "icon": "TrendingUp",
     "status": "Coming Soon",
@@ -709,7 +709,7 @@
   {
     "id": "demomagic",
     "name": "Demomagic",
-    "category": "AI & Automation",
+    "category": "Marketing & Advertising",
     "description": "Base44 App: DemoMagic",
     "icon": "Heart",
     "status": "Coming Soon",
@@ -718,7 +718,7 @@
   {
     "id": "demomagic-interactive-product-demos",
     "name": "DemoMagic Interactive Product Demos",
-    "category": "AI & Automation",
+    "category": "Marketing & Advertising",
     "description": "DemoMagic Interactive Product Demos",
     "icon": "Map",
     "status": "Coming Soon",
@@ -754,7 +754,7 @@
   {
     "id": "dynamic-illustration-generator",
     "name": "Dynamic Illustration Generator",
-    "category": "AI & Automation",
+    "category": "Video & Creative",
     "description": "Base44 App: Dynamic Illustration Generator",
     "icon": "QrCode",
     "status": "Coming Soon",
@@ -835,7 +835,7 @@
   {
     "id": "freelancer-inbox",
     "name": "Freelancer Inbox",
-    "category": "Video & Creative",
+    "category": "Productivity & Lifestyle",
     "description": "Unified inbox for freelancers to manage all client communication from different platforms in one place",
     "icon": "Sun",
     "status": "Coming Soon",
@@ -844,7 +844,7 @@
   {
     "id": "freelancers-gensparks",
     "name": "Freelancers (Gensparks)",
-    "category": "Video & Creative",
+    "category": "Productivity & Lifestyle",
     "description": "AI-powered freelancers (gensparks) platform for business and creative automation.",
     "icon": "LayoutGrid",
     "status": "Coming Soon",
@@ -862,7 +862,7 @@
   {
     "id": "gridflow-smart-ev-charging-scheduler-that-optimizes-for-grid-health-costs-and-your-schedule.",
     "name": "GridFlow Smart EV Charging Scheduler That Optimizes For Grid Health Costs And Your Schedule.",
-    "category": "Health & Wellness",
+    "category": "Logistics & Operations",
     "description": "GridFlow Smart EV charging scheduler that optimizes for grid health, costs, and your schedule.",
     "icon": "Activity",
     "status": "Coming Soon",
@@ -889,7 +889,7 @@
   {
     "id": "ideaflow",
     "name": "Ideaflow",
-    "category": "AI & Automation",
+    "category": "Productivity & Lifestyle",
     "description": "AI-powered idea discovery and MVP builder - scrapes pain points from 50+ platforms and generates app solutions",
     "icon": "Sparkles",
     "status": "Coming Soon",
@@ -907,7 +907,7 @@
   {
     "id": "instant-jobs-quote-gensparks",
     "name": "Instant Jobs Quote (Gensparks)",
-    "category": "AI & Automation",
+    "category": "Logistics & Operations",
     "description": "AI-powered instant jobs quote (gensparks) platform for business and creative automation.",
     "icon": "Map",
     "status": "Coming Soon",
@@ -916,7 +916,7 @@
   {
     "id": "inventorysync",
     "name": "Inventorysync",
-    "category": "AI & Automation",
+    "category": "Logistics & Operations",
     "description": "Base44 App: InventorySync",
     "icon": "Scale",
     "status": "Coming Soon",
@@ -943,7 +943,7 @@
   {
     "id": "keyrotator-pro",
     "name": "KeyRotator Pro",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "auto regenerating API tool",
     "icon": "QrCode",
     "status": "Coming Soon",
@@ -961,7 +961,7 @@
   {
     "id": "lifeos",
     "name": "LifeOS",
-    "category": "AI & Automation",
+    "category": "Productivity & Lifestyle",
     "description": "A React-based personal AI assistant dashboard featuring memory management, agent execution, and secure user profiles with Firebase and PIN authentication.",
     "icon": "Languages",
     "status": "Coming Soon",
@@ -970,7 +970,7 @@
   {
     "id": "linguaconnect",
     "name": "Linguaconnect",
-    "category": "AI & Automation",
+    "category": "Education",
     "description": "Base44 App: LinguaConnect",
     "icon": "Music",
     "status": "Coming Soon",
@@ -979,7 +979,7 @@
   {
     "id": "local-pricing-gensparks",
     "name": "Local Pricing (Gensparks)",
-    "category": "AI & Automation",
+    "category": "Finance & Business",
     "description": "AI-powered local pricing (gensparks) platform for business and creative automation.",
     "icon": "LineChart",
     "status": "Coming Soon",
@@ -988,7 +988,7 @@
   {
     "id": "localmap",
     "name": "Localmap",
-    "category": "AI & Automation",
+    "category": "Community & Social",
     "description": "AI-powered localmap platform for business and creative automation.",
     "icon": "Users",
     "status": "Coming Soon",
@@ -998,7 +998,7 @@
     "id": "localpulse",
     "name": "LocalPulse",
     "category": "Community & Social",
-    "description": "LocalPulse is a hyperlocal business discovery and community support platform. One app that shows you: “What’s actually around you, who owns it, what’s special about it, and how to support them today.”",
+    "description": "LocalPulse is a hyperlocal business discovery and community support platform. One app that shows you: \u201cWhat\u2019s actually around you, who owns it, what\u2019s special about it, and how to support them today.\u201d",
     "icon": "CreditCard",
     "status": "Coming Soon",
     "available": false
@@ -1007,7 +1007,7 @@
     "id": "marketing-orchestrator",
     "name": "Marketing Orchestrator",
     "category": "Marketing & Advertising",
-    "description": "AI Marketing Orchestrator - Complete Application Overview 🚀 What is This Application? The AI Marketing Orchestrator is a revolutionary automated marketing platform that allows users to input any business URL and receive comprehensive AI-powered analysis identifying weaknesses, opportunities, and actionable improvement strategies",
+    "description": "AI Marketing Orchestrator - Complete Application Overview \ud83d\ude80 What is This Application? The AI Marketing Orchestrator is a revolutionary automated marketing platform that allows users to input any business URL and receive comprehensive AI-powered analysis identifying weaknesses, opportunities, and actionable improvement strategies",
     "icon": "Code",
     "status": "Coming Soon",
     "available": false
@@ -1042,7 +1042,7 @@
   {
     "id": "micro-franchise-gensparks",
     "name": "Micro Franchise (Gensparks)",
-    "category": "AI & Automation",
+    "category": "Finance & Business",
     "description": "AI-powered micro franchise (gensparks) platform for business and creative automation.",
     "icon": "Shield",
     "status": "Coming Soon",
@@ -1070,7 +1070,7 @@
     "id": "microtechlink-lip-sync-studio",
     "name": "Microtechlink Lip Sync Studio",
     "category": "Video & Creative",
-    "description": "lip sync engine – perfect bridge between your audio, character, and video tools.",
+    "description": "lip sync engine \u2013 perfect bridge between your audio, character, and video tools.",
     "icon": "TrendingUp",
     "status": "Coming Soon",
     "available": false
@@ -1078,7 +1078,7 @@
   {
     "id": "microtechlink-transcription-studio",
     "name": "Microtechlink Transcription Studio",
-    "category": "AI & Automation",
+    "category": "Video & Creative",
     "description": "Microtechlink Transcription Studio",
     "icon": "Sparkles",
     "status": "Coming Soon",
@@ -1106,7 +1106,7 @@
     "id": "momentum",
     "name": "Momentum",
     "category": "Productivity & Lifestyle",
-    "description": "Base44 App: Momentum ⚡",
+    "description": "Base44 App: Momentum \u26a1",
     "icon": "Scale",
     "status": "Coming Soon",
     "available": false
@@ -1123,7 +1123,7 @@
   {
     "id": "n8n-developer-agent",
     "name": "N8N Developer Agent",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "a web application that helps you create automation workflows for n8n (a popular workflow automation platform).",
     "icon": "Calculator",
     "status": "Coming Soon",
@@ -1132,7 +1132,7 @@
   {
     "id": "n8n-video-analyzer",
     "name": "N8n Video Analyzer",
-    "category": "Video & Creative",
+    "category": "Developer Tools",
     "description": "AI-powered tool that analyzes n8n workflow videos and generates implementation prompts with complete n8n JSON export. Built with React, Supabase, and Stripe for subscription management. Created by AI Microtech.",
     "icon": "QrCode",
     "status": "Coming Soon",
@@ -1141,7 +1141,7 @@
   {
     "id": "n8n-workflow-genspark",
     "name": "N8n Workflow (Genspark)",
-    "category": "Video & Creative",
+    "category": "Developer Tools",
     "description": "n8n workflow that generates videos from Google Sheets data using AI services",
     "icon": "CloudRain",
     "status": "Coming Soon",
@@ -1150,7 +1150,7 @@
   {
     "id": "n8n-workflow-gensparks",
     "name": "N8n Workflow (Gensparks)",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI-powered n8n workflow (gensparks) platform for business and creative automation.",
     "icon": "Languages",
     "status": "Coming Soon",
@@ -1186,7 +1186,7 @@
   {
     "id": "painpoint-to-product",
     "name": "Painpoint To Product",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI-powered painpoint to product platform for business and creative automation.",
     "icon": "CreditCard",
     "status": "Coming Soon",
@@ -1213,7 +1213,7 @@
   {
     "id": "photo-quote-gensparks",
     "name": "Photo Quote (Gensparks)",
-    "category": "AI & Automation",
+    "category": "Marketing & Advertising",
     "description": "AI-powered photo quote (gensparks) platform for business and creative automation.",
     "icon": "Sun",
     "status": "Coming Soon",
@@ -1222,7 +1222,7 @@
   {
     "id": "pixi-sparkle-app",
     "name": "Pixi Sparkle App",
-    "category": "AI & Automation",
+    "category": "Video & Creative",
     "description": "AI-powered pixi sparkle app platform for business and creative automation.",
     "icon": "LayoutGrid",
     "status": "Coming Soon",
@@ -1312,7 +1312,7 @@
   {
     "id": "quick-offer",
     "name": "Quick Offer",
-    "category": "Video & Creative",
+    "category": "Real Estate",
     "description": "AI-powered offer generator for freelancers",
     "icon": "Calculator",
     "status": "Coming Soon",
@@ -1384,7 +1384,7 @@
   {
     "id": "researchhub-academic-research-manager",
     "name": "ResearchHub Academic Research Manager",
-    "category": "AI & Automation",
+    "category": "Education",
     "description": "AI-powered researchhub academic research manager platform for business and creative automation.",
     "icon": "Code",
     "status": "Coming Soon",
@@ -1394,7 +1394,7 @@
     "id": "saas-demo-builder",
     "name": "SaaS Demo Builder",
     "category": "Developer Tools",
-    "description": "The SaaS Demo Builder is a tool that lets users create, customize, and embed interactive product demos on their SaaS websites. Think of it as a guided tour builder — you define steps with tooltips and highlights that walk visitors through your product's features.",
+    "description": "The SaaS Demo Builder is a tool that lets users create, customize, and embed interactive product demos on their SaaS websites. Think of it as a guided tour builder \u2014 you define steps with tooltips and highlights that walk visitors through your product's features.",
     "icon": "Home",
     "status": "Coming Soon",
     "available": false
@@ -1402,8 +1402,8 @@
   {
     "id": "sagecall",
     "name": "SageCall",
-    "category": "Video & Creative",
-    "description": "SageCall is an on-demand, human-to-human video help platform. It connects: People who need immediate, practical help (fixing a leaky pipe, sewing a button, troubleshooting a car noise, calming a crying baby, basic cooking, etc.) With retired seniors and veterans (“Sages”) who have decades of experience and who want social connection, purpose, and a",
+    "category": "Marketing & Advertising",
+    "description": "SageCall is an on-demand, human-to-human video help platform. It connects: People who need immediate, practical help (fixing a leaky pipe, sewing a button, troubleshooting a car noise, calming a crying baby, basic cooking, etc.) With retired seniors and veterans (\u201cSages\u201d) who have decades of experience and who want social connection, purpose, and a",
     "icon": "Sun",
     "status": "Coming Soon",
     "available": false
@@ -1411,7 +1411,7 @@
   {
     "id": "santa-tracker",
     "name": "Santa Tracker",
-    "category": "AI & Automation",
+    "category": "Productivity & Lifestyle",
     "description": "A global Santa tracking app",
     "icon": "LayoutGrid",
     "status": "Coming Soon",
@@ -1420,7 +1420,7 @@
   {
     "id": "scraper-workflow-genspark",
     "name": "Scraper Workflow (Genspark)",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI-powered scraper workflow (genspark) platform for business and creative automation.",
     "icon": "Shield",
     "status": "Coming Soon",
@@ -1456,7 +1456,7 @@
   {
     "id": "skill-architect-gensparks",
     "name": "Skill Architect (Gensparks)",
-    "category": "AI & Automation",
+    "category": "Education",
     "description": "AI-powered skill architect (gensparks) platform for business and creative automation.",
     "icon": "Sparkles",
     "status": "Coming Soon",
@@ -1466,7 +1466,7 @@
     "id": "skillgenie",
     "name": "SkillGenie",
     "category": "Education",
-    "description": "SkillSprint – “Master new skills in minutes a day with personalized learning paths, AI-powered tutoring, and engaging micro-lessons.”",
+    "description": "SkillSprint \u2013 \u201cMaster new skills in minutes a day with personalized learning paths, AI-powered tutoring, and engaging micro-lessons.\u201d",
     "icon": "Heart",
     "status": "Coming Soon",
     "available": false
@@ -1474,7 +1474,7 @@
   {
     "id": "skillswap-gensparks",
     "name": "Skillswap (Gensparks)",
-    "category": "AI & Automation",
+    "category": "Community & Social",
     "description": "AI-powered skillswap (gensparks) platform for business and creative automation.",
     "icon": "Map",
     "status": "Coming Soon",
@@ -1501,7 +1501,7 @@
   {
     "id": "storyweaver-ai---consistent-character-generator",
     "name": "StoryWeaver AI Consistent Character Generator",
-    "category": "AI & Automation",
+    "category": "Video & Creative",
     "description": "Motion Studio Powered by Google Veo 3",
     "icon": "Calculator",
     "status": "Coming Soon",
@@ -1600,7 +1600,7 @@
   {
     "id": "ultimate-media-agent-minimax",
     "name": "Ultimate Media Agent (MiniMax)",
-    "category": "AI & Automation",
+    "category": "Video & Creative",
     "description": "This is a React-based web dashboard that serves as a GUI for your n8n automation workflows. It provides a visual interface to control all the media creation and automation features",
     "icon": "LayoutGrid",
     "status": "Coming Soon",
@@ -1609,7 +1609,7 @@
   {
     "id": "ultra-escape",
     "name": "Ultra Escape",
-    "category": "AI & Automation",
+    "category": "Productivity & Lifestyle",
     "description": "AI-powered ultra escape platform for business and creative automation.",
     "icon": "Shield",
     "status": "Coming Soon",
@@ -1655,7 +1655,7 @@
     "id": "videostyle-pro",
     "name": "Videostyle Pro",
     "category": "Video & Creative",
-    "description": "VideoStyle Pro — browser-based video editing platform with multi-scene timeline, trim/cut/filters, and AI features",
+    "description": "VideoStyle Pro \u2014 browser-based video editing platform with multi-scene timeline, trim/cut/filters, and AI features",
     "icon": "Heart",
     "status": "Coming Soon",
     "available": false
@@ -1664,7 +1664,7 @@
     "id": "virtutalent-manager",
     "name": "VirtuTalent Manager",
     "category": "Legal & Professional",
-    "description": "AI Influencer\" you are likely referring to is Xania Monet. She recently made headlines (around November 2025) for signing a $3 million record deal with Hallwood Media—a massive contract that legitimized AI artists in the mainstream music industry.",
+    "description": "AI Influencer\" you are likely referring to is Xania Monet. She recently made headlines (around November 2025) for signing a $3 million record deal with Hallwood Media\u2014a massive contract that legitimized AI artists in the mainstream music industry.",
     "icon": "Map",
     "status": "Coming Soon",
     "available": false
@@ -1681,7 +1681,7 @@
   {
     "id": "weathershield1-",
     "name": "WeatherShield1 ",
-    "category": "Health & Wellness",
+    "category": "Logistics & Operations",
     "description": "WeatherShield1 A personalized extreme weather preparedness companion that turns forecasts into actionable, health-centric plans.",
     "icon": "Film",
     "status": "Coming Soon",
@@ -1690,7 +1690,7 @@
   {
     "id": "web-design-code",
     "name": "Web Design Code",
-    "category": "AI & Automation",
+    "category": "Developer Tools",
     "description": "AI-powered web design code platform for business and creative automation.",
     "icon": "Calculator",
     "status": "Coming Soon",
@@ -1726,7 +1726,7 @@
   {
     "id": "youtube-starter-kits",
     "name": "YouTube Starter Kits",
-    "category": "AI & Automation",
+    "category": "Video & Creative",
     "description": "AI-powered youtube starter kits platform for business and creative automation.",
     "icon": "Music",
     "status": "Coming Soon",
