@@ -95,12 +95,36 @@
     "name": "ReachRecover AI",
     "link": "https://reachrecover-ai-779952728668.us-west1.run.app",
     "category": "Marketing & Advertising",
-    "description": "AI-powered missed call recovery with automated SMS responses and intelligent lead tracking.",
-    "icon": "Sparkles",
+    "description": "Turn every missed call into a booked customer. AI-powered text-back, smart lead recovery, and Gemini-driven conversations — 24/7.",
+    "icon": "Phone",
     "status": "Beta",
     "available": true,
-    "priceLabel": "Contact for pricing",
-    "longDescription": "ReachRecover AI goes beyond basic text-back..."
+    "priceLabel": "From $47/mo",
+    "stripePrices": [
+      {
+        "label": "Starter",
+        "price": "$47/mo",
+        "priceId": "price_1TKAmO0xw5o9mCvnEN39GreP",
+        "mode": "subscription",
+        "features": ["30 SMS text-backs/mo", "AI receptionist", "Full dashboard", "Email support"]
+      },
+      {
+        "label": "Basic",
+        "price": "$97/mo",
+        "priceId": "price_1TKAmO0xw5o9mCvnMxDadaaz",
+        "mode": "subscription",
+        "features": ["100 SMS text-backs/mo", "30 voice minutes", "Standard AI receptionist", "Full analytics"]
+      },
+      {
+        "label": "White Label",
+        "price": "$197/mo + $299 setup",
+        "priceId": "price_1TKAtM0xw5o9mCvnKZ3ww8pJ",
+        "setupFeeId": "price_1TKAwL0xw5o9mCvnzrXDofwm",
+        "mode": "subscription",
+        "features": ["Custom branding & domain", "Unlimited sub-accounts", "API access", "Dedicated account manager", "5000 SMS / 1000 voice mins"]
+      }
+    ],
+    "longDescription": "ReachRecover AI automatically texts back every missed call within seconds — before they dial your competitor. Powered by Google Gemini, it holds real conversations, captures lead info, and routes hot prospects straight to you. Set up your AI receptionist in minutes: choose your industry, write your knowledge base, and go live. Every conversation is logged, every lead is tracked, and your dashboard shows exactly how many calls you recovered. Available as a self-serve SaaS or fully white-labeled for agencies."
   },
   {
     "id": "pridereach",

@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Search, ArrowRight, Film, Calculator, QrCode, Heart, Sparkles, CloudRain, Map, Activity, TrendingUp, Languages, Music, LineChart, Users, CreditCard, Code, Home, Scale, Wand2, Sun, LayoutGrid, Shield } from 'lucide-react'
+import { Search, ArrowRight, Film, Calculator, QrCode, Heart, Sparkles, CloudRain, Map, Activity, TrendingUp, Languages, Music, LineChart, Users, CreditCard, Code, Home, Scale, Wand2, Sun, LayoutGrid, Shield, Phone } from 'lucide-react'
 import { categories } from '../data/content'
 import { useApp } from '../context/AppContext'
 import { CountdownTimer } from '../components/CountdownTimer'
@@ -27,7 +27,8 @@ const iconMap: Record<string, React.ReactNode> = {
   Wand2: <Wand2 size={24} />,
   Sun: <Sun size={24} />,
   LayoutGrid: <LayoutGrid size={24} />,
-  Shield: <Shield size={24} />
+  Shield: <Shield size={24} />,
+  Phone: <Phone size={24} />
 }
 
 export default function AppsGalleryPage() {
