@@ -37,6 +37,7 @@ function App() {
               <Route path="/santa-signup" element={<SantaSignupPage />} />
               <Route path="/signup" element={<SignUpPage />} />
               <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+              <Route path="/privacy" element={<PrivacyPolicyPage />} />
               <Route path="/terms" element={<TermsPage />} />
               <Route path="/success" element={<SuccessPage />} />
 
