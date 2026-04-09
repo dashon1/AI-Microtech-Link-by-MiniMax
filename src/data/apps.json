@@ -1004,21 +1004,43 @@
   },
   {
     "id": "math-hero",
-    "name": "Math Hero",
+    "name": "MathHero",
+    "link": "https://math-mind-copy-e1cbd380.base44.app",
     "category": "Education",
-    "description": "Base44 App: Math Hero",
-    "icon": "Sun",
-    "status": "Coming Soon",
-    "available": false
+    "description": "AI math tutor for all ages. Step-by-step solutions, 3D visualizations, SAT/ACT exam prep, and Pre-K learning games — all in one platform.",
+    "icon": "Calculator",
+    "status": "Beta",
+    "available": true,
+    "priceLabel": "Free · $9.99/mo · $19.99/mo",
+    "stripePrices": [
+      {
+        "label": "Pro Scholar",
+        "price": "$9.99/mo",
+        "priceId": "",
+        "mode": "subscription",
+        "features": ["Unlimited AI Tutor Chat", "Step-by-Step Solutions", "Premium Exam Prep (SAT, ACT, AP)", "Advanced 3D Visualizations", "Progress Analytics", "Priority Support"]
+      },
+      {
+        "label": "Family / Team",
+        "price": "$19.99/mo",
+        "priceId": "",
+        "mode": "subscription",
+        "features": ["Up to 5 User Accounts", "Parent Dashboard", "Teacher Recommendations", "Private Study Groups", "Printable Worksheets", "All Pro Features"]
+      }
+    ],
+    "longDescription": "MathHero is an AI-powered math tutor built for every level — from Pre-K counting games to AP Calculus exam prep. Get instant step-by-step solutions, interactive 3D visualizations, and unlimited AI tutor chat that explains concepts in plain language. Serious students use Pro Scholar for SAT/ACT prep and progress tracking. Families and classrooms use the Family plan for shared accounts, parent dashboards, and teacher-curated recommendations. Free tier includes basic math solver, practice problems, and public study groups."
   },
   {
     "id": "mathchat",
-    "name": "Mathchat",
+    "name": "Math Factory",
+    "link": "https://math-quest-copy-fbecc4dc.base44.app",
     "category": "Education",
-    "description": "Base44 App: MathChat",
+    "description": "Interactive math challenges and games that make learning addictive. Build speed, accuracy, and confidence through daily missions and leaderboards.",
     "icon": "LayoutGrid",
-    "status": "Coming Soon",
-    "available": false
+    "status": "Beta",
+    "available": true,
+    "priceLabel": "Free · $9.99/mo",
+    "longDescription": "Math Factory turns math practice into a game. Daily missions, streak rewards, global leaderboards, and adaptive difficulty keep students coming back. Great for building mental math speed and arithmetic fluency from elementary through high school."
   },
   {
     "id": "micro-franchise-gensparks",
