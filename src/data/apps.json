@@ -925,12 +925,22 @@
   },
   {
     "id": "glass-ui-gen",
-    "name": "Glass Ui Gen",
+    "name": "Glass UI Gen",
     "category": "Developer Tools",
     "description": "A modern UI generator tool for building and exporting premium glassmorphism components and elements.",
     "icon": "Shield",
-    "status": "Coming Soon",
-    "available": false
+    "status": "Beta",
+    "available": true,
+    "link": "https://glass-ui-gen.vercel.app",
+    "priceLabel": "$29 lifetime",
+    "stripePrices": [
+      {
+        "label": "Pro Lifetime",
+        "price": "$29 one-time",
+        "priceId": "price_data",
+        "mode": "payment"
+      }
+    ]
   },
   {
     "id": "gridflow-smart-ev-charging-scheduler-that-optimizes-for-grid-health-costs-and-your-schedule.",
