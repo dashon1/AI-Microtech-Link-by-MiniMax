@@ -2,7 +2,7 @@
   {
     "id": "kaloscan",
     "name": "KaloriScan",
-    "link": "https://kaloriscan-app.vercel.app",
+    "link": "https://kalori-scan-0237daf9.base44.app",
     "category": "Health & Wellness",
     "description": "AI food scanning and calorie tracking with personalized nutrition insights and meal planning.",
     "icon": "Activity",
@@ -29,7 +29,7 @@
   {
     "id": "batchright",
     "name": "BatchRight",
-    "link": "https://batchright-app.vercel.app",
+    "link": "https://batch-right-3cf34749.base44.app",
     "category": "Food & Restaurant",
     "description": "AI-powered yield tracking and ingredient cost calculator for food businesses. Know your true cost per plate and maximize profit margins.",
     "icon": "Wand2",
@@ -129,7 +129,7 @@
   {
     "id": "pridereach",
     "name": "PrideReach",
-    "link": "https://pridereach-app.vercel.app",
+    "link": "https://pride-reach-66e72035.base44.app",
     "category": "Marketing & Advertising",
     "description": "Inclusive community management and multi-tier marketing platform for modern businesses.",
     "icon": "Heart",
@@ -219,17 +219,18 @@
   {
     "id": "haullogic",
     "name": "HaulLogic",
+    "link": "https://dainty-smart-haul-flow.base44.app",
     "category": "Logistics & Operations",
     "description": "Hauling and logistics management with route optimization, job tracking, and customer management.",
     "icon": "Map",
-    "status": "Coming Soon",
-    "available": false,
+    "status": "Beta",
+    "available": true,
     "longDescription": "HaulLogic is purpose-built for hauling and dump trailer businesses..."
   },
   {
     "id": "lawprep",
     "name": "LawPrep AI",
-    "link": "https://lawprep-ai-app.vercel.app",
+    "link": "https://law-prep-ai-63d77c26.base44.app",
     "category": "Legal & Professional",
     "description": "AI-powered legal research assistance and document preparation for legal professionals.",
     "icon": "Scale",
@@ -382,12 +383,13 @@
   },
   {
     "id": "ai-microtechlink-roadmap-generator",
-    "name": "AI Microtechlink Roadmap Generator",
+    "name": "AI MicrotechLink",
+    "link": "https://ai-microtechlink-roadmap-generator-b33c0576.base44.app",
     "category": "Developer Tools",
     "description": "AI-powered roadmap and strategy generator for products, projects, and business initiatives.",
     "icon": "Languages",
-    "status": "Coming Soon",
-    "available": false
+    "status": "Beta",
+    "available": true
   },
   {
     "id": "ai-pace-adoption-fatigue-control",
@@ -742,21 +744,20 @@
   },
   {
     "id": "eventpix-qr",
-    "name": "Eventpix Qr",
+    "name": "Eventpix QR",
+    "link": "https://qrpix-feff93c7.base44.app",
     "category": "Events & QR",
-    "description": "Base44 App: EVENTPIX QR",
-    "icon": "CloudRain",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "eventpix-qr-2-0",
-    "name": "EVENTPIX QR 2.0",
-    "category": "Events & QR",
-    "description": "Next-generation event QR code platform — smart check-in, photo sharing, and attendee engagement.",
-    "icon": "Languages",
-    "status": "Coming Soon",
-    "available": false
+    "description": "QR-powered event photo sharing, smart check-in, and attendee engagement. Credit-based system — 2 credits per event.",
+    "icon": "QrCode",
+    "status": "Beta",
+    "available": true,
+    "priceLabel": "From $4.99/mo",
+    "stripePrices": [
+      { "label": "Limited Time", "price": "$4.99/mo", "priceId": "price_1TKXBL0xw5o9mCvnisbinvuD", "mode": "subscription" },
+      { "label": "Starter", "price": "$15/mo", "priceId": "price_1TKXBL0xw5o9mCvn9IZknTBn", "mode": "subscription" },
+      { "label": "Pro", "price": "$29/mo", "priceId": "price_1TKXBM0xw5o9mCvnwcgiQd0U", "mode": "subscription" },
+      { "label": "Business", "price": "$99/mo", "priceId": "price_1TKXBM0xw5o9mCvnHonoz21d", "mode": "subscription" }
+    ]
   },
   {
     "id": "execuconnect",
@@ -778,12 +779,19 @@
   },
   {
     "id": "familyhub",
-    "name": "Familyhub",
+    "name": "Our Family Pulse",
+    "link": "https://our-family-pulse.base44.app",
     "category": "Productivity & Lifestyle",
-    "description": "Base44 App: FamilyHub",
+    "description": "All-in-one family hub — shared calendar, chores, budgeting, meal planning, and AI family assistant.",
     "icon": "Users",
-    "status": "Coming Soon",
-    "available": false
+    "status": "Beta",
+    "available": true,
+    "priceLabel": "From $9.99/mo",
+    "stripePrices": [
+      { "label": "Premium Household", "price": "$9.99/mo", "priceId": "price_1TKWl60xw5o9mCvnKBouD8AD", "mode": "subscription" },
+      { "label": "Village Elite", "price": "$14.99/mo", "priceId": "price_1TKWl70xw5o9mCvn9wDLClhL", "mode": "subscription" },
+      { "label": "Annual", "price": "$89.99/yr", "savings": "Save 25%", "priceId": "price_1TKWl70xw5o9mCvnyUqOWKCm", "mode": "subscription" }
+    ]
   },
   {
     "id": "feedbackflow",
@@ -932,12 +940,13 @@
   },
   {
     "id": "legalease",
-    "name": "Legalease",
+    "name": "LegalEase",
+    "link": "https://legal-easy-4928515a.base44.app",
     "category": "Legal & Professional",
-    "description": "Base44 App: LegalEase",
-    "icon": "CloudRain",
-    "status": "Coming Soon",
-    "available": false
+    "description": "AI-powered legal document assistant — simplify contracts, understand legal language, and get plain-English explanations.",
+    "icon": "Scale",
+    "status": "Beta",
+    "available": true
   },
   {
     "id": "lifeos",
@@ -1005,7 +1014,7 @@
   {
     "id": "math-hero",
     "name": "MathHero",
-    "link": "https://math-mind-copy-e1cbd380.base44.app",
+    "link": "https://math-hero-fbecc4dc.base44.app",
     "category": "Education",
     "description": "AI math tutor for all ages. Step-by-step solutions, 3D visualizations, SAT/ACT exam prep, and Pre-K learning games — all in one platform.",
     "icon": "Calculator",
@@ -1016,14 +1025,14 @@
       {
         "label": "Pro Scholar",
         "price": "$9.99/mo",
-        "priceId": "",
+        "priceId": "price_1TKBKU0xw5o9mCvnKgg6Wtbp",
         "mode": "subscription",
         "features": ["Unlimited AI Tutor Chat", "Step-by-Step Solutions", "Premium Exam Prep (SAT, ACT, AP)", "Advanced 3D Visualizations", "Progress Analytics", "Priority Support"]
       },
       {
         "label": "Family / Team",
         "price": "$19.99/mo",
-        "priceId": "",
+        "priceId": "price_1TKBKU0xw5o9mCvnPC78hnYC",
         "mode": "subscription",
         "features": ["Up to 5 User Accounts", "Parent Dashboard", "Teacher Recommendations", "Private Study Groups", "Printable Worksheets", "All Pro Features"]
       }
@@ -1033,7 +1042,7 @@
   {
     "id": "mathchat",
     "name": "Math Factory",
-    "link": "https://math-quest-copy-fbecc4dc.base44.app",
+    "link": "https://math-factory-e1cbd380.base44.app",
     "category": "Education",
     "description": "Interactive math challenges and games that make learning addictive. Build speed, accuracy, and confidence through daily missions and leaderboards.",
     "icon": "LayoutGrid",
@@ -1116,12 +1125,13 @@
   },
   {
     "id": "musicpro-practice-with-purpose",
-    "name": "Musicpro Practice With Purpose",
+    "name": "RhythmMate",
+    "link": "https://rhythm-mate-9af7ef53.base44.app",
     "category": "Education",
-    "description": "Base44 App: MusicPro Practice with Purpose",
-    "icon": "Film",
-    "status": "Coming Soon",
-    "available": false
+    "description": "Music practice companion — track sessions, set goals, follow structured learning paths, and improve with AI-guided feedback.",
+    "icon": "Music",
+    "status": "Beta",
+    "available": true
   },
   {
     "id": "n8n-developer-agent",
@@ -1161,12 +1171,20 @@
   },
   {
     "id": "nerdybird",
-    "name": "Nerdybird",
+    "name": "Nerdy Bird",
+    "link": "https://nerdy-bird-e368bd6.base44.app",
     "category": "Education",
-    "description": "Base44 App: NerdyBird",
-    "icon": "Music",
-    "status": "Coming Soon",
-    "available": false
+    "description": "School management platform with AI study tools, class chat, flashcards, assignments, and analytics for teachers, students, and parents.",
+    "icon": "GraduationCap",
+    "status": "Beta",
+    "available": true,
+    "priceLabel": "From $49/mo",
+    "stripePrices": [
+      { "label": "Basic Monthly", "price": "$49/mo", "priceId": "price_1TKXMo0xw5o9mCvn4mQKlz7l", "mode": "subscription" },
+      { "label": "Basic Annual", "price": "$470/yr", "savings": "Save 20%", "priceId": "price_1TKXMo0xw5o9mCvnJ7Qwy2F9", "mode": "subscription" },
+      { "label": "Premium Monthly", "price": "$149/mo", "priceId": "price_1TKXMo0xw5o9mCvn73gYi5So", "mode": "subscription" },
+      { "label": "Premium Annual", "price": "$1,430/yr", "savings": "Save 20%", "priceId": "price_1TKXMp0xw5o9mCvnns13AFVB", "mode": "subscription" }
+    ]
   },
   {
     "id": "one-billing",
@@ -1378,20 +1396,17 @@
   {
     "id": "researchhub",
     "name": "ResearchHub",
+    "link": "https://research-flow-81ccc654.base44.app",
     "category": "Education",
-    "description": "AI-powered academic research manager — organize papers, generate summaries, and manage citations.",
-    "icon": "CreditCard",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "researchhub-academic-research-manager",
-    "name": "ResearchHub — Academic Research Manager",
-    "category": "Education",
-    "description": "AI-powered academic research manager — organize papers, generate summaries, and manage citations.",
-    "icon": "Code",
-    "status": "Coming Soon",
-    "available": false
+    "description": "AI-powered academic research manager — organize projects, sources, and notes with smart citation tools and AI summaries.",
+    "icon": "BookOpen",
+    "status": "Beta",
+    "available": true,
+    "priceLabel": "Free · $12.99/mo",
+    "stripePrices": [
+      { "label": "Pro Monthly", "price": "$12.99/mo", "priceId": "price_1TKWz10xw5o9mCvn7ykdR0J8", "mode": "subscription" },
+      { "label": "Pro Annual", "price": "$99/yr", "savings": "Save 36%", "priceId": "price_1TKWz50xw5o9mCvnQAcqsyC6", "mode": "subscription" }
+    ]
   },
   {
     "id": "saas-demo-builder",
@@ -1440,21 +1455,29 @@
   },
   {
     "id": "securevault",
-    "name": "Securevault",
+    "name": "SecureVault",
+    "link": "https://secure-vault-06029276.base44.app",
     "category": "Productivity & Lifestyle",
-    "description": "Base44 App: SecureVault",
-    "icon": "Wand2",
-    "status": "Coming Soon",
-    "available": false
+    "description": "Encrypted personal vault for storing passwords, documents, and sensitive information with AI-assisted organization.",
+    "icon": "Shield",
+    "status": "Beta",
+    "available": true
   },
   {
     "id": "sheetsync",
-    "name": "Sheetsync",
+    "name": "SheetSync",
+    "link": "https://sheet-sync-c986fbd6.base44.app",
     "category": "Developer Tools",
-    "description": "Base44 App: SheetSync",
-    "icon": "TrendingUp",
-    "status": "Coming Soon",
-    "available": false
+    "description": "Import, merge, and enrich Google Sheets data into structured records. Advanced column mapping, data validation, and analytics.",
+    "icon": "FileSpreadsheet",
+    "status": "Beta",
+    "available": true,
+    "priceLabel": "Free · $9.99/mo",
+    "stripePrices": [
+      { "label": "Pro", "price": "$9.99/mo", "priceId": "price_1TKXFo0xw5o9mCvnH8ahwDjb", "mode": "subscription" },
+      { "label": "Business", "price": "$29.99/mo", "priceId": "price_1TKXFo0xw5o9mCvnZJbAxfpb", "mode": "subscription" },
+      { "label": "Annual", "price": "$89.99/yr", "savings": "Save 25%", "priceId": "price_1TKXFp0xw5o9mCvnfPWUWo5Z", "mode": "subscription" }
+    ]
   },
   {
     "id": "skill-architect-gensparks",
@@ -1512,12 +1535,13 @@
   },
   {
     "id": "subscribe",
-    "name": "Subscribe",
+    "name": "Sub-Scribe",
+    "link": "https://sub-scribe-9ba94f7c.base44.app",
     "category": "Productivity & Lifestyle",
-    "description": "Base44 App: SubScribe",
-    "icon": "QrCode",
-    "status": "Coming Soon",
-    "available": false
+    "description": "Smart subscription tracker — monitor all your recurring charges, get renewal alerts, and cancel what you don't use.",
+    "icon": "CreditCard",
+    "status": "Beta",
+    "available": true
   },
   {
     "id": "synchride",
@@ -1566,12 +1590,18 @@
   },
   {
     "id": "u-codewise",
-    "name": "U Codewise",
-    "category": "Developer Tools",
-    "description": "Base44 App: U CodeWise",
-    "icon": "CreditCard",
-    "status": "Coming Soon",
-    "available": false
+    "name": "UCodeWise",
+    "link": "https://u-code-wise-37e0b8d4.base44.app",
+    "category": "Education",
+    "description": "Learn to code with AI-guided courses in Python, JavaScript, Java, C, and SQL. Challenges, certifications, tournaments, and interview prep.",
+    "icon": "Code",
+    "status": "Beta",
+    "available": true,
+    "priceLabel": "Free · $19.99/mo",
+    "stripePrices": [
+      { "label": "Pro Scholar", "price": "$19.99/mo", "priceId": "price_1TKTh90xw5o9mCvnPfQfxWpe", "mode": "subscription" },
+      { "label": "Team", "price": "$49.99/mo", "priceId": "price_1TKThA0xw5o9mCvnFzm1fPQU", "mode": "subscription" }
+    ]
   },
   {
     "id": "ugc-express",
@@ -1719,12 +1749,13 @@
   },
   {
     "id": "yieldflow",
-    "name": "Yieldflow",
-    "category": "Finance & Business",
-    "description": "Base44 App: YieldFlow",
-    "icon": "Languages",
-    "status": "Coming Soon",
-    "available": false
+    "name": "YieldFlow",
+    "link": "https://batch-right-3cf34749.base44.app",
+    "category": "Food & Restaurant",
+    "description": "AI-powered yield tracking and ingredient cost calculator for food businesses. Know your true cost per plate and maximize profit margins.",
+    "icon": "TrendingUp",
+    "status": "Beta",
+    "available": true
   },
   {
     "id": "youtube-starter-kits",
