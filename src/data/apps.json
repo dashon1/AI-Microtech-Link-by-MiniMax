@@ -86,9 +86,26 @@
     "category": "Marketing & Advertising",
     "description": "Missed call text-back and lead management. Turn missed calls into booked appointments automatically.",
     "icon": "TrendingUp",
-    "status": "Coming Soon",
-    "available": false,
-    "longDescription": "RevenueForge automatically sends a personalized text to every caller you miss..."
+    "status": "Beta",
+    "available": true,
+    "longDescription": "RevenueForge automatically sends a personalized text to every caller you miss...",
+    "link": "https://revenueforge.vercel.app",
+    "priceLabel": "From $49/mo",
+    "stripePrices": [
+      {
+        "label": "Pro Monthly",
+        "price": "$49/mo",
+        "priceId": "price_1TKvAH0xw5o9mCvnsQ5CsHHp",
+        "mode": "subscription"
+      },
+      {
+        "label": "Pro Annual",
+        "price": "$470/yr",
+        "savings": "Save 20%",
+        "priceId": "price_1TKvAI0xw5o9mCvnhcq1lCYw",
+        "mode": "subscription"
+      }
+    ]
   },
   {
     "id": "reachrecover",
@@ -282,7 +299,8 @@
         "priceId": "price_1TFNka0xw5o9mCvn7ecUVRQk",
         "mode": "subscription"
       }
-    ]
+    ],
+    "priceLabel": "From $49/mo"
   },
   {
     "id": "lawprep",
@@ -1027,7 +1045,8 @@
         "priceId": "price_1TKulo0xw5o9mCvnvdziOiGX",
         "mode": "subscription"
       }
-    ]
+    ],
+    "priceLabel": "From $14.99/mo"
   },
   {
     "id": "lifeos",
@@ -1062,8 +1081,25 @@
     "category": "Community & Social",
     "description": "AI-powered localmap platform for business and creative automation.",
     "icon": "Users",
-    "status": "Coming Soon",
-    "available": false
+    "status": "Beta",
+    "available": true,
+    "link": "https://localmap-repo.vercel.app",
+    "priceLabel": "From $19.99/mo",
+    "stripePrices": [
+      {
+        "label": "Pro Monthly",
+        "price": "$19.99/mo",
+        "priceId": "price_1TKvAI0xw5o9mCvnRjUsaVRN",
+        "mode": "subscription"
+      },
+      {
+        "label": "Pro Annual",
+        "price": "$199/yr",
+        "savings": "Save 17%",
+        "priceId": "price_1TKvAJ0xw5o9mCvnp1r6hjZ3",
+        "mode": "subscription"
+      }
+    ]
   },
   {
     "id": "localpulse",
@@ -1256,7 +1292,8 @@
         "priceId": "price_1TKum40xw5o9mCvnoscrw5Ji",
         "mode": "subscription"
       }
-    ]
+    ],
+    "priceLabel": "From $5.99/mo"
   },
   {
     "id": "n8n-developer-agent",
@@ -1634,7 +1671,8 @@
         "priceId": "price_1TKulq0xw5o9mCvnl9mtNL6S",
         "mode": "subscription"
       }
-    ]
+    ],
+    "priceLabel": "From $3.99/mo"
   },
   {
     "id": "sheetsync",
@@ -1745,7 +1783,8 @@
         "priceId": "price_1TKuln0xw5o9mCvnfCsxtjBC",
         "mode": "subscription"
       }
-    ]
+    ],
+    "priceLabel": "From $4.99/mo"
   },
   {
     "id": "synchride",
