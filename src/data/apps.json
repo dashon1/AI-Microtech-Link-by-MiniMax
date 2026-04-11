@@ -1639,8 +1639,16 @@
     "description": "A global Santa tracking app",
     "icon": "LayoutGrid",
     "status": "Beta",
-    "available": true,
-    "link": "https://santa-tracker-indol.vercel.app"
+    "available": false,
+    "link": "https://santa-tracker-indol.vercel.app",
+    "seasonalFrom": {
+      "month": 11,
+      "day": 15
+    },
+    "seasonalTo": {
+      "month": 12,
+      "day": 27
+    }
   },
   {
     "id": "scraper-workflow-genspark",

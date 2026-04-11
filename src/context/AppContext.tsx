@@ -17,6 +17,18 @@ export interface AppData {
     setupFee?: number;
     monthlyPrice?: number;
     priceLabel?: string;
+    seasonalFrom?: { month: number; day: number };
+    seasonalTo?: { month: number; day: number };
+}
+
+function isSeasonallyAvailable(from: { month: number; day: number }, to: { month: number; day: number }): boolean {
+    const now = new Date();
+    const month = now.getMonth() + 1; // 1-12
+    const day = now.getDate();
+    const cur = month * 100 + day;
+    const start = from.month * 100 + from.day;
+    const end = to.month * 100 + to.day;
+    return cur >= start && cur <= end;
 }
 
 interface AppContextType {
@@ -32,8 +44,14 @@ interface AppContextType {
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
 export const AppProvider = ({ children }: { children: ReactNode }) => {
-    // Initialize with data from content.ts
-    const [apps, setApps] = useState<AppData[]>(initialApps as unknown as AppData[]);
+    // Initialize with data from content.ts, applying seasonal availability
+    const resolvedApps = (initialApps as unknown as AppData[]).map(app => {
+        if (app.seasonalFrom && app.seasonalTo) {
+            return { ...app, available: isSeasonallyAvailable(app.seasonalFrom, app.seasonalTo) };
+        }
+        return app;
+    });
+    const [apps, setApps] = useState<AppData[]>(resolvedApps);
     const [isAdmin, setIsAdmin] = useState(false);
 
     const addApp = (app: AppData) => {
