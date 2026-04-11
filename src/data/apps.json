@@ -2,7 +2,7 @@
   {
     "id": "kaloscan",
     "name": "KaloriScan",
-    "link": "https://kalori-scan-0237daf9.base44.app",
+    "link": "https://kaloriscan-app.vercel.app",
     "category": "Health & Wellness",
     "description": "AI food scanning and calorie tracking with personalized nutrition insights and meal planning.",
     "icon": "Activity",
@@ -29,7 +29,7 @@
   {
     "id": "batchright",
     "name": "BatchRight",
-    "link": "https://batch-right-3cf34749.base44.app",
+    "link": "https://batchright-app.vercel.app",
     "category": "Food & Restaurant",
     "description": "AI-powered yield tracking and ingredient cost calculator for food businesses. Know your true cost per plate and maximize profit margins.",
     "icon": "Wand2",
@@ -129,7 +129,7 @@
   {
     "id": "pridereach",
     "name": "PrideReach",
-    "link": "https://pride-reach-66e72035.base44.app",
+    "link": "https://pridereach-app.vercel.app",
     "category": "Marketing & Advertising",
     "description": "Inclusive community management and multi-tier marketing platform for modern businesses.",
     "icon": "Heart",
@@ -230,7 +230,7 @@
   {
     "id": "lawprep",
     "name": "LawPrep AI",
-    "link": "https://law-prep-ai-63d77c26.base44.app",
+    "link": "https://lawprep-ai-app.vercel.app",
     "category": "Legal & Professional",
     "description": "AI-powered legal research assistance and document preparation for legal professionals.",
     "icon": "Scale",
