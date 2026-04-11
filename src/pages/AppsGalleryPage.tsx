@@ -37,6 +37,8 @@ export default function AppsGalleryPage() {
   const { apps } = useApp()
 
   const filteredApps = apps.filter(app => {
+    // Hide seasonal apps that are currently out of season
+    if ((app as any).seasonalFrom && !(app as any).available) return false
     const appName = app.title || app.name || '';
     const matchesCategory = selectedCategory === "All" || app.category === selectedCategory
     const matchesSearch = appName.toLowerCase().includes(searchQuery.toLowerCase()) ||
