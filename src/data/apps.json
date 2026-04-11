@@ -106,14 +106,24 @@
         "price": "$47/mo",
         "priceId": "price_1TKAmO0xw5o9mCvnEN39GreP",
         "mode": "subscription",
-        "features": ["30 SMS text-backs/mo", "AI receptionist", "Full dashboard", "Email support"]
+        "features": [
+          "30 SMS text-backs/mo",
+          "AI receptionist",
+          "Full dashboard",
+          "Email support"
+        ]
       },
       {
         "label": "Basic",
         "price": "$97/mo",
         "priceId": "price_1TKAmO0xw5o9mCvnMxDadaaz",
         "mode": "subscription",
-        "features": ["100 SMS text-backs/mo", "30 voice minutes", "Standard AI receptionist", "Full analytics"]
+        "features": [
+          "100 SMS text-backs/mo",
+          "30 voice minutes",
+          "Standard AI receptionist",
+          "Full analytics"
+        ]
       },
       {
         "label": "White Label",
@@ -121,7 +131,13 @@
         "priceId": "price_1TKAtM0xw5o9mCvnKZ3ww8pJ",
         "setupFeeId": "price_1TKAwL0xw5o9mCvnzrXDofwm",
         "mode": "subscription",
-        "features": ["Custom branding & domain", "Unlimited sub-accounts", "API access", "Dedicated account manager", "5000 SMS / 1000 voice mins"]
+        "features": [
+          "Custom branding & domain",
+          "Unlimited sub-accounts",
+          "API access",
+          "Dedicated account manager",
+          "5000 SMS / 1000 voice mins"
+        ]
       }
     ],
     "longDescription": "ReachRecover AI automatically texts back every missed call within seconds — before they dial your competitor. Powered by Google Gemini, it holds real conversations, captures lead info, and routes hot prospects straight to you. Set up your AI receptionist in minutes: choose your industry, write your knowledge base, and go live. Every conversation is logged, every lead is tracked, and your dashboard shows exactly how many calls you recovered. Available as a self-serve SaaS or fully white-labeled for agencies."
@@ -214,7 +230,34 @@
         ]
       }
     ],
-    "longDescription": "PrideReach is a comprehensive community management..."
+    "longDescription": "PrideReach is a comprehensive community management...",
+    "stripePrices": [
+      {
+        "label": "Starter Monthly",
+        "price": "$97/mo",
+        "priceId": "price_1THzJM0xw5o9mCvneOXvxZM6",
+        "mode": "subscription"
+      },
+      {
+        "label": "Starter Annual",
+        "price": "$931/yr",
+        "savings": "Save 20%",
+        "priceId": "price_1THzJM0xw5o9mCvnzJKA2jYI",
+        "mode": "subscription"
+      },
+      {
+        "label": "Growth Monthly",
+        "price": "$197/mo",
+        "priceId": "price_1THzJN0xw5o9mCvnacmMCW98",
+        "mode": "subscription"
+      },
+      {
+        "label": "Scale Monthly",
+        "price": "$397/mo",
+        "priceId": "price_1THzJO0xw5o9mCvnSeiV5AOU",
+        "mode": "subscription"
+      }
+    ]
   },
   {
     "id": "haullogic",
@@ -225,7 +268,21 @@
     "icon": "Map",
     "status": "Beta",
     "available": true,
-    "longDescription": "HaulLogic is purpose-built for hauling and dump trailer businesses..."
+    "longDescription": "HaulLogic is purpose-built for hauling and dump trailer businesses...",
+    "stripePrices": [
+      {
+        "label": "Basic",
+        "price": "$49/mo",
+        "priceId": "price_1TFNg30xw5o9mCvniYPGcrKi",
+        "mode": "subscription"
+      },
+      {
+        "label": "Pro",
+        "price": "$99/mo",
+        "priceId": "price_1TFNka0xw5o9mCvn7ecUVRQk",
+        "mode": "subscription"
+      }
+    ]
   },
   {
     "id": "lawprep",
@@ -753,10 +810,30 @@
     "available": true,
     "priceLabel": "From $4.99/mo",
     "stripePrices": [
-      { "label": "Limited Time", "price": "$4.99/mo", "priceId": "price_1TKXBL0xw5o9mCvnisbinvuD", "mode": "subscription" },
-      { "label": "Starter", "price": "$15/mo", "priceId": "price_1TKXBL0xw5o9mCvn9IZknTBn", "mode": "subscription" },
-      { "label": "Pro", "price": "$29/mo", "priceId": "price_1TKXBM0xw5o9mCvnwcgiQd0U", "mode": "subscription" },
-      { "label": "Business", "price": "$99/mo", "priceId": "price_1TKXBM0xw5o9mCvnHonoz21d", "mode": "subscription" }
+      {
+        "label": "Limited Time",
+        "price": "$4.99/mo",
+        "priceId": "price_1TKXBL0xw5o9mCvnisbinvuD",
+        "mode": "subscription"
+      },
+      {
+        "label": "Starter",
+        "price": "$15/mo",
+        "priceId": "price_1TKXBL0xw5o9mCvn9IZknTBn",
+        "mode": "subscription"
+      },
+      {
+        "label": "Pro",
+        "price": "$29/mo",
+        "priceId": "price_1TKXBM0xw5o9mCvnwcgiQd0U",
+        "mode": "subscription"
+      },
+      {
+        "label": "Business",
+        "price": "$99/mo",
+        "priceId": "price_1TKXBM0xw5o9mCvnHonoz21d",
+        "mode": "subscription"
+      }
     ]
   },
   {
@@ -788,9 +865,25 @@
     "available": true,
     "priceLabel": "From $9.99/mo",
     "stripePrices": [
-      { "label": "Premium Household", "price": "$9.99/mo", "priceId": "price_1TKWl60xw5o9mCvnKBouD8AD", "mode": "subscription" },
-      { "label": "Village Elite", "price": "$14.99/mo", "priceId": "price_1TKWl70xw5o9mCvn9wDLClhL", "mode": "subscription" },
-      { "label": "Annual", "price": "$89.99/yr", "savings": "Save 25%", "priceId": "price_1TKWl70xw5o9mCvnyUqOWKCm", "mode": "subscription" }
+      {
+        "label": "Premium Household",
+        "price": "$9.99/mo",
+        "priceId": "price_1TKWl60xw5o9mCvnKBouD8AD",
+        "mode": "subscription"
+      },
+      {
+        "label": "Village Elite",
+        "price": "$14.99/mo",
+        "priceId": "price_1TKWl70xw5o9mCvn9wDLClhL",
+        "mode": "subscription"
+      },
+      {
+        "label": "Annual",
+        "price": "$89.99/yr",
+        "savings": "Save 25%",
+        "priceId": "price_1TKWl70xw5o9mCvnyUqOWKCm",
+        "mode": "subscription"
+      }
     ]
   },
   {
@@ -946,7 +1039,22 @@
     "description": "AI-powered legal document assistant — simplify contracts, understand legal language, and get plain-English explanations.",
     "icon": "Scale",
     "status": "Beta",
-    "available": true
+    "available": true,
+    "stripePrices": [
+      {
+        "label": "Pro Monthly",
+        "price": "$14.99/mo",
+        "priceId": "price_1TKulo0xw5o9mCvn4JSAYt7r",
+        "mode": "subscription"
+      },
+      {
+        "label": "Pro Annual",
+        "price": "$119.99/yr",
+        "savings": "Save 33%",
+        "priceId": "price_1TKulo0xw5o9mCvnvdziOiGX",
+        "mode": "subscription"
+      }
+    ]
   },
   {
     "id": "lifeos",
@@ -1027,14 +1135,28 @@
         "price": "$9.99/mo",
         "priceId": "price_1TKBKU0xw5o9mCvnKgg6Wtbp",
         "mode": "subscription",
-        "features": ["Unlimited AI Tutor Chat", "Step-by-Step Solutions", "Premium Exam Prep (SAT, ACT, AP)", "Advanced 3D Visualizations", "Progress Analytics", "Priority Support"]
+        "features": [
+          "Unlimited AI Tutor Chat",
+          "Step-by-Step Solutions",
+          "Premium Exam Prep (SAT, ACT, AP)",
+          "Advanced 3D Visualizations",
+          "Progress Analytics",
+          "Priority Support"
+        ]
       },
       {
         "label": "Family / Team",
         "price": "$19.99/mo",
         "priceId": "price_1TKBKU0xw5o9mCvnPC78hnYC",
         "mode": "subscription",
-        "features": ["Up to 5 User Accounts", "Parent Dashboard", "Teacher Recommendations", "Private Study Groups", "Printable Worksheets", "All Pro Features"]
+        "features": [
+          "Up to 5 User Accounts",
+          "Parent Dashboard",
+          "Teacher Recommendations",
+          "Private Study Groups",
+          "Printable Worksheets",
+          "All Pro Features"
+        ]
       }
     ],
     "longDescription": "MathHero is an AI-powered math tutor built for every level — from Pre-K counting games to AP Calculus exam prep. Get instant step-by-step solutions, interactive 3D visualizations, and unlimited AI tutor chat that explains concepts in plain language. Serious students use Pro Scholar for SAT/ACT prep and progress tracking. Families and classrooms use the Family plan for shared accounts, parent dashboards, and teacher-curated recommendations. Free tier includes basic math solver, practice problems, and public study groups."
@@ -1049,7 +1171,22 @@
     "status": "Beta",
     "available": true,
     "priceLabel": "Free · $9.99/mo",
-    "longDescription": "Math Factory turns math practice into a game. Daily missions, streak rewards, global leaderboards, and adaptive difficulty keep students coming back. Great for building mental math speed and arithmetic fluency from elementary through high school."
+    "longDescription": "Math Factory turns math practice into a game. Daily missions, streak rewards, global leaderboards, and adaptive difficulty keep students coming back. Great for building mental math speed and arithmetic fluency from elementary through high school.",
+    "stripePrices": [
+      {
+        "label": "Pro Monthly",
+        "price": "$4.99/mo",
+        "priceId": "price_1TKuls0xw5o9mCvnetW3EDHL",
+        "mode": "subscription"
+      },
+      {
+        "label": "Pro Annual",
+        "price": "$39.99/yr",
+        "savings": "Save 33%",
+        "priceId": "price_1TKult0xw5o9mCvn8N9Af5bz",
+        "mode": "subscription"
+      }
+    ]
   },
   {
     "id": "micro-franchise-gensparks",
@@ -1131,7 +1268,22 @@
     "description": "Music practice companion — track sessions, set goals, follow structured learning paths, and improve with AI-guided feedback.",
     "icon": "Music",
     "status": "Beta",
-    "available": true
+    "available": true,
+    "stripePrices": [
+      {
+        "label": "Pro Monthly",
+        "price": "$5.99/mo",
+        "priceId": "price_1TKum40xw5o9mCvngsBl3gcv",
+        "mode": "subscription"
+      },
+      {
+        "label": "Pro Annual",
+        "price": "$49.99/yr",
+        "savings": "Save 30%",
+        "priceId": "price_1TKum40xw5o9mCvnoscrw5Ji",
+        "mode": "subscription"
+      }
+    ]
   },
   {
     "id": "n8n-developer-agent",
@@ -1180,10 +1332,32 @@
     "available": true,
     "priceLabel": "From $49/mo",
     "stripePrices": [
-      { "label": "Basic Monthly", "price": "$49/mo", "priceId": "price_1TKXMo0xw5o9mCvn4mQKlz7l", "mode": "subscription" },
-      { "label": "Basic Annual", "price": "$470/yr", "savings": "Save 20%", "priceId": "price_1TKXMo0xw5o9mCvnJ7Qwy2F9", "mode": "subscription" },
-      { "label": "Premium Monthly", "price": "$149/mo", "priceId": "price_1TKXMo0xw5o9mCvn73gYi5So", "mode": "subscription" },
-      { "label": "Premium Annual", "price": "$1,430/yr", "savings": "Save 20%", "priceId": "price_1TKXMp0xw5o9mCvnns13AFVB", "mode": "subscription" }
+      {
+        "label": "Basic Monthly",
+        "price": "$49/mo",
+        "priceId": "price_1TKXMo0xw5o9mCvn4mQKlz7l",
+        "mode": "subscription"
+      },
+      {
+        "label": "Basic Annual",
+        "price": "$470/yr",
+        "savings": "Save 20%",
+        "priceId": "price_1TKXMo0xw5o9mCvnJ7Qwy2F9",
+        "mode": "subscription"
+      },
+      {
+        "label": "Premium Monthly",
+        "price": "$149/mo",
+        "priceId": "price_1TKXMo0xw5o9mCvn73gYi5So",
+        "mode": "subscription"
+      },
+      {
+        "label": "Premium Annual",
+        "price": "$1,430/yr",
+        "savings": "Save 20%",
+        "priceId": "price_1TKXMp0xw5o9mCvnns13AFVB",
+        "mode": "subscription"
+      }
     ]
   },
   {
@@ -1404,8 +1578,19 @@
     "available": true,
     "priceLabel": "Free · $12.99/mo",
     "stripePrices": [
-      { "label": "Pro Monthly", "price": "$12.99/mo", "priceId": "price_1TKWz10xw5o9mCvn7ykdR0J8", "mode": "subscription" },
-      { "label": "Pro Annual", "price": "$99/yr", "savings": "Save 36%", "priceId": "price_1TKWz50xw5o9mCvnQAcqsyC6", "mode": "subscription" }
+      {
+        "label": "Pro Monthly",
+        "price": "$12.99/mo",
+        "priceId": "price_1TKWz10xw5o9mCvn7ykdR0J8",
+        "mode": "subscription"
+      },
+      {
+        "label": "Pro Annual",
+        "price": "$99/yr",
+        "savings": "Save 36%",
+        "priceId": "price_1TKWz50xw5o9mCvnQAcqsyC6",
+        "mode": "subscription"
+      }
     ]
   },
   {
@@ -1461,7 +1646,22 @@
     "description": "Encrypted personal vault for storing passwords, documents, and sensitive information with AI-assisted organization.",
     "icon": "Shield",
     "status": "Beta",
-    "available": true
+    "available": true,
+    "stripePrices": [
+      {
+        "label": "Pro Monthly",
+        "price": "$3.99/mo",
+        "priceId": "price_1TKulp0xw5o9mCvn7LtRgkDE",
+        "mode": "subscription"
+      },
+      {
+        "label": "Pro Annual",
+        "price": "$29.99/yr",
+        "savings": "Save 37%",
+        "priceId": "price_1TKulq0xw5o9mCvnl9mtNL6S",
+        "mode": "subscription"
+      }
+    ]
   },
   {
     "id": "sheetsync",
@@ -1474,9 +1674,25 @@
     "available": true,
     "priceLabel": "Free · $9.99/mo",
     "stripePrices": [
-      { "label": "Pro", "price": "$9.99/mo", "priceId": "price_1TKXFo0xw5o9mCvnH8ahwDjb", "mode": "subscription" },
-      { "label": "Business", "price": "$29.99/mo", "priceId": "price_1TKXFo0xw5o9mCvnZJbAxfpb", "mode": "subscription" },
-      { "label": "Annual", "price": "$89.99/yr", "savings": "Save 25%", "priceId": "price_1TKXFp0xw5o9mCvnfPWUWo5Z", "mode": "subscription" }
+      {
+        "label": "Pro",
+        "price": "$9.99/mo",
+        "priceId": "price_1TKXFo0xw5o9mCvnH8ahwDjb",
+        "mode": "subscription"
+      },
+      {
+        "label": "Business",
+        "price": "$29.99/mo",
+        "priceId": "price_1TKXFo0xw5o9mCvnZJbAxfpb",
+        "mode": "subscription"
+      },
+      {
+        "label": "Annual",
+        "price": "$89.99/yr",
+        "savings": "Save 25%",
+        "priceId": "price_1TKXFp0xw5o9mCvnfPWUWo5Z",
+        "mode": "subscription"
+      }
     ]
   },
   {
@@ -1541,7 +1757,22 @@
     "description": "Smart subscription tracker — monitor all your recurring charges, get renewal alerts, and cancel what you don't use.",
     "icon": "CreditCard",
     "status": "Beta",
-    "available": true
+    "available": true,
+    "stripePrices": [
+      {
+        "label": "Pro Monthly",
+        "price": "$4.99/mo",
+        "priceId": "price_1TKulm0xw5o9mCvnkTr49XOD",
+        "mode": "subscription"
+      },
+      {
+        "label": "Pro Annual",
+        "price": "$39.99/yr",
+        "savings": "Save 33%",
+        "priceId": "price_1TKuln0xw5o9mCvnfCsxtjBC",
+        "mode": "subscription"
+      }
+    ]
   },
   {
     "id": "synchride",
@@ -1599,8 +1830,18 @@
     "available": true,
     "priceLabel": "Free · $19.99/mo",
     "stripePrices": [
-      { "label": "Pro Scholar", "price": "$19.99/mo", "priceId": "price_1TKTh90xw5o9mCvnPfQfxWpe", "mode": "subscription" },
-      { "label": "Team", "price": "$49.99/mo", "priceId": "price_1TKThA0xw5o9mCvnFzm1fPQU", "mode": "subscription" }
+      {
+        "label": "Pro Scholar",
+        "price": "$19.99/mo",
+        "priceId": "price_1TKTh90xw5o9mCvnPfQfxWpe",
+        "mode": "subscription"
+      },
+      {
+        "label": "Team",
+        "price": "$49.99/mo",
+        "priceId": "price_1TKThA0xw5o9mCvnFzm1fPQU",
+        "mode": "subscription"
+      }
     ]
   },
   {
@@ -1755,7 +1996,28 @@
     "description": "AI-powered yield tracking and ingredient cost calculator for food businesses. Know your true cost per plate and maximize profit margins.",
     "icon": "TrendingUp",
     "status": "Beta",
-    "available": true
+    "available": true,
+    "stripePrices": [
+      {
+        "label": "Starter Monthly",
+        "price": "$7.99/mo",
+        "priceId": "price_1TFiZB0xw5o9mCvnE5UmfrT7",
+        "mode": "subscription"
+      },
+      {
+        "label": "Starter Annual",
+        "price": "$79.99/yr",
+        "savings": "Save 17%",
+        "priceId": "price_1TFiZB0xw5o9mCvn2l1QY75l",
+        "mode": "subscription"
+      },
+      {
+        "label": "Pro Monthly",
+        "price": "$149.99/mo",
+        "priceId": "price_1TFiZB0xw5o9mCvnQmgPJsbR",
+        "mode": "subscription"
+      }
+    ]
   },
   {
     "id": "youtube-starter-kits",
