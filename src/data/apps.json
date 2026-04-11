@@ -2033,10 +2033,27 @@
     "id": "youtube-starter-kits",
     "name": "YouTube Starter Kits",
     "category": "Video & Creative",
-    "description": "AI-powered youtube starter kits platform for business and creative automation.",
+    "description": "Done-for-you YouTube channel starter kits — scripts, SEO packages, thumbnails, research, and monetization guides for 4 niches. Launch your channel in a weekend.",
     "icon": "Music",
-    "status": "Coming Soon",
-    "available": false
+    "status": "Beta",
+    "available": true,
+    "link": "https://youtube-creator-kits.vercel.app",
+    "priceLabel": "From $27 one-time",
+    "stripePrices": [
+      {
+        "label": "Single Kit",
+        "price": "$27 one-time",
+        "priceId": "price_1TL3Dw0xw5o9mCvn2Tfus5hp",
+        "mode": "payment"
+      },
+      {
+        "label": "Mega Bundle (All 4)",
+        "price": "$67 one-time",
+        "savings": "Save $41",
+        "priceId": "price_1TL3Dw0xw5o9mCvniPAQMjKR",
+        "mode": "payment"
+      }
+    ]
   },
   {
     "id": "ai-storyboard-generator",
