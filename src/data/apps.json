@@ -1991,33 +1991,11 @@
   {
     "id": "yieldflow",
     "name": "YieldFlow",
-    "link": "https://batch-right-3cf34749.base44.app",
     "category": "Food & Restaurant",
     "description": "AI-powered yield tracking and ingredient cost calculator for food businesses. Know your true cost per plate and maximize profit margins.",
     "icon": "TrendingUp",
-    "status": "Beta",
-    "available": true,
-    "stripePrices": [
-      {
-        "label": "Starter Monthly",
-        "price": "$7.99/mo",
-        "priceId": "price_1TFiZB0xw5o9mCvnE5UmfrT7",
-        "mode": "subscription"
-      },
-      {
-        "label": "Starter Annual",
-        "price": "$79.99/yr",
-        "savings": "Save 17%",
-        "priceId": "price_1TFiZB0xw5o9mCvn2l1QY75l",
-        "mode": "subscription"
-      },
-      {
-        "label": "Pro Monthly",
-        "price": "$149.99/mo",
-        "priceId": "price_1TFiZB0xw5o9mCvnQmgPJsbR",
-        "mode": "subscription"
-      }
-    ]
+    "status": "Coming Soon",
+    "available": false
   },
   {
     "id": "youtube-starter-kits",
