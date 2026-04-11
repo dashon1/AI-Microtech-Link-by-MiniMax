@@ -2,7 +2,7 @@
   {
     "id": "kaloscan",
     "name": "KaloriScan",
-    "link": "https://kaloriscan-app.vercel.app",
+    "link": "https://kaloscan-five.vercel.app",
     "category": "Health & Wellness",
     "description": "AI food scanning and calorie tracking with personalized nutrition insights and meal planning.",
     "icon": "Activity",
@@ -52,6 +52,38 @@
       }
     ],
     "longDescription": "BatchRight is built for food businesses that need to know their real numbers..."
+  },
+  {
+    "id": "yieldflow",
+    "name": "YieldFlow",
+    "link": "https://yieldflow-umber.vercel.app",
+    "category": "Food & Restaurant",
+    "description": "AI-powered yield tracking and ingredient cost calculator for food businesses. Know your true cost per plate and maximize profit margins.",
+    "icon": "TrendingUp",
+    "status": "Beta",
+    "available": true,
+    "priceLabel": "From $7.99/mo",
+    "stripePrices": [
+      {
+        "label": "Starter Monthly",
+        "price": "$7.99/mo",
+        "priceId": "price_1TFiZB0xw5o9mCvnE5UmfrT7",
+        "mode": "subscription"
+      },
+      {
+        "label": "Starter Annual",
+        "price": "$79.99/yr",
+        "savings": "Save 17%",
+        "priceId": "price_1TFiZB0xw5o9mCvn2l1QY75l",
+        "mode": "subscription"
+      },
+      {
+        "label": "Pro Monthly",
+        "price": "$149.99/mo",
+        "priceId": "price_1TFiZB0xw5o9mCvnQmgPJsbR",
+        "mode": "subscription"
+      }
+    ]
   },
   {
     "id": "hit",
@@ -162,7 +194,7 @@
   {
     "id": "pridereach",
     "name": "PrideReach",
-    "link": "https://pridereach-app.vercel.app",
+    "link": "https://pridereach.vercel.app",
     "category": "Marketing & Advertising",
     "description": "Inclusive community management and multi-tier marketing platform for modern businesses.",
     "icon": "Heart",
@@ -279,7 +311,7 @@
   {
     "id": "haullogic",
     "name": "HaulLogic",
-    "link": "https://dainty-smart-haul-flow.base44.app",
+    "link": "https://haullogic.vercel.app",
     "category": "Logistics & Operations",
     "description": "Hauling and logistics management with route optimization, job tracking, and customer management.",
     "icon": "Map",
@@ -1520,8 +1552,9 @@
     "category": "Real Estate",
     "description": "AI-powered offer generator for freelancers",
     "icon": "Calculator",
-    "status": "Coming Soon",
-    "available": false
+    "status": "Beta",
+    "available": true,
+    "link": "https://quick-offer-seven.vercel.app"
   },
   {
     "id": "re-investor-ai-trainer",
@@ -1627,8 +1660,9 @@
     "category": "Productivity & Lifestyle",
     "description": "A global Santa tracking app",
     "icon": "LayoutGrid",
-    "status": "Coming Soon",
-    "available": false
+    "status": "Beta",
+    "available": true,
+    "link": "https://santa-tracker-indol.vercel.app"
   },
   {
     "id": "scraper-workflow-genspark",
@@ -2078,5 +2112,16 @@
     "status": "Coming Soon",
     "available": false,
     "link": "https://github.com/dashon1/creatorflow-studio"
+  },
+  {
+    "id": "content-research-automation",
+    "name": "Content Research Automation",
+    "link": "https://nextjsspace-sigma.vercel.app",
+    "category": "AI & Automation",
+    "description": "Keyword management and content research automation — track keywords, trigger automated research runs, and integrate with Telegram, WhatsApp, and APIs.",
+    "icon": "Search",
+    "status": "Beta",
+    "available": true,
+    "priceLabel": "From $19.99/mo"
   }
 ]
