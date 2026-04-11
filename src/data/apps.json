@@ -1989,15 +1989,6 @@
     "available": false
   },
   {
-    "id": "yieldflow",
-    "name": "YieldFlow",
-    "category": "Food & Restaurant",
-    "description": "AI-powered yield tracking and ingredient cost calculator for food businesses. Know your true cost per plate and maximize profit margins.",
-    "icon": "TrendingUp",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
     "id": "youtube-starter-kits",
     "name": "YouTube Starter Kits",
     "category": "Video & Creative",
