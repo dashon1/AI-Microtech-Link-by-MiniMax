@@ -494,24 +494,6 @@
     "available": false
   },
   {
-    "id": "ara-m5-core-session-a",
-    "name": "AraM5 Core — Session A",
-    "category": "AI & Automation",
-    "description": "AraM5 AI agent core system — Session A archive and configuration.",
-    "icon": "Home",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "aram5-sessions",
-    "name": "Aram5 Sessions",
-    "category": "Developer Tools",
-    "description": "AEROS AI Secretary project - Complete archive of all 4 sessions (session1-4) including code, documentation, business analysis, and deployment reports",
-    "icon": "Sun",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
     "id": "aram5_2026_core",
     "name": "AraM5 2026 Core",
     "category": "AI & Automation",
@@ -571,15 +553,6 @@
     "category": "Real Estate",
     "description": "AI-powered building our dream platform for business and creative automation.",
     "icon": "Heart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "bytebot",
-    "name": "Bytebot",
-    "category": "Developer Tools",
-    "description": "Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.",
-    "icon": "Map",
     "status": "Coming Soon",
     "available": false
   },
