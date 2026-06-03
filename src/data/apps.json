@@ -29,7 +29,7 @@
   {
     "id": "batchright",
     "name": "BatchRight",
-    "link": "https://batchright-app.vercel.app",
+    "link": "https://batchright.aimicrotechlink.cloud",
     "category": "Food & Restaurant",
     "description": "AI-powered yield tracking and ingredient cost calculator for food businesses. Know your true cost per plate and maximize profit margins.",
     "icon": "Wand2",
@@ -89,7 +89,7 @@
     "status": "Beta",
     "available": true,
     "longDescription": "RevenueForge automatically sends a personalized text to every caller you miss...",
-    "link": "https://revenueforge.vercel.app",
+    "link": "https://revenueforge.aimicrotechlink.cloud",
     "priceLabel": "From $49/mo",
     "stripePrices": [
       {
@@ -110,7 +110,7 @@
   {
     "id": "reachrecover",
     "name": "ReachRecover AI",
-    "link": "https://reachrecover-ai-779952728668.us-west1.run.app",
+    "link": "https://reachrecover.aimicrotechlink.cloud",
     "category": "Marketing & Advertising",
     "description": "Turn every missed call into a booked customer. AI-powered text-back, smart lead recovery, and Gemini-driven conversations — 24/7.",
     "icon": "Phone",
@@ -162,7 +162,7 @@
   {
     "id": "pridereach",
     "name": "PrideReach",
-    "link": "https://pridereach.vercel.app",
+    "link": "https://pridereach.aimicrotechlink.cloud",
     "category": "Marketing & Advertising",
     "description": "Inclusive community management and multi-tier marketing platform for modern businesses.",
     "icon": "Heart",
@@ -279,7 +279,7 @@
   {
     "id": "haullogic",
     "name": "HaulLogic",
-    "link": "https://haullogic.vercel.app",
+    "link": "https://haullogic.aimicrotechlink.cloud",
     "category": "Logistics & Operations",
     "description": "Hauling and logistics management with route optimization, job tracking, and customer management.",
     "icon": "Map",
@@ -305,7 +305,7 @@
   {
     "id": "lawprep",
     "name": "LawPrep AI",
-    "link": "https://lawprep-ai-app.vercel.app",
+    "link": "https://lawprep.aimicrotechlink.cloud",
     "category": "Legal & Professional",
     "description": "AI-powered legal research assistance and document preparation for legal professionals.",
     "icon": "Scale",
@@ -459,7 +459,7 @@
   {
     "id": "ai-microtechlink-roadmap-generator",
     "name": "AI MicrotechLink",
-    "link": "https://ai-microtechlink-roadmap-generator-b33c0576.base44.app",
+    "link": "https://roadmap.aimicrotechlink.cloud",
     "category": "Developer Tools",
     "description": "AI-powered roadmap and strategy generator for products, projects, and business initiatives.",
     "icon": "Languages",
@@ -793,7 +793,7 @@
   {
     "id": "eventpix-qr",
     "name": "Eventpix QR",
-    "link": "https://qrpix-feff93c7.base44.app",
+    "link": "https://eventpix.aimicrotechlink.cloud",
     "category": "Events & QR",
     "description": "QR-powered event photo sharing, smart check-in, and attendee engagement. Credit-based system — 2 credits per event.",
     "icon": "QrCode",
@@ -848,7 +848,7 @@
   {
     "id": "familyhub",
     "name": "Our Family Pulse",
-    "link": "https://our-family-pulse.base44.app",
+    "link": "https://familyhub.aimicrotechlink.cloud",
     "category": "Productivity & Lifestyle",
     "description": "All-in-one family hub — shared calendar, chores, budgeting, meal planning, and AI family assistant.",
     "icon": "Users",
@@ -888,13 +888,14 @@
   },
   {
     "id": "food-analyzer-ui",
-    "name": "Aria — All-in-One AI Assistant",
+    "name": "Aria — AI Marketing Strategist",
     "category": "Marketing & Advertising",
-    "description": "AI marketing strategist + food analyzer in one. Competitor analysis, content calendars, SEO, captions, meal planning, and more.",
+    "description": "Your AI Marketing Strategist — a multimodal chat assistant (text, voice, and camera) that auto-invokes 11 built-in tools to run your marketing end to end.",
+    "longDescription": "Aria is an all-in-one AI marketing strategist with a conversational, multimodal interface (text, voice, and camera) that detects intent and auto-invokes the right tool. Eleven built-in tools: Competitor Analysis, Content Calendar, SEO Research, Caption Writer, Performance Report, Talking Avatar (ElevenLabs text-to-speech video), Branding Strategy, Idea Thinker, plus Food Analyzer, Meal Planner, and Grocery List. Includes a stats dashboard, saved content history, in-app + email notifications, gamified leaderboard, onboarding tour, and an admin suite (feature flags, A/B testing, RBAC).",
     "icon": "Sparkles",
     "status": "Beta",
     "available": true,
-    "link": "https://lovable.dev/projects/ac972e30-8165-47ee-b5f8-59719f258d96"
+    "link": "https://aria.aimicrotechlink.cloud"
   },
   {
     "id": "formforge-copy",
@@ -931,7 +932,7 @@
     "icon": "Shield",
     "status": "Beta",
     "available": true,
-    "link": "https://glass-ui-gen.vercel.app",
+    "link": "https://glassui.aimicrotechlink.cloud",
     "priceLabel": "$29 lifetime",
     "stripePrices": [
       {
@@ -1035,7 +1036,7 @@
   {
     "id": "legalease",
     "name": "LegalEase",
-    "link": "https://legal-easy-4928515a.base44.app",
+    "link": "https://legalease.aimicrotechlink.cloud",
     "category": "Legal & Professional",
     "description": "AI-powered legal document assistant — simplify contracts, understand legal language, and get plain-English explanations.",
     "icon": "Scale",
@@ -1093,7 +1094,7 @@
     "icon": "Users",
     "status": "Beta",
     "available": true,
-    "link": "https://localmap-repo.vercel.app",
+    "link": "https://localmap.aimicrotechlink.cloud",
     "priceLabel": "From $19.99/mo",
     "stripePrices": [
       {
@@ -1141,7 +1142,7 @@
   {
     "id": "math-hero",
     "name": "MathHero",
-    "link": "https://math-hero-fbecc4dc.base44.app",
+    "link": "https://mathhero.aimicrotechlink.cloud",
     "category": "Education",
     "description": "AI math tutor for all ages. Step-by-step solutions, 3D visualizations, SAT/ACT exam prep, and Pre-K learning games — all in one platform.",
     "icon": "Calculator",
@@ -1183,7 +1184,7 @@
   {
     "id": "mathchat",
     "name": "Math Factory",
-    "link": "https://math-factory-e1cbd380.base44.app",
+    "link": "https://mathchat.aimicrotechlink.cloud",
     "category": "Education",
     "description": "Interactive math challenges and games that make learning addictive. Build speed, accuracy, and confidence through daily missions and leaderboards.",
     "icon": "LayoutGrid",
@@ -1344,7 +1345,7 @@
   {
     "id": "nerdybird",
     "name": "Nerdy Bird",
-    "link": "https://nerdy-bird-e368bd6.base44.app",
+    "link": "https://nerdybird.aimicrotechlink.cloud",
     "category": "Education",
     "description": "School management platform with AI study tools, class chat, flashcards, assignments, and analytics for teachers, students, and parents.",
     "icon": "GraduationCap",
@@ -1532,7 +1533,7 @@
     "icon": "Calculator",
     "status": "Beta",
     "available": true,
-    "link": "https://quick-offer-seven.vercel.app"
+    "link": "https://quickoffer.aimicrotechlink.cloud"
   },
   {
     "id": "re-investor-ai-trainer",
@@ -1591,7 +1592,7 @@
   {
     "id": "researchhub",
     "name": "ResearchHub",
-    "link": "https://research-flow-81ccc654.base44.app",
+    "link": "https://researchhub.aimicrotechlink.cloud",
     "category": "Education",
     "description": "AI-powered academic research manager — organize projects, sources, and notes with smart citation tools and AI summaries.",
     "icon": "BookOpen",
@@ -1661,12 +1662,13 @@
   },
   {
     "id": "secretvault",
-    "name": "Secretvault",
+    "name": "SecretVault",
     "category": "Productivity & Lifestyle",
-    "description": "Base44 App: SecretVault",
+    "description": "Secure, private vault for storing your sensitive notes, passwords, and files.",
     "icon": "Activity",
-    "status": "Coming Soon",
-    "available": false
+    "status": "Beta",
+    "available": true,
+    "link": "https://secretvault.aimicrotechlink.cloud"
   },
   {
     "id": "securevault",
@@ -1697,7 +1699,7 @@
   {
     "id": "sheetsync",
     "name": "SheetSync",
-    "link": "https://sheet-sync-c986fbd6.base44.app",
+    "link": "https://sheetsync.aimicrotechlink.cloud",
     "category": "Developer Tools",
     "description": "Import, merge, and enrich Google Sheets data into structured records. Advanced column mapping, data validation, and analytics.",
     "icon": "FileSpreadsheet",
@@ -1783,7 +1785,7 @@
   {
     "id": "subscribe",
     "name": "Sub-Scribe",
-    "link": "https://sub-scribe-9ba94f7c.base44.app",
+    "link": "https://subscribe.aimicrotechlink.cloud",
     "category": "Productivity & Lifestyle",
     "description": "Smart subscription tracker — monitor all your recurring charges, get renewal alerts, and cancel what you don't use.",
     "icon": "CreditCard",
@@ -1854,7 +1856,7 @@
   {
     "id": "u-codewise",
     "name": "UCodeWise",
-    "link": "https://u-code-wise-37e0b8d4.base44.app",
+    "link": "https://codewise.aimicrotechlink.cloud",
     "category": "Education",
     "description": "Learn to code with AI-guided courses in Python, JavaScript, Java, C, and SQL. Challenges, certifications, tournaments, and interview prep.",
     "icon": "Code",
@@ -1938,7 +1940,7 @@
     "icon": "Wand2",
     "status": "Beta",
     "available": true,
-    "link": "https://velocity-two-kappa.vercel.app",
+    "link": "https://velocity.aimicrotechlink.cloud",
     "priceLabel": "From $19/mo",
     "stripePrices": [
       {
