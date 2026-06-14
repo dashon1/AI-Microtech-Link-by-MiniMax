@@ -1,2149 +1,2300 @@
 [
-  {
-    "id": "kaloscan",
-    "name": "KaloriScan",
-    "link": "https://kaloscan-five.vercel.app",
-    "category": "Health & Wellness",
-    "description": "AI food scanning and calorie tracking with personalized nutrition insights and meal planning.",
-    "icon": "Activity",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "From $9.99/mo",
-    "stripePrices": [
-      {
-        "label": "Monthly",
-        "price": "$9.99/mo",
-        "priceId": "price_1TF3X50xw5o9mCvnzt3wvbhF",
-        "mode": "subscription"
-      },
-      {
-        "label": "Annual",
-        "price": "$95.90/yr",
-        "savings": "Save 20%",
-        "priceId": "price_1TF3d70xw5o9mCvnNSGmCZfv",
-        "mode": "subscription"
-      }
-    ],
-    "longDescription": "KaloriScan uses AI-powered image recognition to instantly identify food items and calculate nutritional content..."
-  },
-  {
-    "id": "batchright",
-    "name": "BatchRight",
-    "link": "https://batchright.aimicrotechlink.cloud",
-    "category": "Food & Restaurant",
-    "description": "AI-powered yield tracking and ingredient cost calculator for food businesses. Know your true cost per plate and maximize profit margins.",
-    "icon": "Wand2",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "From $9.99/mo",
-    "stripePrices": [
-      {
-        "label": "Monthly",
-        "price": "$9.99/mo",
-        "priceId": "price_1THzJL0xw5o9mCvnPKQ9EW4z",
-        "mode": "subscription"
-      },
-      {
-        "label": "Annual",
-        "price": "$95.90/yr",
-        "savings": "Save 20%",
-        "priceId": "price_1THzJL0xw5o9mCvnTK14O74J",
-        "mode": "subscription"
-      }
-    ],
-    "longDescription": "BatchRight is built for food businesses that need to know their real numbers..."
-  },
-  {
-    "id": "hit",
-    "name": "HIT — Health Intelligence Tracker",
-    "link": "https://hit-real.vercel.app",
-    "category": "Health & Wellness",
-    "description": "Emergency-ready AI health platform. Track symptoms, meds, and mood — with one-tap Safety Beacon and AI-powered pattern insights.",
-    "icon": "Activity",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "From $14.99/mo",
-    "stripePrices": [
-      {
-        "label": "Monthly",
-        "price": "$14.99/mo",
-        "priceId": "price_1THzJL0xw5o9mCvn8IbOsm3P",
-        "mode": "subscription"
-      },
-      {
-        "label": "Annual",
-        "price": "$143.90/yr",
-        "savings": "Save 20%",
-        "priceId": "price_1THzJL0xw5o9mCvnlk8Xq4oO",
-        "mode": "subscription"
-      }
-    ],
-    "longDescription": "HIT is the first comprehensive health platform..."
-  },
-  {
-    "id": "revenueforge",
-    "name": "RevenueForge",
-    "category": "Marketing & Advertising",
-    "description": "Missed call text-back and lead management. Turn missed calls into booked appointments automatically.",
-    "icon": "TrendingUp",
-    "status": "Beta",
-    "available": true,
-    "longDescription": "RevenueForge automatically sends a personalized text to every caller you miss...",
-    "link": "https://revenueforge.aimicrotechlink.cloud",
-    "priceLabel": "From $49/mo",
-    "stripePrices": [
-      {
-        "label": "Pro Monthly",
-        "price": "$49/mo",
-        "priceId": "price_1TKvAH0xw5o9mCvnsQ5CsHHp",
-        "mode": "subscription"
-      },
-      {
-        "label": "Pro Annual",
-        "price": "$470/yr",
-        "savings": "Save 20%",
-        "priceId": "price_1TKvAI0xw5o9mCvnhcq1lCYw",
-        "mode": "subscription"
-      }
-    ]
-  },
-  {
-    "id": "reachrecover",
-    "name": "ReachRecover AI",
-    "link": "https://reachrecover.aimicrotechlink.cloud",
-    "category": "Marketing & Advertising",
-    "description": "Turn every missed call into a booked customer. AI-powered text-back, smart lead recovery, and Gemini-driven conversations — 24/7.",
-    "icon": "Phone",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "From $47/mo",
-    "stripePrices": [
-      {
-        "label": "Starter",
-        "price": "$47/mo",
-        "priceId": "price_1TKAmO0xw5o9mCvnEN39GreP",
-        "mode": "subscription",
-        "features": [
-          "30 SMS text-backs/mo",
-          "AI receptionist",
-          "Full dashboard",
-          "Email support"
-        ]
-      },
-      {
-        "label": "Basic",
-        "price": "$97/mo",
-        "priceId": "price_1TKAmO0xw5o9mCvnMxDadaaz",
-        "mode": "subscription",
-        "features": [
-          "100 SMS text-backs/mo",
-          "30 voice minutes",
-          "Standard AI receptionist",
-          "Full analytics"
-        ]
-      },
-      {
-        "label": "White Label",
-        "price": "$197/mo + $299 setup",
-        "priceId": "price_1TKAtM0xw5o9mCvnKZ3ww8pJ",
-        "setupFeeId": "price_1TKAwL0xw5o9mCvnzrXDofwm",
-        "mode": "subscription",
-        "features": [
-          "Custom branding & domain",
-          "Unlimited sub-accounts",
-          "API access",
-          "Dedicated account manager",
-          "5000 SMS / 1000 voice mins"
-        ]
-      }
-    ],
-    "longDescription": "ReachRecover AI automatically texts back every missed call within seconds — before they dial your competitor. Powered by Google Gemini, it holds real conversations, captures lead info, and routes hot prospects straight to you. Set up your AI receptionist in minutes: choose your industry, write your knowledge base, and go live. Every conversation is logged, every lead is tracked, and your dashboard shows exactly how many calls you recovered. Available as a self-serve SaaS or fully white-labeled for agencies."
-  },
-  {
-    "id": "pridereach",
-    "name": "PrideReach",
-    "link": "https://pridereach.aimicrotechlink.cloud",
-    "category": "Marketing & Advertising",
-    "description": "Inclusive community management and multi-tier marketing platform for modern businesses.",
-    "icon": "Heart",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "From $97/mo",
-    "pricingTabs": [
-      {
-        "label": "Self-Service",
-        "description": "You run it. We give you the platform.",
-        "stripePrices": [
-          {
-            "label": "Starter Monthly",
-            "price": "$97/mo",
-            "priceId": "price_1THzJM0xw5o9mCvneOXvxZM6",
-            "mode": "subscription"
-          },
-          {
-            "label": "Starter Annual",
-            "price": "$931.20/yr",
-            "savings": "Save 20%",
-            "priceId": "price_1THzJM0xw5o9mCvnzJKA2jYI",
-            "mode": "subscription"
-          },
-          {
-            "label": "Growth Monthly",
-            "price": "$197/mo",
-            "priceId": "price_1THzJN0xw5o9mCvnacmMCW98",
-            "mode": "subscription"
-          },
-          {
-            "label": "Growth Annual",
-            "price": "$1,891.20/yr",
-            "savings": "Save 20%",
-            "priceId": "price_1THzJN0xw5o9mCvnUIkeCZXj",
-            "mode": "subscription"
-          },
-          {
-            "label": "Scale Monthly",
-            "price": "$397/mo",
-            "priceId": "price_1THzJO0xw5o9mCvnSeiV5AOU",
-            "mode": "subscription"
-          },
-          {
-            "label": "Scale Annual",
-            "price": "$3,811.20/yr",
-            "savings": "Save 20%",
-            "priceId": "price_1THzJO0xw5o9mCvn6zlUCDNB",
-            "mode": "subscription"
-          }
-        ]
-      },
-      {
-        "label": "Done-For-You",
-        "description": "We manage everything. You get results.",
-        "contactOnly": true,
-        "stripePrices": [
-          {
-            "label": "Getting Started",
-            "price": "$1,499/mo",
-            "priceId": "price_PRIDEREACH_DFY_START",
-            "mode": "subscription"
-          },
-          {
-            "label": "Market Leader",
-            "price": "$1,699/mo",
-            "priceId": "price_PRIDEREACH_DFY_LEADER",
-            "mode": "subscription"
-          },
-          {
-            "label": "Brand Authority",
-            "price": "$1,899/mo",
-            "priceId": "price_PRIDEREACH_DFY_BRAND",
-            "mode": "subscription"
-          },
-          {
-            "label": "Integrated Powerhouse",
-            "price": "$2,199/mo",
-            "priceId": "price_PRIDEREACH_DFY_POWER",
-            "mode": "subscription"
-          }
-        ]
-      }
-    ],
-    "longDescription": "PrideReach is a comprehensive community management...",
-    "stripePrices": [
-      {
-        "label": "Starter Monthly",
-        "price": "$97/mo",
-        "priceId": "price_1THzJM0xw5o9mCvneOXvxZM6",
-        "mode": "subscription"
-      },
-      {
-        "label": "Starter Annual",
-        "price": "$931/yr",
-        "savings": "Save 20%",
-        "priceId": "price_1THzJM0xw5o9mCvnzJKA2jYI",
-        "mode": "subscription"
-      },
-      {
-        "label": "Growth Monthly",
-        "price": "$197/mo",
-        "priceId": "price_1THzJN0xw5o9mCvnacmMCW98",
-        "mode": "subscription"
-      },
-      {
-        "label": "Scale Monthly",
-        "price": "$397/mo",
-        "priceId": "price_1THzJO0xw5o9mCvnSeiV5AOU",
-        "mode": "subscription"
-      }
-    ]
-  },
-  {
-    "id": "haullogic",
-    "name": "HaulLogic",
-    "link": "https://haullogic.aimicrotechlink.cloud",
-    "category": "Logistics & Operations",
-    "description": "Hauling and logistics management with route optimization, job tracking, and customer management.",
-    "icon": "Map",
-    "status": "Beta",
-    "available": true,
-    "longDescription": "HaulLogic is purpose-built for hauling and dump trailer businesses...",
-    "stripePrices": [
-      {
-        "label": "Basic",
-        "price": "$49/mo",
-        "priceId": "price_1TFNg30xw5o9mCvniYPGcrKi",
-        "mode": "subscription"
-      },
-      {
-        "label": "Pro",
-        "price": "$99/mo",
-        "priceId": "price_1TFNka0xw5o9mCvn7ecUVRQk",
-        "mode": "subscription"
-      }
-    ],
-    "priceLabel": "From $49/mo"
-  },
-  {
-    "id": "lawprep",
-    "name": "LawPrep AI",
-    "link": "https://lawprep.aimicrotechlink.cloud",
-    "category": "Legal & Professional",
-    "description": "AI-powered legal research assistance and document preparation for legal professionals.",
-    "icon": "Scale",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "From $29/mo",
-    "stripePrices": [
-      {
-        "label": "Monthly",
-        "price": "$29/mo",
-        "priceId": "price_1TFMr70xw5o9mCvnVBQl1VPE",
-        "mode": "subscription"
-      },
-      {
-        "label": "Annual",
-        "price": "$278.40/yr",
-        "savings": "Save 20%",
-        "priceId": "price_1THzJM0xw5o9mCvnRMuBHaAV",
-        "mode": "subscription"
-      }
-    ],
-    "longDescription": "LawPrep AI accelerates legal research and document drafting..."
-  },
-  {
-    "id": "automated-web-to-ai-data-minimax",
-    "name": "Automated Web-to-AI Data",
-    "category": "AI & Automation",
-    "description": "Automatically converts any website into clean AI-ready knowledge base files (Markdown, TXT, JSON) for training LLMs, chatbots, and semantic search.",
-    "icon": "Wand2",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "autonomous-ai-agent-gensparks",
-    "name": "Autonomous AI Marketing Agent",
-    "category": "Marketing & Advertising",
-    "description": "Multi-agent system for marketing: StrategyDirector, Copywriter, ProjectManager, and ClientLiaison agents work together to automate campaigns end-to-end.",
-    "icon": "Sparkles",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "advidai",
-    "name": "AdvidAI",
-    "category": "Marketing & Advertising",
-    "description": "AI-powered advertising platform for creating, managing, and optimizing ad campaigns across channels.",
-    "icon": "Activity",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-microtech-link-website-generator",
-    "name": "AI Microtech Website Generator",
-    "category": "Developer Tools",
-    "description": "AI-powered website generator — creates multi-page websites from a single prompt and deploys directly to Netlify.",
-    "icon": "Sparkles",
-    "status": "Coming Soon",
-    "available": false,
-    "link": "https://fnqcbw8iok51.space.minimax.io"
-  },
-  {
-    "id": "workflow-to-saas-platform-gensparks",
-    "name": "Workflow to SaaS Platform",
-    "category": "Developer Tools",
-    "description": "Transforms n8n workflows into a production-ready SaaS for small businesses and marketing agencies — video, image, AI agent, and content automation in one dashboard.",
-    "icon": "LayoutGrid",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-microtechlink-leadflow-gensparks",
-    "name": "AI MicrotechLink LeadFlow",
-    "category": "Marketing & Advertising",
-    "description": "AI-powered lead capture, scoring, and follow-up automation for marketing teams.",
-    "icon": "TrendingUp",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-powered-ugc-video-creation-app-gensparks",
-    "name": "AI UGC Video Creation",
-    "category": "Video & Creative",
-    "description": "Automate user-generated content (UGC) video creation with AI — scripts, voiceover, and assembly.",
-    "icon": "Film",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-microtech-one-prompt-apps.-full-stack-generator",
-    "name": "One-Prompt Full Stack Generator",
-    "category": "Developer Tools",
-    "description": "Generate stunning full-stack applications from a single prompt using frontier AI models.",
-    "icon": "Heart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-microtech-os-base44",
-    "name": "AI Microtech OS",
-    "category": "AI & Automation",
-    "description": "AI Microtech OS — unified AI-powered operating environment for managing projects, apps, and workflows.",
-    "icon": "Map",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-microtech-os-platform-v2.1-pro",
-    "name": "AI Microtech OS Platform",
-    "category": "Video & Creative",
-    "description": "All-in-one AI creative platform: Illustrator, Ad Editor, MockupMaster, Ad Studio, Poster Drop, and Video Studio.",
-    "icon": "Scale",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-microtech-shield-priority-first-insurance",
-    "name": "AI MicroTech Shield Insurance",
-    "category": "Finance & Business",
-    "description": "AI-powered insurance platform built for Priority First — policy management, claims, and customer support.",
-    "icon": "Film",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-microtech-studio-pro-consistent-ai-character-story-creator-",
-    "name": "AI Studio Pro — Character Story Creator",
-    "category": "Video & Creative",
-    "description": "Generate consistent cartoon and stylized AI characters for stories, ads, and content using AI.",
-    "icon": "Calculator",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-microtechlink-2video-studio",
-    "name": "AI 2Video Studio",
-    "category": "Video & Creative",
-    "description": "AI creative assistant for video ads — generates detailed prompts and 3-part scene breakdowns from a rough idea.",
-    "icon": "QrCode",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-microtechlink-os",
-    "name": "AI Microtechlink OS",
-    "category": "AI & Automation",
-    "description": "AI assistant creator and marketing operations platform for building branded AI experiences.",
-    "icon": "CloudRain",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-microtechlink-roadmap-generator",
-    "name": "AI MicrotechLink",
-    "link": "https://roadmap.aimicrotechlink.cloud",
-    "category": "Developer Tools",
-    "description": "AI-powered roadmap and strategy generator for products, projects, and business initiatives.",
-    "icon": "Languages",
-    "status": "Beta",
-    "available": true
-  },
-  {
-    "id": "ai-pace-adoption-fatigue-control",
-    "name": "AI Pace & Adoption Fatigue Control",
-    "category": "Productivity & Lifestyle",
-    "description": "Tool for managing AI adoption pace and preventing tool fatigue across teams and businesses.",
-    "icon": "Music",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ai-web-maestro",
-    "name": "AI Web Maestro",
-    "category": "AI & Automation",
-    "description": "AI-powered web automation and orchestration platform for business workflows.",
-    "icon": "LineChart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "api-watch",
-    "name": "API Watch",
-    "category": "Developer Tools",
-    "description": "Monitor and track API usage, health, and performance across your integrations.",
-    "icon": "Users",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "appify-this-idea",
-    "name": "Appify This Idea",
-    "category": "Developer Tools",
-    "description": "Turn any idea into a structured app concept — AI-generated specs, user flows, and feature breakdowns.",
-    "icon": "CreditCard",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ara-m5-ai-studio-",
-    "name": "ARA M5 AI Studio ",
-    "category": "Productivity & Lifestyle",
-    "description": "ARA M5 GOOGLE AI Studio ",
-    "icon": "Code",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "aram5_2026_core",
-    "name": "AraM5 2026 Core",
-    "category": "AI & Automation",
-    "description": "The AraM5 AI holding company operating system — orchestrates all business agents, workflows, and memory.",
-    "icon": "LayoutGrid",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "audiogrampro",
-    "name": "Audiogrampro",
-    "category": "Video & Creative",
-    "description": "Base44 App: AudiogramPro",
-    "icon": "Shield",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "auto-vault",
-    "name": "Auto Vault",
-    "category": "Finance & Business",
-    "description": "A app that allows you to autofill all your personal documents",
-    "icon": "Activity",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "brandshorts-ai",
-    "name": "BrandShorts AI",
-    "category": "Marketing & Advertising",
-    "description": "BrandShorts AI Microtechlink builds tools for content creation, analytics, forecasting, and new business setup.",
-    "icon": "Wand2",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "brightseason",
-    "name": "BrightSeason",
-    "category": "Health & Wellness",
-    "description": "BrightSeason A seasonal mood and energy companion to help manage SAD and winter blues through personalized tracking and proactive planning.",
-    "icon": "TrendingUp",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "build-genie-craft",
-    "name": "Build Genie Craft",
-    "category": "Developer Tools",
-    "description": "AI-powered build genie craft platform for business and creative automation.",
-    "icon": "Sparkles",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "building-our-dream",
-    "name": "Building Our Dream",
-    "category": "Real Estate",
-    "description": "AI-powered building our dream platform for business and creative automation.",
-    "icon": "Heart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "chargeguard-an-ev-charging-copilot-that-predicts-charging-",
-    "name": "ChargeGuard An EV Charging Copilot That Predicts Charging ",
-    "category": "Logistics & Operations",
-    "description": "ChargeGuard An EV charging copilot that predicts charging success and provides real-time AI troubleshooting for failed sessions.",
-    "icon": "Film",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "chorecycler",
-    "name": "Chorecycler",
-    "category": "Productivity & Lifestyle",
-    "description": "Base44 App: ChoreCycler",
-    "icon": "Calculator",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "cineflow-ai-copy-copy",
-    "name": "Cineflow Ai Copy Copy",
-    "category": "Video & Creative",
-    "description": "Base44 App: CineFlow AI (Copy) (Copy)",
-    "icon": "QrCode",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "citylink-",
-    "name": "CityLink ",
-    "category": "Community & Social",
-    "description": "CityLink Your unified smart city companion.",
-    "icon": "CloudRain",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "clockwork-media",
-    "name": "Clockwork Media",
-    "category": "Video & Creative",
-    "description": "Base44 App: Clockwork Media",
-    "icon": "Languages",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "code-gen-ai-copy",
-    "name": "Code Gen Ai Copy",
-    "category": "Developer Tools",
-    "description": "Base44 App: CODE GEN AI (Copy)",
-    "icon": "Music",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "code-tracker-gensparks-",
-    "name": "Code Tracker Gensparks ",
-    "category": "Developer Tools",
-    "description": "AI-powered code tracker gensparks  platform for business and creative automation.",
-    "icon": "LineChart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "concept-to-app-starter",
-    "name": "Concept To App Starter",
-    "category": "Developer Tools",
-    "description": "AI-powered concept to app starter platform for business and creative automation.",
-    "icon": "Users",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "cortex-second-brain-9350",
-    "name": "Cortex — Second Brain",
-    "category": "Productivity & Lifestyle",
-    "description": "AI-powered second brain for capturing, connecting, and retrieving knowledge and ideas.",
-    "icon": "CreditCard",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "creative-finance-real-estate-trainer",
-    "name": "Creative Finance Real Estate Trainer",
-    "category": "Real Estate",
-    "description": "Creative Finance Real Estate Trainer A 4-Agent AI training platform for real estate investors using a shared creative finance playbook.You are a simulated property owner in a real estate training environment",
-    "icon": "Code",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "creatorflow-studio-landing-copy-of-same-file",
-    "name": "Creatorflow Studio Landing Copy Of Same File",
-    "category": "Video & Creative",
-    "description": "Landing page for CreatorFlow Studio - AI-powered workflow automation platform",
-    "icon": "Home",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "creatorflow-studio-minimax",
-    "name": "CreatorFlow Studio (MiniMax)",
-    "category": "Video & Creative",
-    "description": "CreatorFlow Studio is a workflow automation SaaS platform for content creators to generate:  Video content (AI-powered video creation) Images (AI image generation) Chatbots (custom AI assistants) Podcasts (AI voice/podcast creation)",
-    "icon": "Sun",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "creditbuild",
-    "name": "Creditbuild",
-    "category": "Finance & Business",
-    "description": "Business credit step by step",
-    "icon": "LayoutGrid",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "cryptobasics",
-    "name": "Cryptobasics",
-    "category": "Finance & Business",
-    "description": "Base44 App: CryptoBasics",
-    "icon": "Shield",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "cryptovault-copy",
-    "name": "CryptoVault",
-    "category": "Finance & Business",
-    "description": "Secure crypto portfolio tracker and vault management with AI insights.",
-    "icon": "Activity",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "dealflow-lite",
-    "name": "Dealflow Lite",
-    "category": "Real Estate",
-    "description": "DealFlow Lite - lightweight lead pipeline app",
-    "icon": "Wand2",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "decision-simulator-gensparks",
-    "name": "Decision Simulator (Gensparks)",
-    "category": "Productivity & Lifestyle",
-    "description": "AI-powered decision simulator (gensparks) platform for business and creative automation.",
-    "icon": "TrendingUp",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "demodirector-ai",
-    "name": "DemoDirector AI",
-    "category": "Video & Creative",
-    "description": "DemoDirector AI The app will allow a person to upload an image and take that image and make an infomercial, so to speak, for their video or trailer, or whatever you have, but basically make the demo for the video from the images or a prompt. The combination of both",
-    "icon": "Sparkles",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "demomagic",
-    "name": "DemoMagic",
-    "category": "Marketing & Advertising",
-    "description": "Interactive AI-powered product demos — create live, clickable demos to convert prospects faster.",
-    "icon": "Heart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "demomagic-interactive-product-demos",
-    "name": "DemoMagic — Interactive Product Demos",
-    "category": "Marketing & Advertising",
-    "description": "Interactive AI-powered product demos — create live, clickable demos to convert prospects faster.",
-    "icon": "Map",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "designdata-hub",
-    "name": "Designdata Hub",
-    "category": "Developer Tools",
-    "description": "Base44 App: DesignData Hub",
-    "icon": "Scale",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "docautofill",
-    "name": "DocAutoFill",
-    "category": "Legal & Professional",
-    "description": "Auto-fill your driver's license, vehicle registration, and insurance forms in seconds. Store your personal data securely and never fill out the same DMV paperwork again.",
-    "icon": "Film",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "docautofill-mimimax",
-    "name": "DocAutoFill Mimimax",
-    "category": "Legal & Professional",
-    "description": "AI-powered docautofill mimimax platform for business and creative automation.",
-    "icon": "Calculator",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "dynamic-illustration-generator",
-    "name": "Dynamic Illustration Generator",
-    "category": "Video & Creative",
-    "description": "Base44 App: Dynamic Illustration Generator",
-    "icon": "QrCode",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "eventpix-qr",
-    "name": "Eventpix QR",
-    "link": "https://eventpix.aimicrotechlink.cloud",
-    "category": "Events & QR",
-    "description": "QR-powered event photo sharing, smart check-in, and attendee engagement. Credit-based system — 2 credits per event.",
-    "icon": "QrCode",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "From $4.99/mo",
-    "stripePrices": [
-      {
-        "label": "Limited Time",
-        "price": "$4.99/mo",
-        "priceId": "price_1TKXBL0xw5o9mCvnisbinvuD",
-        "mode": "subscription"
-      },
-      {
-        "label": "Starter",
-        "price": "$15/mo",
-        "priceId": "price_1TKXBL0xw5o9mCvn9IZknTBn",
-        "mode": "subscription"
-      },
-      {
-        "label": "Pro",
-        "price": "$29/mo",
-        "priceId": "price_1TKXBM0xw5o9mCvnwcgiQd0U",
-        "mode": "subscription"
-      },
-      {
-        "label": "Business",
-        "price": "$99/mo",
-        "priceId": "price_1TKXBM0xw5o9mCvnHonoz21d",
-        "mode": "subscription"
-      }
-    ]
-  },
-  {
-    "id": "execuconnect",
-    "name": "Execuconnect",
-    "category": "Productivity & Lifestyle",
-    "description": "Base44 App: ExecuConnect",
-    "icon": "Music",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "facebook-ad-thief-competitor-ad-automation-tool",
-    "name": "Facebook Ad Thief Competitor Ad Automation Tool",
-    "category": "Marketing & Advertising",
-    "description": "AI-powered facebook ad thief competitor ad automation tool platform for business and creative automation.",
-    "icon": "LineChart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "familyhub",
-    "name": "Our Family Pulse",
-    "link": "https://familyhub.aimicrotechlink.cloud",
-    "category": "Productivity & Lifestyle",
-    "description": "All-in-one family hub — shared calendar, chores, budgeting, meal planning, and AI family assistant.",
-    "icon": "Users",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "From $9.99/mo",
-    "stripePrices": [
-      {
-        "label": "Premium Household",
-        "price": "$9.99/mo",
-        "priceId": "price_1TKWl60xw5o9mCvnKBouD8AD",
-        "mode": "subscription"
-      },
-      {
-        "label": "Village Elite",
-        "price": "$14.99/mo",
-        "priceId": "price_1TKWl70xw5o9mCvn9wDLClhL",
-        "mode": "subscription"
-      },
-      {
-        "label": "Annual",
-        "price": "$89.99/yr",
-        "savings": "Save 25%",
-        "priceId": "price_1TKWl70xw5o9mCvnyUqOWKCm",
-        "mode": "subscription"
-      }
-    ]
-  },
-  {
-    "id": "feedbackflow",
-    "name": "Feedbackflow",
-    "category": "Developer Tools",
-    "description": "Base44 App: FeedbackFlow",
-    "icon": "CreditCard",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "food-analyzer-ui",
-    "name": "Aria — AI Marketing Strategist",
-    "category": "Marketing & Advertising",
-    "description": "Your AI Marketing Strategist — a multimodal chat assistant (text, voice, and camera) that auto-invokes 11 built-in tools to run your marketing end to end.",
-    "longDescription": "Aria is an all-in-one AI marketing strategist with a conversational, multimodal interface (text, voice, and camera) that detects intent and auto-invokes the right tool. Eleven built-in tools: Competitor Analysis, Content Calendar, SEO Research, Caption Writer, Performance Report, Talking Avatar (ElevenLabs text-to-speech video), Branding Strategy, Idea Thinker, plus Food Analyzer, Meal Planner, and Grocery List. Includes a stats dashboard, saved content history, in-app + email notifications, gamified leaderboard, onboarding tour, and an admin suite (feature flags, A/B testing, RBAC).",
-    "icon": "Sparkles",
-    "status": "Beta",
-    "available": true,
-    "link": "https://aria.aimicrotechlink.cloud"
-  },
-  {
-    "id": "formforge-copy",
-    "name": "Formforge Copy",
-    "category": "Developer Tools",
-    "description": "Base44 App: FormForge (Copy)",
-    "icon": "Home",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "freelancer-inbox",
-    "name": "Freelancer Inbox",
-    "category": "Productivity & Lifestyle",
-    "description": "Unified inbox for freelancers to manage all client communication from different platforms in one place",
-    "icon": "Sun",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "freelancers-gensparks",
-    "name": "Freelancers (Gensparks)",
-    "category": "Productivity & Lifestyle",
-    "description": "AI-powered freelancers (gensparks) platform for business and creative automation.",
-    "icon": "LayoutGrid",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "glass-ui-gen",
-    "name": "Glass UI Gen",
-    "category": "Developer Tools",
-    "description": "A modern UI generator tool for building and exporting premium glassmorphism components and elements.",
-    "icon": "Shield",
-    "status": "Beta",
-    "available": true,
-    "link": "https://glassui.aimicrotechlink.cloud",
-    "priceLabel": "$29 lifetime",
-    "stripePrices": [
-      {
-        "label": "Pro Lifetime",
-        "price": "$29 one-time",
-        "priceId": "price_data",
-        "mode": "payment"
-      }
-    ]
-  },
-  {
-    "id": "gridflow-smart-ev-charging-scheduler-that-optimizes-for-grid-health-costs-and-your-schedule.",
-    "name": "GridFlow Smart EV Charging Scheduler That Optimizes For Grid Health Costs And Your Schedule.",
-    "category": "Logistics & Operations",
-    "description": "GridFlow Smart EV charging scheduler that optimizes for grid health, costs, and your schedule.",
-    "icon": "Activity",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "health-immune-tracker",
-    "name": "Health Immune Tracker",
-    "category": "Health & Wellness",
-    "description": "Health Immune Tracker Vitals Tracking: A dedicated section to log Temperature, Blood Pressure, Heart Rate, and Weight. Hydration Tracker: A visual counter to track daily water intake (cups). Activity & Movement: A section to log exercises or activities, including duration and intensity levels. Enhanced History: The history log now displays these ne",
-    "icon": "Wand2",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ice-king-ai-viral-content-machine",
-    "name": "Ice King Ai Viral Content Machine",
-    "category": "Marketing & Advertising",
-    "description": "AI-powered viral content generation tool for social media marketing",
-    "icon": "TrendingUp",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ideaflow",
-    "name": "Ideaflow",
-    "category": "Productivity & Lifestyle",
-    "description": "AI-powered idea discovery and MVP builder - scrapes pain points from 50+ platforms and generates app solutions",
-    "icon": "Sparkles",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "insight-to-reel",
-    "name": "Insight To Reel",
-    "category": "Video & Creative",
-    "description": "AI-powered insight to reel platform for business and creative automation.",
-    "icon": "Heart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "instant-jobs-quote-gensparks",
-    "name": "Instant Jobs Quote (Gensparks)",
-    "category": "Logistics & Operations",
-    "description": "AI-powered instant jobs quote (gensparks) platform for business and creative automation.",
-    "icon": "Map",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "inventorysync",
-    "name": "Inventorysync",
-    "category": "Logistics & Operations",
-    "description": "Base44 App: InventorySync",
-    "icon": "Scale",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "investsmart",
-    "name": "Investsmart",
-    "category": "Finance & Business",
-    "description": "Base44 App: InvestSmart",
-    "icon": "Film",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "k-8-multi-level-science-adventure-game-design",
-    "name": "K 8 Multi Level Science Adventure Game Design",
-    "category": "Education",
-    "description": "Science Quest is an educational quiz game for kids (grades K-8) that teaches science through fun, interactive challenges.  What it does:  8 levels covering Physics, Chemistry, Biology, and Earth Science 24 questions with multiple-choice answers and explanations Earn stars for correct answers to unlock new levels",
-    "icon": "Calculator",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "keyrotator-pro",
-    "name": "KeyRotator Pro",
-    "category": "Developer Tools",
-    "description": "auto regenerating API tool",
-    "icon": "QrCode",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "legalease",
-    "name": "LegalEase",
-    "link": "https://legalease.aimicrotechlink.cloud",
-    "category": "Legal & Professional",
-    "description": "AI-powered legal document assistant — simplify contracts, understand legal language, and get plain-English explanations.",
-    "icon": "Scale",
-    "status": "Beta",
-    "available": true,
-    "stripePrices": [
-      {
-        "label": "Pro Monthly",
-        "price": "$14.99/mo",
-        "priceId": "price_1TKulo0xw5o9mCvn4JSAYt7r",
-        "mode": "subscription"
-      },
-      {
-        "label": "Pro Annual",
-        "price": "$119.99/yr",
-        "savings": "Save 33%",
-        "priceId": "price_1TKulo0xw5o9mCvnvdziOiGX",
-        "mode": "subscription"
-      }
-    ],
-    "priceLabel": "From $14.99/mo"
-  },
-  {
-    "id": "lifeos",
-    "name": "LifeOS",
-    "category": "Productivity & Lifestyle",
-    "description": "A React-based personal AI assistant dashboard featuring memory management, agent execution, and secure user profiles with Firebase and PIN authentication.",
-    "icon": "Languages",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "linguaconnect",
-    "name": "Linguaconnect",
-    "category": "Education",
-    "description": "Base44 App: LinguaConnect",
-    "icon": "Music",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "local-pricing-gensparks",
-    "name": "Local Pricing (Gensparks)",
-    "category": "Finance & Business",
-    "description": "AI-powered local pricing (gensparks) platform for business and creative automation.",
-    "icon": "LineChart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "localmap",
-    "name": "Localmap",
-    "category": "Community & Social",
-    "description": "AI-powered localmap platform for business and creative automation.",
-    "icon": "Users",
-    "status": "Beta",
-    "available": true,
-    "link": "https://localmap.aimicrotechlink.cloud",
-    "priceLabel": "From $19.99/mo",
-    "stripePrices": [
-      {
-        "label": "Pro Monthly",
-        "price": "$19.99/mo",
-        "priceId": "price_1TKvAI0xw5o9mCvnRjUsaVRN",
-        "mode": "subscription"
-      },
-      {
-        "label": "Pro Annual",
-        "price": "$199/yr",
-        "savings": "Save 17%",
-        "priceId": "price_1TKvAJ0xw5o9mCvnp1r6hjZ3",
-        "mode": "subscription"
-      }
-    ]
-  },
-  {
-    "id": "localpulse",
-    "name": "LocalPulse",
-    "category": "Community & Social",
-    "description": "LocalPulse is a hyperlocal business discovery and community support platform. One app that shows you: “What’s actually around you, who owns it, what’s special about it, and how to support them today.”",
-    "icon": "CreditCard",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "marketing-orchestrator",
-    "name": "Marketing Orchestrator",
-    "category": "Marketing & Advertising",
-    "description": "AI Marketing Orchestrator - Complete Application Overview 🚀 What is This Application? The AI Marketing Orchestrator is a revolutionary automated marketing platform that allows users to input any business URL and receive comprehensive AI-powered analysis identifying weaknesses, opportunities, and actionable improvement strategies",
-    "icon": "Code",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "marketinghub-app",
-    "name": "MarketingHub App",
-    "category": "Marketing & Advertising",
-    "description": "This is a comprehensive all-in-one marketing platform that combines the best features of GoHighLevel and MarketingBlocks AI into a single powerful application. It's designed to replace multiple expensive marketing tools with one integrated solution.",
-    "icon": "Home",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "math-hero",
-    "name": "MathHero",
-    "link": "https://mathhero.aimicrotechlink.cloud",
-    "category": "Education",
-    "description": "AI math tutor for all ages. Step-by-step solutions, 3D visualizations, SAT/ACT exam prep, and Pre-K learning games — all in one platform.",
-    "icon": "Calculator",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "Free · $9.99/mo · $19.99/mo",
-    "stripePrices": [
-      {
-        "label": "Pro Scholar",
-        "price": "$9.99/mo",
-        "priceId": "price_1TKBKU0xw5o9mCvnKgg6Wtbp",
-        "mode": "subscription",
-        "features": [
-          "Unlimited AI Tutor Chat",
-          "Step-by-Step Solutions",
-          "Premium Exam Prep (SAT, ACT, AP)",
-          "Advanced 3D Visualizations",
-          "Progress Analytics",
-          "Priority Support"
-        ]
-      },
-      {
-        "label": "Family / Team",
-        "price": "$19.99/mo",
-        "priceId": "price_1TKBKU0xw5o9mCvnPC78hnYC",
-        "mode": "subscription",
-        "features": [
-          "Up to 5 User Accounts",
-          "Parent Dashboard",
-          "Teacher Recommendations",
-          "Private Study Groups",
-          "Printable Worksheets",
-          "All Pro Features"
-        ]
-      }
-    ],
-    "longDescription": "MathHero is an AI-powered math tutor built for every level — from Pre-K counting games to AP Calculus exam prep. Get instant step-by-step solutions, interactive 3D visualizations, and unlimited AI tutor chat that explains concepts in plain language. Serious students use Pro Scholar for SAT/ACT prep and progress tracking. Families and classrooms use the Family plan for shared accounts, parent dashboards, and teacher-curated recommendations. Free tier includes basic math solver, practice problems, and public study groups."
-  },
-  {
-    "id": "mathchat",
-    "name": "Math Factory",
-    "link": "https://mathchat.aimicrotechlink.cloud",
-    "category": "Education",
-    "description": "Interactive math challenges and games that make learning addictive. Build speed, accuracy, and confidence through daily missions and leaderboards.",
-    "icon": "LayoutGrid",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "Free · $9.99/mo",
-    "longDescription": "Math Factory turns math practice into a game. Daily missions, streak rewards, global leaderboards, and adaptive difficulty keep students coming back. Great for building mental math speed and arithmetic fluency from elementary through high school.",
-    "stripePrices": [
-      {
-        "label": "Pro Monthly",
-        "price": "$4.99/mo",
-        "priceId": "price_1TKuls0xw5o9mCvnetW3EDHL",
-        "mode": "subscription"
-      },
-      {
-        "label": "Pro Annual",
-        "price": "$39.99/yr",
-        "savings": "Save 33%",
-        "priceId": "price_1TKult0xw5o9mCvn8N9Af5bz",
-        "mode": "subscription"
-      }
-    ]
-  },
-  {
-    "id": "micro-franchise-gensparks",
-    "name": "Micro Franchise (Gensparks)",
-    "category": "Finance & Business",
-    "description": "AI-powered micro franchise (gensparks) platform for business and creative automation.",
-    "icon": "Shield",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "microtech-link-storyboard-productions",
-    "name": "Microtech Link Storyboard Productions",
-    "category": "Video & Creative",
-    "description": "Storyboard productions For content creation",
-    "icon": "Activity",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "microtechlink-fusion-engine-v3.0",
-    "name": "MICROTECHLINK Fusion Engine V3.0",
-    "category": "AI & Automation",
-    "description": "Microtechlink Character Fusion Studio",
-    "icon": "Wand2",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "microtechlink-lip-sync-studio",
-    "name": "Microtechlink Lip Sync Studio",
-    "category": "Video & Creative",
-    "description": "lip sync engine – perfect bridge between your audio, character, and video tools.",
-    "icon": "TrendingUp",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "microtechlink-transcription-studio",
-    "name": "Microtechlink Transcription Studio",
-    "category": "Video & Creative",
-    "description": "Microtechlink Transcription Studio",
-    "icon": "Sparkles",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "microtechlink-voice-agent-studio",
-    "name": "Microtechlink Voice Agent Studio",
-    "category": "AI & Automation",
-    "description": "Microtechlink Voice Agent Studio Ready to capture your ideas. Select an agent mode above, then tap the mic to start brainstorming.",
-    "icon": "Heart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "microtechlink-voice-agent-studio33",
-    "name": "Microtechlink Voice Agent Studio33",
-    "category": "AI & Automation",
-    "description": "Microtechlink Voice Agent Studio Ready to capture your ideas. Select an agent mode above, then tap the mic to start brainstorming.",
-    "icon": "Map",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "momentum",
-    "name": "Momentum",
-    "category": "Productivity & Lifestyle",
-    "description": "Base44 App: Momentum ⚡",
-    "icon": "Scale",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "musicpro-practice-with-purpose",
-    "name": "RhythmMate",
-    "link": "https://rhythm-mate-9af7ef53.base44.app",
-    "category": "Education",
-    "description": "Music practice companion — track sessions, set goals, follow structured learning paths, and improve with AI-guided feedback.",
-    "icon": "Music",
-    "status": "Beta",
-    "available": true,
-    "stripePrices": [
-      {
-        "label": "Pro Monthly",
-        "price": "$5.99/mo",
-        "priceId": "price_1TKum40xw5o9mCvngsBl3gcv",
-        "mode": "subscription"
-      },
-      {
-        "label": "Pro Annual",
-        "price": "$49.99/yr",
-        "savings": "Save 30%",
-        "priceId": "price_1TKum40xw5o9mCvnoscrw5Ji",
-        "mode": "subscription"
-      }
-    ],
-    "priceLabel": "From $5.99/mo"
-  },
-  {
-    "id": "n8n-developer-agent",
-    "name": "N8N Developer Agent",
-    "category": "Developer Tools",
-    "description": "a web application that helps you create automation workflows for n8n (a popular workflow automation platform).",
-    "icon": "Calculator",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "n8n-video-analyzer",
-    "name": "N8n Video Analyzer",
-    "category": "Developer Tools",
-    "description": "AI-powered tool that analyzes n8n workflow videos and generates implementation prompts with complete n8n JSON export. Built with React, Supabase, and Stripe for subscription management. Created by AI Microtech.",
-    "icon": "QrCode",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "n8n-workflow-genspark",
-    "name": "n8n Video Generator Workflow",
-    "category": "Developer Tools",
-    "description": "n8n workflow that generates videos from Google Sheets data using AI services.",
-    "icon": "CloudRain",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "n8n-workflow-gensparks",
-    "name": "n8n AI Automation Workflow",
-    "category": "Developer Tools",
-    "description": "n8n workflow for AI-powered business automation and content generation.",
-    "icon": "Languages",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "nerdybird",
-    "name": "Nerdy Bird",
-    "link": "https://nerdybird.aimicrotechlink.cloud",
-    "category": "Education",
-    "description": "School management platform with AI study tools, class chat, flashcards, assignments, and analytics for teachers, students, and parents.",
-    "icon": "GraduationCap",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "From $49/mo",
-    "stripePrices": [
-      {
-        "label": "Basic Monthly",
-        "price": "$49/mo",
-        "priceId": "price_1TKXMo0xw5o9mCvn4mQKlz7l",
-        "mode": "subscription"
-      },
-      {
-        "label": "Basic Annual",
-        "price": "$470/yr",
-        "savings": "Save 20%",
-        "priceId": "price_1TKXMo0xw5o9mCvnJ7Qwy2F9",
-        "mode": "subscription"
-      },
-      {
-        "label": "Premium Monthly",
-        "price": "$149/mo",
-        "priceId": "price_1TKXMo0xw5o9mCvn73gYi5So",
-        "mode": "subscription"
-      },
-      {
-        "label": "Premium Annual",
-        "price": "$1,430/yr",
-        "savings": "Save 20%",
-        "priceId": "price_1TKXMp0xw5o9mCvnns13AFVB",
-        "mode": "subscription"
-      }
-    ]
-  },
-  {
-    "id": "one-billing",
-    "name": "One Billing",
-    "category": "Finance & Business",
-    "description": "AI-powered one billing platform for business and creative automation.",
-    "icon": "LineChart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "os-system-minimax",
-    "name": "OS System (MiniMax)",
-    "category": "AI & Automation",
-    "description": "AI Microtech OS is a comprehensive AI-powered content generation platform that provides multiple AI-powered tools for creators, marketers, and businesses. It uses a smart provider priority system to optimize costs while delivering high-quality results.",
-    "icon": "Users",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "painpoint-to-product",
-    "name": "Painpoint To Product",
-    "category": "Developer Tools",
-    "description": "AI-powered painpoint to product platform for business and creative automation.",
-    "icon": "CreditCard",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "pawrentals",
-    "name": "Pawrentals",
-    "category": "Real Estate",
-    "description": "Base44 App: PawRentals",
-    "icon": "Code",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "permit-navigator-gensparks",
-    "name": "Permit Navigator (Gensparks)",
-    "category": "Legal & Professional",
-    "description": "AI-powered permit navigator (gensparks) platform for business and creative automation.",
-    "icon": "Home",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "photo-quote-gensparks",
-    "name": "Photo Quote (Gensparks)",
-    "category": "Marketing & Advertising",
-    "description": "AI-powered photo quote (gensparks) platform for business and creative automation.",
-    "icon": "Sun",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "pixi-sparkle-app",
-    "name": "Pixi Sparkle App",
-    "category": "Video & Creative",
-    "description": "AI-powered pixi sparkle app platform for business and creative automation.",
-    "icon": "LayoutGrid",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "podclip",
-    "name": "Podclip",
-    "category": "Video & Creative",
-    "description": "Base44 App: PodClip",
-    "icon": "Shield",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "pride-pulse-pro",
-    "name": "Pride Pulse Pro",
-    "category": "Marketing & Advertising",
-    "description": "AI-powered pride pulse pro platform for business and creative automation.",
-    "icon": "Activity",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "pridemarketing-gensparks",
-    "name": "Pridemarketing (Gensparks)",
-    "category": "Marketing & Advertising",
-    "description": "AI-powered pridemarketing (gensparks) platform for business and creative automation.",
-    "icon": "Wand2",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "product-and-ad-king",
-    "name": "Product And Ad King",
-    "category": "Video & Creative",
-    "description": "Studio quality product and ad generation and videos",
-    "icon": "TrendingUp",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "prompt-enhancer-grove-32893",
-    "name": "Prompt Enhancer",
-    "category": "AI & Automation",
-    "description": "AI-powered prompt enhancement tool — improve and optimize prompts for better AI outputs.",
-    "icon": "Sparkles",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "prompt-enhancer-grove-32893-1b1b91be",
-    "name": "Prompt Enhancer (v2)",
-    "category": "AI & Automation",
-    "description": "AI-powered prompt enhancement tool — improve and optimize prompts for better AI outputs.",
-    "icon": "Heart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "prompt-enhancer-grove-32893-f94fbbdc",
-    "name": "Prompt Enhancer (v3)",
-    "category": "AI & Automation",
-    "description": "AI-powered prompt enhancement tool — improve and optimize prompts for better AI outputs.",
-    "icon": "Map",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "prompt-foundry",
-    "name": "Prompt Foundry",
-    "category": "AI & Automation",
-    "description": "Prompt Foundry is a comprehensive prompt generation platform that helps users create optimized prompts for AI models across 17 specialized categories. It features a modern dark-themed UI and supports multiple AI providers.",
-    "icon": "Scale",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "prompt-weaver",
-    "name": "Prompt Weaver",
-    "category": "AI & Automation",
-    "description": "AI-powered prompt weaver platform for business and creative automation.",
-    "icon": "Film",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "quick-offer",
-    "name": "Quick Offer",
-    "category": "Real Estate",
-    "description": "AI-powered offer generator for freelancers",
-    "icon": "Calculator",
-    "status": "Beta",
-    "available": true,
-    "link": "https://quickoffer.aimicrotechlink.cloud"
-  },
-  {
-    "id": "re-investor-ai-trainer",
-    "name": "RE Investor AI Trainer",
-    "category": "Real Estate",
-    "description": "RE-Investor AI Trainer Master A 4-Agent AI training platform for real estate investors using a shared creative finance playbook.You are a simulated property owner in a real estate training environment. You are ROLEPLAYING the SELLER so that a student investor can practice live calls.",
-    "icon": "QrCode",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "real-estate-ai-dojo",
-    "name": "Real Estate AI Dojo",
-    "category": "Real Estate",
-    "description": "Real Estate AI Dojo Simulator",
-    "icon": "CloudRain",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "rehab-e-cam",
-    "name": "Rehab-E-Cam",
-    "category": "Finance & Business",
-    "description": "Walk a property, snap photos, and get an investor-grade rehab scope, local cost estimate, and deal offer number in minutes.",
-    "icon": "Languages",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "rehab-e-cam-app-marketing-minimax",
-    "name": "Rehab-E-Cam (Marketing)",
-    "category": "Finance & Business",
-    "description": "Marketing and pitch materials for Rehab-E-Cam — AI-powered real estate property inspection and deal analysis.",
-    "icon": "Music",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "remoteflow",
-    "name": "Remoteflow",
-    "category": "Developer Tools",
-    "description": "Base44 App: RemoteFlow",
-    "icon": "LineChart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "resale-profits-gensparks",
-    "name": "Resale Profits (Gensparks)",
-    "category": "Finance & Business",
-    "description": "AI-powered resale profits (gensparks) platform for business and creative automation.",
-    "icon": "Users",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "researchhub",
-    "name": "ResearchHub",
-    "link": "https://researchhub.aimicrotechlink.cloud",
-    "category": "Education",
-    "description": "AI-powered academic research manager — organize projects, sources, and notes with smart citation tools and AI summaries.",
-    "icon": "BookOpen",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "Free · $12.99/mo",
-    "stripePrices": [
-      {
-        "label": "Pro Monthly",
-        "price": "$12.99/mo",
-        "priceId": "price_1TKWz10xw5o9mCvn7ykdR0J8",
-        "mode": "subscription"
-      },
-      {
-        "label": "Pro Annual",
-        "price": "$99/yr",
-        "savings": "Save 36%",
-        "priceId": "price_1TKWz50xw5o9mCvnQAcqsyC6",
-        "mode": "subscription"
-      }
-    ]
-  },
-  {
-    "id": "saas-demo-builder",
-    "name": "SaaS Demo Builder",
-    "category": "Developer Tools",
-    "description": "The SaaS Demo Builder is a tool that lets users create, customize, and embed interactive product demos on their SaaS websites. Think of it as a guided tour builder — you define steps with tooltips and highlights that walk visitors through your product's features.",
-    "icon": "Home",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "sagecall",
-    "name": "SageCall",
-    "category": "Marketing & Advertising",
-    "description": "SageCall is an on-demand, human-to-human video help platform. It connects: People who need immediate, practical help (fixing a leaky pipe, sewing a button, troubleshooting a car noise, calming a crying baby, basic cooking, etc.) With retired seniors and veterans (“Sages”) who have decades of experience and who want social connection, purpose, and a",
-    "icon": "Sun",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "santa-tracker",
-    "name": "Santa Tracker",
-    "category": "Productivity & Lifestyle",
-    "description": "A global Santa tracking app",
-    "icon": "LayoutGrid",
-    "status": "Beta",
-    "available": false,
-    "link": "https://santa-tracker-indol.vercel.app",
-    "seasonalFrom": {
-      "month": 11,
-      "day": 15
+    {
+        "id":  "kaloscan",
+        "name":  "KaloriScan",
+        "link":  "https://kaloscan-five.vercel.app",
+        "category":  "Health \u0026 Wellness",
+        "description":  "AI food scanning and calorie tracking with personalized nutrition insights and meal planning.",
+        "icon":  "Activity",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "From $9.99/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Monthly",
+                                 "price":  "$9.99/mo",
+                                 "priceId":  "price_1TF3X50xw5o9mCvnzt3wvbhF",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Annual",
+                                 "price":  "$95.90/yr",
+                                 "savings":  "Save 20%",
+                                 "priceId":  "price_1TF3d70xw5o9mCvnNSGmCZfv",
+                                 "mode":  "subscription"
+                             }
+                         ],
+        "longDescription":  "KaloriScan uses AI-powered image recognition to instantly identify food items and calculate nutritional content..."
     },
-    "seasonalTo": {
-      "month": 12,
-      "day": 27
+    {
+        "id":  "batchright",
+        "name":  "BatchRight",
+        "link":  "https://batchright.aimicrotechlink.cloud",
+        "category":  "Food \u0026 Restaurant",
+        "description":  "AI-powered yield tracking and ingredient cost calculator for food businesses. Know your true cost per plate and maximize profit margins.",
+        "icon":  "Wand2",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "From $9.99/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Monthly",
+                                 "price":  "$9.99/mo",
+                                 "priceId":  "price_1THzJL0xw5o9mCvnPKQ9EW4z",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Annual",
+                                 "price":  "$95.90/yr",
+                                 "savings":  "Save 20%",
+                                 "priceId":  "price_1THzJL0xw5o9mCvnTK14O74J",
+                                 "mode":  "subscription"
+                             }
+                         ],
+        "longDescription":  "BatchRight is built for food businesses that need to know their real numbers..."
+    },
+    {
+        "id":  "hit",
+        "name":  "HIT ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Health Intelligence Tracker",
+        "link":  "https://hit-real.vercel.app",
+        "category":  "Health \u0026 Wellness",
+        "description":  "Emergency-ready AI health platform. Track symptoms, meds, and mood ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â with one-tap Safety Beacon and AI-powered pattern insights.",
+        "icon":  "Activity",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "From $14.99/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Monthly",
+                                 "price":  "$14.99/mo",
+                                 "priceId":  "price_1THzJL0xw5o9mCvn8IbOsm3P",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Annual",
+                                 "price":  "$143.90/yr",
+                                 "savings":  "Save 20%",
+                                 "priceId":  "price_1THzJL0xw5o9mCvnlk8Xq4oO",
+                                 "mode":  "subscription"
+                             }
+                         ],
+        "longDescription":  "HIT is the first comprehensive health platform..."
+    },
+    {
+        "id":  "revenueforge",
+        "name":  "RevenueForge",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "Missed call text-back and lead management. Turn missed calls into booked appointments automatically.",
+        "icon":  "TrendingUp",
+        "status":  "Beta",
+        "available":  true,
+        "longDescription":  "RevenueForge automatically sends a personalized text to every caller you miss...",
+        "link":  "https://revenueforge.aimicrotechlink.cloud",
+        "priceLabel":  "From $49/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro Monthly",
+                                 "price":  "$49/mo",
+                                 "priceId":  "price_1TKvAH0xw5o9mCvnsQ5CsHHp",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Pro Annual",
+                                 "price":  "$470/yr",
+                                 "savings":  "Save 20%",
+                                 "priceId":  "price_1TKvAI0xw5o9mCvnhcq1lCYw",
+                                 "mode":  "subscription"
+                             }
+                         ]
+    },
+    {
+        "id":  "reachrecover",
+        "name":  "ReachRecover AI",
+        "link":  "https://reachrecover.aimicrotechlink.cloud",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "Turn every missed call into a booked customer. AI-powered text-back, smart lead recovery, and Gemini-driven conversations ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 24/7.",
+        "icon":  "Phone",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "From $47/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Starter",
+                                 "price":  "$47/mo",
+                                 "priceId":  "price_1TKAmO0xw5o9mCvnEN39GreP",
+                                 "mode":  "subscription",
+                                 "features":  [
+                                                  "30 SMS text-backs/mo",
+                                                  "AI receptionist",
+                                                  "Full dashboard",
+                                                  "Email support"
+                                              ]
+                             },
+                             {
+                                 "label":  "Basic",
+                                 "price":  "$97/mo",
+                                 "priceId":  "price_1TKAmO0xw5o9mCvnMxDadaaz",
+                                 "mode":  "subscription",
+                                 "features":  [
+                                                  "100 SMS text-backs/mo",
+                                                  "30 voice minutes",
+                                                  "Standard AI receptionist",
+                                                  "Full analytics"
+                                              ]
+                             },
+                             {
+                                 "label":  "White Label",
+                                 "price":  "$197/mo + $299 setup",
+                                 "priceId":  "price_1TKAtM0xw5o9mCvnKZ3ww8pJ",
+                                 "setupFeeId":  "price_1TKAwL0xw5o9mCvnzrXDofwm",
+                                 "mode":  "subscription",
+                                 "features":  [
+                                                  "Custom branding \u0026 domain",
+                                                  "Unlimited sub-accounts",
+                                                  "API access",
+                                                  "Dedicated account manager",
+                                                  "5000 SMS / 1000 voice mins"
+                                              ]
+                             }
+                         ],
+        "longDescription":  "ReachRecover AI automatically texts back every missed call within seconds ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â before they dial your competitor. Powered by Google Gemini, it holds real conversations, captures lead info, and routes hot prospects straight to you. Set up your AI receptionist in minutes: choose your industry, write your knowledge base, and go live. Every conversation is logged, every lead is tracked, and your dashboard shows exactly how many calls you recovered. Available as a self-serve SaaS or fully white-labeled for agencies."
+    },
+    {
+        "id":  "pridereach",
+        "name":  "PrideReach",
+        "link":  "https://pridereach.aimicrotechlink.cloud",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "Inclusive community management and multi-tier marketing platform for modern businesses.",
+        "icon":  "Heart",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "From $97/mo",
+        "pricingTabs":  [
+                            {
+                                "label":  "Self-Service",
+                                "description":  "You run it. We give you the platform.",
+                                "stripePrices":  [
+                                                     {
+                                                         "label":  "Starter Monthly",
+                                                         "price":  "$97/mo",
+                                                         "priceId":  "price_1THzJM0xw5o9mCvneOXvxZM6",
+                                                         "mode":  "subscription"
+                                                     },
+                                                     {
+                                                         "label":  "Starter Annual",
+                                                         "price":  "$931.20/yr",
+                                                         "savings":  "Save 20%",
+                                                         "priceId":  "price_1THzJM0xw5o9mCvnzJKA2jYI",
+                                                         "mode":  "subscription"
+                                                     },
+                                                     {
+                                                         "label":  "Growth Monthly",
+                                                         "price":  "$197/mo",
+                                                         "priceId":  "price_1THzJN0xw5o9mCvnacmMCW98",
+                                                         "mode":  "subscription"
+                                                     },
+                                                     {
+                                                         "label":  "Growth Annual",
+                                                         "price":  "$1,891.20/yr",
+                                                         "savings":  "Save 20%",
+                                                         "priceId":  "price_1THzJN0xw5o9mCvnUIkeCZXj",
+                                                         "mode":  "subscription"
+                                                     },
+                                                     {
+                                                         "label":  "Scale Monthly",
+                                                         "price":  "$397/mo",
+                                                         "priceId":  "price_1THzJO0xw5o9mCvnSeiV5AOU",
+                                                         "mode":  "subscription"
+                                                     },
+                                                     {
+                                                         "label":  "Scale Annual",
+                                                         "price":  "$3,811.20/yr",
+                                                         "savings":  "Save 20%",
+                                                         "priceId":  "price_1THzJO0xw5o9mCvn6zlUCDNB",
+                                                         "mode":  "subscription"
+                                                     }
+                                                 ]
+                            },
+                            {
+                                "label":  "Done-For-You",
+                                "description":  "We manage everything. You get results.",
+                                "contactOnly":  true,
+                                "stripePrices":  [
+                                                     {
+                                                         "label":  "Getting Started",
+                                                         "price":  "$1,499/mo",
+                                                         "priceId":  "price_PRIDEREACH_DFY_START",
+                                                         "mode":  "subscription"
+                                                     },
+                                                     {
+                                                         "label":  "Market Leader",
+                                                         "price":  "$1,699/mo",
+                                                         "priceId":  "price_PRIDEREACH_DFY_LEADER",
+                                                         "mode":  "subscription"
+                                                     },
+                                                     {
+                                                         "label":  "Brand Authority",
+                                                         "price":  "$1,899/mo",
+                                                         "priceId":  "price_PRIDEREACH_DFY_BRAND",
+                                                         "mode":  "subscription"
+                                                     },
+                                                     {
+                                                         "label":  "Integrated Powerhouse",
+                                                         "price":  "$2,199/mo",
+                                                         "priceId":  "price_PRIDEREACH_DFY_POWER",
+                                                         "mode":  "subscription"
+                                                     }
+                                                 ]
+                            }
+                        ],
+        "longDescription":  "PrideReach is a comprehensive community management...",
+        "stripePrices":  [
+                             {
+                                 "label":  "Starter Monthly",
+                                 "price":  "$97/mo",
+                                 "priceId":  "price_1THzJM0xw5o9mCvneOXvxZM6",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Starter Annual",
+                                 "price":  "$931/yr",
+                                 "savings":  "Save 20%",
+                                 "priceId":  "price_1THzJM0xw5o9mCvnzJKA2jYI",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Growth Monthly",
+                                 "price":  "$197/mo",
+                                 "priceId":  "price_1THzJN0xw5o9mCvnacmMCW98",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Scale Monthly",
+                                 "price":  "$397/mo",
+                                 "priceId":  "price_1THzJO0xw5o9mCvnSeiV5AOU",
+                                 "mode":  "subscription"
+                             }
+                         ]
+    },
+    {
+        "id":  "haullogic",
+        "name":  "HaulLogic",
+        "link":  "https://haullogic.aimicrotechlink.cloud",
+        "category":  "Logistics \u0026 Operations",
+        "description":  "Hauling and logistics management with route optimization, job tracking, and customer management.",
+        "icon":  "Map",
+        "status":  "Beta",
+        "available":  true,
+        "longDescription":  "HaulLogic is purpose-built for hauling and dump trailer businesses...",
+        "stripePrices":  [
+                             {
+                                 "label":  "Basic",
+                                 "price":  "$49/mo",
+                                 "priceId":  "price_1TFNg30xw5o9mCvniYPGcrKi",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Pro",
+                                 "price":  "$99/mo",
+                                 "priceId":  "price_1TFNka0xw5o9mCvn7ecUVRQk",
+                                 "mode":  "subscription"
+                             }
+                         ],
+        "priceLabel":  "From $49/mo"
+    },
+    {
+        "id":  "lawprep",
+        "name":  "LawPrep AI",
+        "link":  "https://lawprep.aimicrotechlink.cloud",
+        "category":  "Legal \u0026 Professional",
+        "description":  "AI-powered legal research assistance and document preparation for legal professionals.",
+        "icon":  "Scale",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "From $29/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Monthly",
+                                 "price":  "$29/mo",
+                                 "priceId":  "price_1TFMr70xw5o9mCvnVBQl1VPE",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Annual",
+                                 "price":  "$278.40/yr",
+                                 "savings":  "Save 20%",
+                                 "priceId":  "price_1THzJM0xw5o9mCvnRMuBHaAV",
+                                 "mode":  "subscription"
+                             }
+                         ],
+        "longDescription":  "LawPrep AI accelerates legal research and document drafting..."
+    },
+    {
+        "id":  "automated-web-to-ai-data-minimax",
+        "name":  "Automated Web-to-AI Data",
+        "category":  "AI \u0026 Automation",
+        "description":  "Automatically converts any website into clean AI-ready knowledge base files (Markdown, TXT, JSON) for training LLMs, chatbots, and semantic search.",
+        "icon":  "Wand2",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "autonomous-ai-agent-gensparks",
+        "name":  "Autonomous AI Marketing Agent",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "Multi-agent system for marketing: StrategyDirector, Copywriter, ProjectManager, and ClientLiaison agents work together to automate campaigns end-to-end.",
+        "icon":  "Sparkles",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "advidai",
+        "name":  "AdvidAI",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "AI-powered advertising platform for creating, managing, and optimizing ad campaigns across channels.",
+        "icon":  "Activity",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ai-microtech-link-website-generator",
+        "name":  "AI Microtech Website Generator",
+        "category":  "Developer Tools",
+        "description":  "AI-powered website generator ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â creates multi-page websites from a single prompt and deploys directly to Netlify.",
+        "icon":  "Sparkles",
+        "status":  "Coming Soon",
+        "available":  false,
+        "link":  "https://fnqcbw8iok51.space.minimax.io"
+    },
+    {
+        "id":  "workflow-to-saas-platform-gensparks",
+        "name":  "Workflow to SaaS Platform",
+        "category":  "Developer Tools",
+        "description":  "Transforms n8n workflows into a production-ready SaaS for small businesses and marketing agencies ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â video, image, AI agent, and content automation in one dashboard.",
+        "icon":  "LayoutGrid",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ai-microtechlink-leadflow-gensparks",
+        "name":  "AI MicrotechLink LeadFlow",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "AI-powered lead capture, scoring, and follow-up automation for marketing teams.",
+        "icon":  "TrendingUp",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ai-powered-ugc-video-creation-app-gensparks",
+        "name":  "AI UGC Video Creation",
+        "category":  "Video \u0026 Creative",
+        "description":  "Automate user-generated content (UGC) video creation with AI ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â scripts, voiceover, and assembly.",
+        "icon":  "Film",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ai-microtech-one-prompt-apps.-full-stack-generator",
+        "name":  "One-Prompt Full Stack Generator",
+        "category":  "Developer Tools",
+        "description":  "Generate stunning full-stack applications from a single prompt using frontier AI models.",
+        "icon":  "Heart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ai-microtech-os-base44",
+        "name":  "AI Microtech OS",
+        "category":  "AI \u0026 Automation",
+        "description":  "AI Microtech OS ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â unified AI-powered operating environment for managing projects, apps, and workflows.",
+        "icon":  "Map",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://microtechos.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "ai-microtech-os-platform-v2.1-pro",
+        "name":  "AI Microtech OS Platform",
+        "category":  "Video \u0026 Creative",
+        "description":  "All-in-one AI creative platform: Illustrator, Ad Editor, MockupMaster, Ad Studio, Poster Drop, and Video Studio.",
+        "icon":  "Scale",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ai-microtech-shield-priority-first-insurance",
+        "name":  "AI MicroTech Shield Insurance",
+        "category":  "Finance \u0026 Business",
+        "description":  "AI-powered insurance platform built for Priority First ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â policy management, claims, and customer support.",
+        "icon":  "Film",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ai-microtech-studio-pro-consistent-ai-character-story-creator-",
+        "name":  "AI Studio Pro ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Character Story Creator",
+        "category":  "Video \u0026 Creative",
+        "description":  "Generate consistent cartoon and stylized AI characters for stories, ads, and content using AI.",
+        "icon":  "Calculator",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ai-microtechlink-2video-studio",
+        "name":  "AI 2Video Studio",
+        "category":  "Video \u0026 Creative",
+        "description":  "AI creative assistant for video ads ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â generates detailed prompts and 3-part scene breakdowns from a rough idea.",
+        "icon":  "QrCode",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ai-microtechlink-os",
+        "name":  "AI Microtechlink OS",
+        "category":  "AI \u0026 Automation",
+        "description":  "AI assistant creator and marketing operations platform for building branded AI experiences.",
+        "icon":  "CloudRain",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ai-microtechlink-roadmap-generator",
+        "name":  "AI MicrotechLink",
+        "link":  "https://roadmap.aimicrotechlink.cloud",
+        "category":  "Developer Tools",
+        "description":  "AI-powered roadmap and strategy generator for products, projects, and business initiatives.",
+        "icon":  "Languages",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "ai-pace-adoption-fatigue-control",
+        "name":  "AI Pace \u0026 Adoption Fatigue Control",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "Tool for managing AI adoption pace and preventing tool fatigue across teams and businesses.",
+        "icon":  "Music",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ai-web-maestro",
+        "name":  "AI Web Maestro",
+        "category":  "AI \u0026 Automation",
+        "description":  "AI-powered web automation and orchestration platform for business workflows.",
+        "icon":  "LineChart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "api-watch",
+        "name":  "API Watch",
+        "category":  "Developer Tools",
+        "description":  "Monitor and track API usage, health, and performance across your integrations.",
+        "icon":  "Users",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://apiwatch.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "appify-this-idea",
+        "name":  "Appify This Idea",
+        "category":  "Developer Tools",
+        "description":  "Turn any idea into a structured app concept ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â AI-generated specs, user flows, and feature breakdowns.",
+        "icon":  "CreditCard",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ara-m5-ai-studio-",
+        "name":  "ARA M5 AI Studio ",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "ARA M5 GOOGLE AI Studio ",
+        "icon":  "Code",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "aram5_2026_core",
+        "name":  "AraM5 2026 Core",
+        "category":  "AI \u0026 Automation",
+        "description":  "The AraM5 AI holding company operating system ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â orchestrates all business agents, workflows, and memory.",
+        "icon":  "LayoutGrid",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "audiogrampro",
+        "name":  "Audiogrampro",
+        "category":  "Video \u0026 Creative",
+        "description":  "Create stunning audiograms from podcasts and audio content. Auto-generate waveform visualizations and captions for social media.",
+        "icon":  "Shield",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://audiogram.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "auto-vault",
+        "name":  "Auto Vault",
+        "category":  "Finance \u0026 Business",
+        "description":  "A app that allows you to autofill all your personal documents",
+        "icon":  "Activity",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "brandshorts-ai",
+        "name":  "BrandShorts AI",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "BrandShorts AI Microtechlink builds tools for content creation, analytics, forecasting, and new business setup.",
+        "icon":  "Wand2",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "brightseason",
+        "name":  "BrightSeason",
+        "category":  "Health \u0026 Wellness",
+        "description":  "BrightSeason A seasonal mood and energy companion to help manage SAD and winter blues through personalized tracking and proactive planning.",
+        "icon":  "TrendingUp",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "build-genie-craft",
+        "name":  "Build Genie Craft",
+        "category":  "Developer Tools",
+        "description":  "AI-powered build genie craft platform for business and creative automation.",
+        "icon":  "Sparkles",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "building-our-dream",
+        "name":  "Building Our Dream",
+        "category":  "Real Estate",
+        "description":  "AI-powered building our dream platform for business and creative automation.",
+        "icon":  "Heart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "chargeguard-an-ev-charging-copilot-that-predicts-charging-",
+        "name":  "ChargeGuard An EV Charging Copilot That Predicts Charging ",
+        "category":  "Logistics \u0026 Operations",
+        "description":  "ChargeGuard An EV charging copilot that predicts charging success and provides real-time AI troubleshooting for failed sessions.",
+        "icon":  "Film",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "chorecycler",
+        "name":  "Chorecycler",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "Smart household chore management with rotating assignments, reward tracking, and family accountability.",
+        "icon":  "Calculator",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://chorecycler.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "cineflow-ai-copy-copy",
+        "name":  "Cineflow Ai Copy Copy",
+        "category":  "Video \u0026 Creative",
+        "description":  "Base44 App: CineFlow AI (Copy) (Copy)",
+        "icon":  "QrCode",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "citylink-",
+        "name":  "CityLink ",
+        "category":  "Community \u0026 Social",
+        "description":  "CityLink Your unified smart city companion.",
+        "icon":  "CloudRain",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "clockwork-media",
+        "name":  "Clockwork Media",
+        "category":  "Video \u0026 Creative",
+        "description":  "Media scheduling and content calendar management for social media teams and creators.",
+        "icon":  "Languages",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://clockwork.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "code-gen-ai-copy",
+        "name":  "Code Gen Ai Copy",
+        "category":  "Developer Tools",
+        "description":  "Base44 App: CODE GEN AI (Copy)",
+        "icon":  "Music",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "code-tracker-gensparks-",
+        "name":  "Code Tracker Gensparks ",
+        "category":  "Developer Tools",
+        "description":  "AI-powered code tracker gensparks  platform for business and creative automation.",
+        "icon":  "LineChart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "concept-to-app-starter",
+        "name":  "Concept To App Starter",
+        "category":  "Developer Tools",
+        "description":  "AI-powered concept to app starter platform for business and creative automation.",
+        "icon":  "Users",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "cortex-second-brain-9350",
+        "name":  "Cortex ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Second Brain",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "AI-powered second brain for capturing, connecting, and retrieving knowledge and ideas.",
+        "icon":  "CreditCard",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "creative-finance-real-estate-trainer",
+        "name":  "Creative Finance Real Estate Trainer",
+        "category":  "Real Estate",
+        "description":  "Creative Finance Real Estate Trainer A 4-Agent AI training platform for real estate investors using a shared creative finance playbook.You are a simulated property owner in a real estate training environment",
+        "icon":  "Code",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "creatorflow-studio-landing-copy-of-same-file",
+        "name":  "Creatorflow Studio Landing Copy Of Same File",
+        "category":  "Video \u0026 Creative",
+        "description":  "Landing page for CreatorFlow Studio - AI-powered workflow automation platform",
+        "icon":  "Home",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "creatorflow-studio-minimax",
+        "name":  "CreatorFlow Studio (MiniMax)",
+        "category":  "Video \u0026 Creative",
+        "description":  "CreatorFlow Studio is a workflow automation SaaS platform for content creators to generate:  Video content (AI-powered video creation) Images (AI image generation) Chatbots (custom AI assistants) Podcasts (AI voice/podcast creation)",
+        "icon":  "Sun",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "creditbuild",
+        "name":  "Creditbuild",
+        "category":  "Finance \u0026 Business",
+        "description":  "Business credit step by step",
+        "icon":  "LayoutGrid",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "cryptobasics",
+        "name":  "Cryptobasics",
+        "category":  "Finance \u0026 Business",
+        "description":  "Learn cryptocurrency fundamentals with interactive lessons, quizzes, and portfolio tracking basics.",
+        "icon":  "Shield",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://cryptobasics.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "cryptovault-copy",
+        "name":  "CryptoVault",
+        "category":  "Finance \u0026 Business",
+        "description":  "Secure crypto portfolio tracker and vault management with AI insights.",
+        "icon":  "Activity",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://cryptovault.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "dealflow-lite",
+        "name":  "Dealflow Lite",
+        "category":  "Real Estate",
+        "description":  "DealFlow Lite - lightweight lead pipeline app",
+        "icon":  "Wand2",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "decision-simulator-gensparks",
+        "name":  "Decision Simulator (Gensparks)",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "AI-powered decision simulator (gensparks) platform for business and creative automation.",
+        "icon":  "TrendingUp",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "demodirector-ai",
+        "name":  "DemoDirector AI",
+        "category":  "Video \u0026 Creative",
+        "description":  "DemoDirector AI The app will allow a person to upload an image and take that image and make an infomercial, so to speak, for their video or trailer, or whatever you have, but basically make the demo for the video from the images or a prompt. The combination of both",
+        "icon":  "Sparkles",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "demomagic",
+        "name":  "DemoMagic",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "Interactive AI-powered product demos ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â create live, clickable demos to convert prospects faster.",
+        "icon":  "Heart",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://demomagic.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "demomagic-interactive-product-demos",
+        "name":  "DemoMagic ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Interactive Product Demos",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "Interactive AI-powered product demos ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â create live, clickable demos to convert prospects faster.",
+        "icon":  "Map",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "designdata-hub",
+        "name":  "Designdata Hub",
+        "category":  "Developer Tools",
+        "description":  "Design asset management with data analytics, version control, and team collaboration tools.",
+        "icon":  "Scale",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://designhub.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "docautofill",
+        "name":  "DocAutoFill",
+        "category":  "Legal \u0026 Professional",
+        "description":  "Auto-fill your driver\u0027s license, vehicle registration, and insurance forms in seconds. Store your personal data securely and never fill out the same DMV paperwork again.",
+        "icon":  "Film",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "docautofill-mimimax",
+        "name":  "DocAutoFill Mimimax",
+        "category":  "Legal \u0026 Professional",
+        "description":  "AI-powered docautofill mimimax platform for business and creative automation.",
+        "icon":  "Calculator",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "dynamic-illustration-generator",
+        "name":  "Dynamic Illustration Generator",
+        "category":  "Video \u0026 Creative",
+        "description":  "AI-powered illustration generator Ã¢â‚¬â€ create custom digital art, icons, and graphics from text prompts.",
+        "icon":  "QrCode",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://illusgen.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "eventpix-qr",
+        "name":  "Eventpix QR",
+        "link":  "https://eventpix.aimicrotechlink.cloud",
+        "category":  "Events \u0026 QR",
+        "description":  "QR-powered event photo sharing, smart check-in, and attendee engagement. Credit-based system ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2 credits per event.",
+        "icon":  "QrCode",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "From $4.99/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Limited Time",
+                                 "price":  "$4.99/mo",
+                                 "priceId":  "price_1TKXBL0xw5o9mCvnisbinvuD",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Starter",
+                                 "price":  "$15/mo",
+                                 "priceId":  "price_1TKXBL0xw5o9mCvn9IZknTBn",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Pro",
+                                 "price":  "$29/mo",
+                                 "priceId":  "price_1TKXBM0xw5o9mCvnwcgiQd0U",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Business",
+                                 "price":  "$99/mo",
+                                 "priceId":  "price_1TKXBM0xw5o9mCvnHonoz21d",
+                                 "mode":  "subscription"
+                             }
+                         ]
+    },
+    {
+        "id":  "execuconnect",
+        "name":  "Execuconnect",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "Executive networking and professional connection platform with AI-powered relationship management.",
+        "icon":  "Music",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://execuconnect.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "facebook-ad-thief-competitor-ad-automation-tool",
+        "name":  "Facebook Ad Thief Competitor Ad Automation Tool",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "AI-powered facebook ad thief competitor ad automation tool platform for business and creative automation.",
+        "icon":  "LineChart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "familyhub",
+        "name":  "Our Family Pulse",
+        "link":  "https://familyhub.aimicrotechlink.cloud",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "All-in-one family hub ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â shared calendar, chores, budgeting, meal planning, and AI family assistant.",
+        "icon":  "Users",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "From $9.99/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Premium Household",
+                                 "price":  "$9.99/mo",
+                                 "priceId":  "price_1TKWl60xw5o9mCvnKBouD8AD",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Village Elite",
+                                 "price":  "$14.99/mo",
+                                 "priceId":  "price_1TKWl70xw5o9mCvn9wDLClhL",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Annual",
+                                 "price":  "$89.99/yr",
+                                 "savings":  "Save 25%",
+                                 "priceId":  "price_1TKWl70xw5o9mCvnyUqOWKCm",
+                                 "mode":  "subscription"
+                             }
+                         ]
+    },
+    {
+        "id":  "feedbackflow",
+        "name":  "Feedbackflow",
+        "category":  "Developer Tools",
+        "description":  "Collect, organize, and act on customer feedback with AI sentiment analysis and automated follow-ups.",
+        "icon":  "CreditCard",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://feedbackflow.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "food-analyzer-ui",
+        "name":  "Aria ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â AI Marketing Strategist",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "Your AI Marketing Strategist ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â a multimodal chat assistant (text, voice, and camera) that auto-invokes 11 built-in tools to run your marketing end to end.",
+        "longDescription":  "Aria is an all-in-one AI marketing strategist with a conversational, multimodal interface (text, voice, and camera) that detects intent and auto-invokes the right tool. Eleven built-in tools: Competitor Analysis, Content Calendar, SEO Research, Caption Writer, Performance Report, Talking Avatar (ElevenLabs text-to-speech video), Branding Strategy, Idea Thinker, plus Food Analyzer, Meal Planner, and Grocery List. Includes a stats dashboard, saved content history, in-app + email notifications, gamified leaderboard, onboarding tour, and an admin suite (feature flags, A/B testing, RBAC).",
+        "icon":  "Sparkles",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://aria.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "formforge-copy",
+        "name":  "Formforge Copy",
+        "category":  "Developer Tools",
+        "description":  "Base44 App: FormForge (Copy)",
+        "icon":  "Home",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "freelancer-inbox",
+        "name":  "Freelancer Inbox",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "Unified inbox for freelancers to manage all client communication from different platforms in one place",
+        "icon":  "Sun",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "freelancers-gensparks",
+        "name":  "Freelancers (Gensparks)",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "AI-powered freelancers (gensparks) platform for business and creative automation.",
+        "icon":  "LayoutGrid",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "glass-ui-gen",
+        "name":  "Glass UI Gen",
+        "category":  "Developer Tools",
+        "description":  "A modern UI generator tool for building and exporting premium glassmorphism components and elements.",
+        "icon":  "Shield",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://glassui.aimicrotechlink.cloud",
+        "priceLabel":  "$29 lifetime",
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro Lifetime",
+                                 "price":  "$29 one-time",
+                                 "priceId":  "price_data",
+                                 "mode":  "payment"
+                             }
+                         ]
+    },
+    {
+        "id":  "gridflow-smart-ev-charging-scheduler-that-optimizes-for-grid-health-costs-and-your-schedule.",
+        "name":  "GridFlow Smart EV Charging Scheduler That Optimizes For Grid Health Costs And Your Schedule.",
+        "category":  "Logistics \u0026 Operations",
+        "description":  "GridFlow Smart EV charging scheduler that optimizes for grid health, costs, and your schedule.",
+        "icon":  "Activity",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "health-immune-tracker",
+        "name":  "Health Immune Tracker",
+        "category":  "Health \u0026 Wellness",
+        "description":  "Health Immune Tracker Vitals Tracking: A dedicated section to log Temperature, Blood Pressure, Heart Rate, and Weight. Hydration Tracker: A visual counter to track daily water intake (cups). Activity \u0026 Movement: A section to log exercises or activities, including duration and intensity levels. Enhanced History: The history log now displays these ne",
+        "icon":  "Wand2",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ice-king-ai-viral-content-machine",
+        "name":  "Ice King Ai Viral Content Machine",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "AI-powered viral content generation tool for social media marketing",
+        "icon":  "TrendingUp",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ideaflow",
+        "name":  "Ideaflow",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "AI-powered idea discovery and MVP builder - scrapes pain points from 50+ platforms and generates app solutions",
+        "icon":  "Sparkles",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "insight-to-reel",
+        "name":  "Insight To Reel",
+        "category":  "Video \u0026 Creative",
+        "description":  "AI-powered insight to reel platform for business and creative automation.",
+        "icon":  "Heart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "instant-jobs-quote-gensparks",
+        "name":  "Instant Jobs Quote (Gensparks)",
+        "category":  "Logistics \u0026 Operations",
+        "description":  "AI-powered instant jobs quote (gensparks) platform for business and creative automation.",
+        "icon":  "Map",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "inventorysync",
+        "name":  "Inventorysync",
+        "category":  "Logistics \u0026 Operations",
+        "description":  "Multi-channel inventory management with real-time sync, low-stock alerts, and sales analytics.",
+        "icon":  "Scale",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://inventorysync.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "investsmart",
+        "name":  "Investsmart",
+        "category":  "Finance \u0026 Business",
+        "description":  "AI-powered investment portfolio tracker and analysis platform for retail investors.",
+        "icon":  "Film",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://investsmart.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "k-8-multi-level-science-adventure-game-design",
+        "name":  "K 8 Multi Level Science Adventure Game Design",
+        "category":  "Education",
+        "description":  "Science Quest is an educational quiz game for kids (grades K-8) that teaches science through fun, interactive challenges.  What it does:  8 levels covering Physics, Chemistry, Biology, and Earth Science 24 questions with multiple-choice answers and explanations Earn stars for correct answers to unlock new levels",
+        "icon":  "Calculator",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "keyrotator-pro",
+        "name":  "KeyRotator Pro",
+        "category":  "Developer Tools",
+        "description":  "auto regenerating API tool",
+        "icon":  "QrCode",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "legalease",
+        "name":  "LegalEase",
+        "link":  "https://legalease.aimicrotechlink.cloud",
+        "category":  "Legal \u0026 Professional",
+        "description":  "AI-powered legal document assistant ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â simplify contracts, understand legal language, and get plain-English explanations.",
+        "icon":  "Scale",
+        "status":  "Beta",
+        "available":  true,
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro Monthly",
+                                 "price":  "$14.99/mo",
+                                 "priceId":  "price_1TKulo0xw5o9mCvn4JSAYt7r",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Pro Annual",
+                                 "price":  "$119.99/yr",
+                                 "savings":  "Save 33%",
+                                 "priceId":  "price_1TKulo0xw5o9mCvnvdziOiGX",
+                                 "mode":  "subscription"
+                             }
+                         ],
+        "priceLabel":  "From $14.99/mo"
+    },
+    {
+        "id":  "lifeos",
+        "name":  "LifeOS",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "A React-based personal AI assistant dashboard featuring memory management, agent execution, and secure user profiles with Firebase and PIN authentication.",
+        "icon":  "Languages",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "linguaconnect",
+        "name":  "Linguaconnect",
+        "category":  "Education",
+        "description":  "AI language learning platform with conversation practice, vocabulary building, and cultural immersion.",
+        "icon":  "Music",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://linguaconnect.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "local-pricing-gensparks",
+        "name":  "Local Pricing (Gensparks)",
+        "category":  "Finance \u0026 Business",
+        "description":  "AI-powered local pricing (gensparks) platform for business and creative automation.",
+        "icon":  "LineChart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "localmap",
+        "name":  "Localmap",
+        "category":  "Community \u0026 Social",
+        "description":  "AI-powered localmap platform for business and creative automation.",
+        "icon":  "Users",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://localmap.aimicrotechlink.cloud",
+        "priceLabel":  "From $19.99/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro Monthly",
+                                 "price":  "$19.99/mo",
+                                 "priceId":  "price_1TKvAI0xw5o9mCvnRjUsaVRN",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Pro Annual",
+                                 "price":  "$199/yr",
+                                 "savings":  "Save 17%",
+                                 "priceId":  "price_1TKvAJ0xw5o9mCvnp1r6hjZ3",
+                                 "mode":  "subscription"
+                             }
+                         ]
+    },
+    {
+        "id":  "localpulse",
+        "name":  "LocalPulse",
+        "category":  "Community \u0026 Social",
+        "description":  "LocalPulse is a hyperlocal business discovery and community support platform. One app that shows you: ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œWhatÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s actually around you, who owns it, whatÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s special about it, and how to support them today.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â",
+        "icon":  "CreditCard",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "marketing-orchestrator",
+        "name":  "Marketing Orchestrator",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "AI Marketing Orchestrator - Complete Application Overview ÃƒÂ°Ã…Â¸Ã…Â¡Ã¢â€šÂ¬ What is This Application? The AI Marketing Orchestrator is a revolutionary automated marketing platform that allows users to input any business URL and receive comprehensive AI-powered analysis identifying weaknesses, opportunities, and actionable improvement strategies",
+        "icon":  "Code",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "marketinghub-app",
+        "name":  "MarketingHub App",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "This is a comprehensive all-in-one marketing platform that combines the best features of GoHighLevel and MarketingBlocks AI into a single powerful application. It\u0027s designed to replace multiple expensive marketing tools with one integrated solution.",
+        "icon":  "Home",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "math-hero",
+        "name":  "MathHero",
+        "link":  "https://mathhero.aimicrotechlink.cloud",
+        "category":  "Education",
+        "description":  "AI math tutor for all ages. Step-by-step solutions, 3D visualizations, SAT/ACT exam prep, and Pre-K learning games ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â all in one platform.",
+        "icon":  "Calculator",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "Free Ãƒâ€šÃ‚Â· $9.99/mo Ãƒâ€šÃ‚Â· $19.99/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro Scholar",
+                                 "price":  "$9.99/mo",
+                                 "priceId":  "price_1TKBKU0xw5o9mCvnKgg6Wtbp",
+                                 "mode":  "subscription",
+                                 "features":  [
+                                                  "Unlimited AI Tutor Chat",
+                                                  "Step-by-Step Solutions",
+                                                  "Premium Exam Prep (SAT, ACT, AP)",
+                                                  "Advanced 3D Visualizations",
+                                                  "Progress Analytics",
+                                                  "Priority Support"
+                                              ]
+                             },
+                             {
+                                 "label":  "Family / Team",
+                                 "price":  "$19.99/mo",
+                                 "priceId":  "price_1TKBKU0xw5o9mCvnPC78hnYC",
+                                 "mode":  "subscription",
+                                 "features":  [
+                                                  "Up to 5 User Accounts",
+                                                  "Parent Dashboard",
+                                                  "Teacher Recommendations",
+                                                  "Private Study Groups",
+                                                  "Printable Worksheets",
+                                                  "All Pro Features"
+                                              ]
+                             }
+                         ],
+        "longDescription":  "MathHero is an AI-powered math tutor built for every level ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â from Pre-K counting games to AP Calculus exam prep. Get instant step-by-step solutions, interactive 3D visualizations, and unlimited AI tutor chat that explains concepts in plain language. Serious students use Pro Scholar for SAT/ACT prep and progress tracking. Families and classrooms use the Family plan for shared accounts, parent dashboards, and teacher-curated recommendations. Free tier includes basic math solver, practice problems, and public study groups."
+    },
+    {
+        "id":  "mathchat",
+        "name":  "Math Factory",
+        "link":  "https://mathchat.aimicrotechlink.cloud",
+        "category":  "Education",
+        "description":  "Interactive math challenges and games that make learning addictive. Build speed, accuracy, and confidence through daily missions and leaderboards.",
+        "icon":  "LayoutGrid",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "Free Ãƒâ€šÃ‚Â· $9.99/mo",
+        "longDescription":  "Math Factory turns math practice into a game. Daily missions, streak rewards, global leaderboards, and adaptive difficulty keep students coming back. Great for building mental math speed and arithmetic fluency from elementary through high school.",
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro Monthly",
+                                 "price":  "$4.99/mo",
+                                 "priceId":  "price_1TKuls0xw5o9mCvnetW3EDHL",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Pro Annual",
+                                 "price":  "$39.99/yr",
+                                 "savings":  "Save 33%",
+                                 "priceId":  "price_1TKult0xw5o9mCvn8N9Af5bz",
+                                 "mode":  "subscription"
+                             }
+                         ]
+    },
+    {
+        "id":  "micro-franchise-gensparks",
+        "name":  "Micro Franchise (Gensparks)",
+        "category":  "Finance \u0026 Business",
+        "description":  "AI-powered micro franchise (gensparks) platform for business and creative automation.",
+        "icon":  "Shield",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "microtech-link-storyboard-productions",
+        "name":  "Microtech Link Storyboard Productions",
+        "category":  "Video \u0026 Creative",
+        "description":  "Storyboard productions For content creation",
+        "icon":  "Activity",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "microtechlink-fusion-engine-v3.0",
+        "name":  "MICROTECHLINK Fusion Engine V3.0",
+        "category":  "AI \u0026 Automation",
+        "description":  "Microtechlink Character Fusion Studio",
+        "icon":  "Wand2",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "microtechlink-lip-sync-studio",
+        "name":  "Microtechlink Lip Sync Studio",
+        "category":  "Video \u0026 Creative",
+        "description":  "lip sync engine ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ perfect bridge between your audio, character, and video tools.",
+        "icon":  "TrendingUp",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "microtechlink-transcription-studio",
+        "name":  "Microtechlink Transcription Studio",
+        "category":  "Video \u0026 Creative",
+        "description":  "Microtechlink Transcription Studio",
+        "icon":  "Sparkles",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "microtechlink-voice-agent-studio",
+        "name":  "Microtechlink Voice Agent Studio",
+        "category":  "AI \u0026 Automation",
+        "description":  "Microtechlink Voice Agent Studio Ready to capture your ideas. Select an agent mode above, then tap the mic to start brainstorming.",
+        "icon":  "Heart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "microtechlink-voice-agent-studio33",
+        "name":  "Microtechlink Voice Agent Studio33",
+        "category":  "AI \u0026 Automation",
+        "description":  "Microtechlink Voice Agent Studio Ready to capture your ideas. Select an agent mode above, then tap the mic to start brainstorming.",
+        "icon":  "Map",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "momentum",
+        "name":  "Momentum",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "Habit and goal tracking platform with momentum-building streaks, accountability, and AI coaching.",
+        "icon":  "Scale",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://momentum.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "musicpro-practice-with-purpose",
+        "name":  "RhythmMate",
+        "link":  "https://rhythm-mate-9af7ef53.base44.app",
+        "category":  "Education",
+        "description":  "Music practice companion ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â track sessions, set goals, follow structured learning paths, and improve with AI-guided feedback.",
+        "icon":  "Music",
+        "status":  "Beta",
+        "available":  true,
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro Monthly",
+                                 "price":  "$5.99/mo",
+                                 "priceId":  "price_1TKum40xw5o9mCvngsBl3gcv",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Pro Annual",
+                                 "price":  "$49.99/yr",
+                                 "savings":  "Save 30%",
+                                 "priceId":  "price_1TKum40xw5o9mCvnoscrw5Ji",
+                                 "mode":  "subscription"
+                             }
+                         ],
+        "priceLabel":  "From $5.99/mo"
+    },
+    {
+        "id":  "n8n-developer-agent",
+        "name":  "N8N Developer Agent",
+        "category":  "Developer Tools",
+        "description":  "a web application that helps you create automation workflows for n8n (a popular workflow automation platform).",
+        "icon":  "Calculator",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "n8n-video-analyzer",
+        "name":  "N8n Video Analyzer",
+        "category":  "Developer Tools",
+        "description":  "AI-powered tool that analyzes n8n workflow videos and generates implementation prompts with complete n8n JSON export. Built with React, Supabase, and Stripe for subscription management. Created by AI Microtech.",
+        "icon":  "QrCode",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "n8n-workflow-genspark",
+        "name":  "n8n Video Generator Workflow",
+        "category":  "Developer Tools",
+        "description":  "n8n workflow that generates videos from Google Sheets data using AI services.",
+        "icon":  "CloudRain",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "n8n-workflow-gensparks",
+        "name":  "n8n AI Automation Workflow",
+        "category":  "Developer Tools",
+        "description":  "n8n workflow for AI-powered business automation and content generation.",
+        "icon":  "Languages",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "nerdybird",
+        "name":  "Nerdy Bird",
+        "link":  "https://nerdybird.aimicrotechlink.cloud",
+        "category":  "Education",
+        "description":  "School management platform with AI study tools, class chat, flashcards, assignments, and analytics for teachers, students, and parents.",
+        "icon":  "GraduationCap",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "From $49/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Basic Monthly",
+                                 "price":  "$49/mo",
+                                 "priceId":  "price_1TKXMo0xw5o9mCvn4mQKlz7l",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Basic Annual",
+                                 "price":  "$470/yr",
+                                 "savings":  "Save 20%",
+                                 "priceId":  "price_1TKXMo0xw5o9mCvnJ7Qwy2F9",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Premium Monthly",
+                                 "price":  "$149/mo",
+                                 "priceId":  "price_1TKXMo0xw5o9mCvn73gYi5So",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Premium Annual",
+                                 "price":  "$1,430/yr",
+                                 "savings":  "Save 20%",
+                                 "priceId":  "price_1TKXMp0xw5o9mCvnns13AFVB",
+                                 "mode":  "subscription"
+                             }
+                         ]
+    },
+    {
+        "id":  "one-billing",
+        "name":  "One Billing",
+        "category":  "Finance \u0026 Business",
+        "description":  "AI-powered one billing platform for business and creative automation.",
+        "icon":  "LineChart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "os-system-minimax",
+        "name":  "OS System (MiniMax)",
+        "category":  "AI \u0026 Automation",
+        "description":  "AI Microtech OS is a comprehensive AI-powered content generation platform that provides multiple AI-powered tools for creators, marketers, and businesses. It uses a smart provider priority system to optimize costs while delivering high-quality results.",
+        "icon":  "Users",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "painpoint-to-product",
+        "name":  "Painpoint To Product",
+        "category":  "Developer Tools",
+        "description":  "AI-powered painpoint to product platform for business and creative automation.",
+        "icon":  "CreditCard",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "pawrentals",
+        "name":  "Pawrentals",
+        "category":  "Real Estate",
+        "description":  "Pet-friendly rental search and booking platform Ã¢â‚¬â€ find apartments and vacation stays that welcome your pets.",
+        "icon":  "Code",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://pawrentals.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "permit-navigator-gensparks",
+        "name":  "Permit Navigator (Gensparks)",
+        "category":  "Legal \u0026 Professional",
+        "description":  "AI-powered permit navigator (gensparks) platform for business and creative automation.",
+        "icon":  "Home",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "photo-quote-gensparks",
+        "name":  "Photo Quote (Gensparks)",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "AI-powered photo quote (gensparks) platform for business and creative automation.",
+        "icon":  "Sun",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "pixi-sparkle-app",
+        "name":  "Pixi Sparkle App",
+        "category":  "Video \u0026 Creative",
+        "description":  "AI-powered pixi sparkle app platform for business and creative automation.",
+        "icon":  "LayoutGrid",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "podclip",
+        "name":  "Podclip",
+        "category":  "Video \u0026 Creative",
+        "description":  "Podcast clip generator Ã¢â‚¬â€ extract highlights, create shareable clips, and auto-transcribe episodes.",
+        "icon":  "Shield",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://podclip.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "pride-pulse-pro",
+        "name":  "Pride Pulse Pro",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "AI-powered pride pulse pro platform for business and creative automation.",
+        "icon":  "Activity",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "pridemarketing-gensparks",
+        "name":  "Pridemarketing (Gensparks)",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "AI-powered pridemarketing (gensparks) platform for business and creative automation.",
+        "icon":  "Wand2",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "product-and-ad-king",
+        "name":  "Product And Ad King",
+        "category":  "Video \u0026 Creative",
+        "description":  "Studio quality product and ad generation and videos",
+        "icon":  "TrendingUp",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "prompt-enhancer-grove-32893",
+        "name":  "Prompt Enhancer",
+        "category":  "AI \u0026 Automation",
+        "description":  "AI-powered prompt enhancement tool ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â improve and optimize prompts for better AI outputs.",
+        "icon":  "Sparkles",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "prompt-enhancer-grove-32893-1b1b91be",
+        "name":  "Prompt Enhancer (v2)",
+        "category":  "AI \u0026 Automation",
+        "description":  "AI-powered prompt enhancement tool ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â improve and optimize prompts for better AI outputs.",
+        "icon":  "Heart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "prompt-enhancer-grove-32893-f94fbbdc",
+        "name":  "Prompt Enhancer (v3)",
+        "category":  "AI \u0026 Automation",
+        "description":  "AI-powered prompt enhancement tool ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â improve and optimize prompts for better AI outputs.",
+        "icon":  "Map",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "prompt-foundry",
+        "name":  "Prompt Foundry",
+        "category":  "AI \u0026 Automation",
+        "description":  "Prompt Foundry is a comprehensive prompt generation platform that helps users create optimized prompts for AI models across 17 specialized categories. It features a modern dark-themed UI and supports multiple AI providers.",
+        "icon":  "Scale",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "prompt-weaver",
+        "name":  "Prompt Weaver",
+        "category":  "AI \u0026 Automation",
+        "description":  "AI-powered prompt weaver platform for business and creative automation.",
+        "icon":  "Film",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "quick-offer",
+        "name":  "Quick Offer",
+        "category":  "Real Estate",
+        "description":  "AI-powered offer generator for freelancers",
+        "icon":  "Calculator",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://quickoffer.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "re-investor-ai-trainer",
+        "name":  "RE Investor AI Trainer",
+        "category":  "Real Estate",
+        "description":  "RE-Investor AI Trainer Master A 4-Agent AI training platform for real estate investors using a shared creative finance playbook.You are a simulated property owner in a real estate training environment. You are ROLEPLAYING the SELLER so that a student investor can practice live calls.",
+        "icon":  "QrCode",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "real-estate-ai-dojo",
+        "name":  "Real Estate AI Dojo",
+        "category":  "Real Estate",
+        "description":  "Real Estate AI Dojo Simulator",
+        "icon":  "CloudRain",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "rehab-e-cam",
+        "name":  "Rehab-E-Cam",
+        "category":  "Finance \u0026 Business",
+        "description":  "Walk a property, snap photos, and get an investor-grade rehab scope, local cost estimate, and deal offer number in minutes.",
+        "icon":  "Languages",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "rehab-e-cam-app-marketing-minimax",
+        "name":  "Rehab-E-Cam (Marketing)",
+        "category":  "Finance \u0026 Business",
+        "description":  "Marketing and pitch materials for Rehab-E-Cam ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â AI-powered real estate property inspection and deal analysis.",
+        "icon":  "Music",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "remoteflow",
+        "name":  "Remoteflow",
+        "category":  "Developer Tools",
+        "description":  "Remote team productivity and async work management with time tracking and workflow automation.",
+        "icon":  "LineChart",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://remoteflow.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "resale-profits-gensparks",
+        "name":  "Resale Profits (Gensparks)",
+        "category":  "Finance \u0026 Business",
+        "description":  "AI-powered resale profits (gensparks) platform for business and creative automation.",
+        "icon":  "Users",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "researchhub",
+        "name":  "ResearchHub",
+        "link":  "https://researchhub.aimicrotechlink.cloud",
+        "category":  "Education",
+        "description":  "AI-powered academic research manager ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â organize projects, sources, and notes with smart citation tools and AI summaries.",
+        "icon":  "BookOpen",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "Free Ãƒâ€šÃ‚Â· $12.99/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro Monthly",
+                                 "price":  "$12.99/mo",
+                                 "priceId":  "price_1TKWz10xw5o9mCvn7ykdR0J8",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Pro Annual",
+                                 "price":  "$99/yr",
+                                 "savings":  "Save 36%",
+                                 "priceId":  "price_1TKWz50xw5o9mCvnQAcqsyC6",
+                                 "mode":  "subscription"
+                             }
+                         ]
+    },
+    {
+        "id":  "saas-demo-builder",
+        "name":  "SaaS Demo Builder",
+        "category":  "Developer Tools",
+        "description":  "The SaaS Demo Builder is a tool that lets users create, customize, and embed interactive product demos on their SaaS websites. Think of it as a guided tour builder ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â you define steps with tooltips and highlights that walk visitors through your product\u0027s features.",
+        "icon":  "Home",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "sagecall",
+        "name":  "SageCall",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "SageCall is an on-demand, human-to-human video help platform. It connects: People who need immediate, practical help (fixing a leaky pipe, sewing a button, troubleshooting a car noise, calming a crying baby, basic cooking, etc.) With retired seniors and veterans (ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œSagesÃƒÂ¢Ã¢â€šÂ¬Ã‚Â) who have decades of experience and who want social connection, purpose, and a",
+        "icon":  "Sun",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "santa-tracker",
+        "name":  "Santa Tracker",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "A global Santa tracking app",
+        "icon":  "LayoutGrid",
+        "status":  "Beta",
+        "available":  false,
+        "link":  "https://santa-tracker-indol.vercel.app",
+        "seasonalFrom":  {
+                             "month":  11,
+                             "day":  15
+                         },
+        "seasonalTo":  {
+                           "month":  12,
+                           "day":  27
+                       }
+    },
+    {
+        "id":  "scraper-workflow-genspark",
+        "name":  "Scraper Workflow (Genspark)",
+        "category":  "Developer Tools",
+        "description":  "AI-powered scraper workflow (genspark) platform for business and creative automation.",
+        "icon":  "Shield",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "secretvault",
+        "name":  "SecretVault",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "Secure, private vault for storing your sensitive notes, passwords, and files.",
+        "icon":  "Activity",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://secretvault.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "securevault",
+        "name":  "SecureVault",
+        "link":  "https://securevault.aimicrotechlink.cloud",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "Encrypted personal vault for storing passwords, documents, and sensitive information with AI-assisted organization.",
+        "icon":  "Shield",
+        "status":  "Beta",
+        "available":  true,
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro Monthly",
+                                 "price":  "$3.99/mo",
+                                 "priceId":  "price_1TKulp0xw5o9mCvn7LtRgkDE",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Pro Annual",
+                                 "price":  "$29.99/yr",
+                                 "savings":  "Save 37%",
+                                 "priceId":  "price_1TKulq0xw5o9mCvnl9mtNL6S",
+                                 "mode":  "subscription"
+                             }
+                         ],
+        "priceLabel":  "From $3.99/mo"
+    },
+    {
+        "id":  "sheetsync",
+        "name":  "SheetSync",
+        "link":  "https://sheetsync.aimicrotechlink.cloud",
+        "category":  "Developer Tools",
+        "description":  "Import, merge, and enrich Google Sheets data into structured records. Advanced column mapping, data validation, and analytics.",
+        "icon":  "FileSpreadsheet",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "Free Ãƒâ€šÃ‚Â· $9.99/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro",
+                                 "price":  "$9.99/mo",
+                                 "priceId":  "price_1TKXFo0xw5o9mCvnH8ahwDjb",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Business",
+                                 "price":  "$29.99/mo",
+                                 "priceId":  "price_1TKXFo0xw5o9mCvnZJbAxfpb",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Annual",
+                                 "price":  "$89.99/yr",
+                                 "savings":  "Save 25%",
+                                 "priceId":  "price_1TKXFp0xw5o9mCvnfPWUWo5Z",
+                                 "mode":  "subscription"
+                             }
+                         ]
+    },
+    {
+        "id":  "skill-architect-gensparks",
+        "name":  "Skill Architect (Gensparks)",
+        "category":  "Education",
+        "description":  "AI-powered skill architect (gensparks) platform for business and creative automation.",
+        "icon":  "Sparkles",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "skillgenie",
+        "name":  "SkillGenie",
+        "category":  "Education",
+        "description":  "SkillSprint ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œMaster new skills in minutes a day with personalized learning paths, AI-powered tutoring, and engaging micro-lessons.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â",
+        "icon":  "Heart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "skillswap-gensparks",
+        "name":  "Skillswap (Gensparks)",
+        "category":  "Community \u0026 Social",
+        "description":  "AI-powered skillswap (gensparks) platform for business and creative automation.",
+        "icon":  "Map",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "socialhub",
+        "name":  "Socialhub",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "Social media management dashboard Ã¢â‚¬â€ schedule posts, track analytics, and manage all accounts in one place.",
+        "icon":  "Scale",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://socialhub.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "story-canvas",
+        "name":  "Story Canvas",
+        "category":  "Video \u0026 Creative",
+        "description":  "Creative Suite that does images story and videos with a editor",
+        "icon":  "Film",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "storyweaver-ai---consistent-character-generator",
+        "name":  "StoryWeaver AI Consistent Character Generator",
+        "category":  "Video \u0026 Creative",
+        "description":  "Motion Studio Powered by Google Veo 3",
+        "icon":  "Calculator",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "subscribe",
+        "name":  "Sub-Scribe",
+        "link":  "https://subscribe.aimicrotechlink.cloud",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "Smart subscription tracker ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â monitor all your recurring charges, get renewal alerts, and cancel what you don\u0027t use.",
+        "icon":  "CreditCard",
+        "status":  "Beta",
+        "available":  true,
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro Monthly",
+                                 "price":  "$4.99/mo",
+                                 "priceId":  "price_1TKulm0xw5o9mCvnkTr49XOD",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Pro Annual",
+                                 "price":  "$39.99/yr",
+                                 "savings":  "Save 33%",
+                                 "priceId":  "price_1TKuln0xw5o9mCvnfCsxtjBC",
+                                 "mode":  "subscription"
+                             }
+                         ],
+        "priceLabel":  "From $4.99/mo"
+    },
+    {
+        "id":  "synchride",
+        "name":  "SynchRide",
+        "category":  "Logistics \u0026 Operations",
+        "description":  "Synchronized Car Audio Mesh Network",
+        "icon":  "CloudRain",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "top-10-ai-video-creation-app",
+        "name":  "Top 10 AI Video Creation App",
+        "category":  "Video \u0026 Creative",
+        "description":  "AI-powered top 10 ai video creation app platform for business and creative automation.",
+        "icon":  "Languages",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "top-10-countdown",
+        "name":  "Top 10 Countdown",
+        "category":  "Video \u0026 Creative",
+        "description":  "Top 10 Countdown - AI YouTube Video Automation App",
+        "icon":  "Music",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "top-10-minimax",
+        "name":  "Top 10 (MiniMax)",
+        "category":  "Video \u0026 Creative",
+        "description":  "This is a full-stack AI-powered video creation application that generates engaging video content using artificial intelligence and automated workflow management. It\u0027s designed to create \"Top 10\" countdown style videos automatically.",
+        "icon":  "LineChart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "twilio-elevenlabs-scheduling",
+        "name":  "Twilio ElevenLabs Scheduling",
+        "category":  "Logistics \u0026 Operations",
+        "description":  "This is an AI Phone Call Appointment Scheduling System - a simulation of how an intelligent phone receptionist works.",
+        "icon":  "Users",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "u-codewise",
+        "name":  "UCodeWise",
+        "link":  "https://codewise.aimicrotechlink.cloud",
+        "category":  "Education",
+        "description":  "Learn to code with AI-guided courses in Python, JavaScript, Java, C, and SQL. Challenges, certifications, tournaments, and interview prep.",
+        "icon":  "Code",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "Free Ãƒâ€šÃ‚Â· $19.99/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro Scholar",
+                                 "price":  "$19.99/mo",
+                                 "priceId":  "price_1TKTh90xw5o9mCvnPfQfxWpe",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Team",
+                                 "price":  "$49.99/mo",
+                                 "priceId":  "price_1TKThA0xw5o9mCvnFzm1fPQU",
+                                 "mode":  "subscription"
+                             }
+                         ]
+    },
+    {
+        "id":  "ugc-express",
+        "name":  "UGC Express",
+        "category":  "Video \u0026 Creative",
+        "description":  "UGC Express is a full-stack web application for content generation and workflow automation. Here\u0027s the complete breakdown:",
+        "icon":  "Code",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ugc-google-ad-generator-ai",
+        "name":  "UGC Google AD Generator AI",
+        "category":  "Video \u0026 Creative",
+        "description":  "Make UGC style commercials",
+        "icon":  "Home",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ultimate-media-agent",
+        "name":  "Ultimate Media Agent",
+        "category":  "Video \u0026 Creative",
+        "description":  "AI creative studio: image generation, video creation, social content, ad copy, and brand assets in one platform.",
+        "icon":  "Sun",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ultimate-media-agent-minimax",
+        "name":  "Ultimate Media Agent (MiniMax)",
+        "category":  "Video \u0026 Creative",
+        "description":  "This is a React-based web dashboard that serves as a GUI for your n8n automation workflows. It provides a visual interface to control all the media creation and automation features",
+        "icon":  "LayoutGrid",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "ultra-escape",
+        "name":  "Ultra Escape",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "AI-powered ultra escape platform for business and creative automation.",
+        "icon":  "Shield",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "universal-analyzer",
+        "name":  "Universal Analyzer",
+        "category":  "AI \u0026 Automation",
+        "description":  "Analyze any image doc to understand it completely",
+        "icon":  "Activity",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "velocity",
+        "name":  "Velocity",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "AI-powered content generator for Twitter, LinkedIn, Instagram, YouTube, and Facebook. Enter a topic and get viral content instantly.",
+        "icon":  "Wand2",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://velocity.aimicrotechlink.cloud",
+        "priceLabel":  "From $19/mo",
+        "stripePrices":  [
+                             {
+                                 "label":  "Pro Monthly",
+                                 "price":  "$19/mo",
+                                 "priceId":  "price_1TL2T70xw5o9mCvnMA11BeGg",
+                                 "mode":  "subscription"
+                             },
+                             {
+                                 "label":  "Pro Annual",
+                                 "price":  "$159/yr",
+                                 "savings":  "Save 30%",
+                                 "priceId":  "price_1TL2T70xw5o9mCvnTgd1XgTY",
+                                 "mode":  "subscription"
+                             }
+                         ]
+    },
+    {
+        "id":  "ventureforge",
+        "name":  "Ventureforge",
+        "category":  "Finance \u0026 Business",
+        "description":  "Base44 App: VentureForge",
+        "icon":  "TrendingUp",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "veo3-json-prompt-generator-copy",
+        "name":  "Veo3 Json Prompt Generator Copy",
+        "category":  "AI \u0026 Automation",
+        "description":  "Google Veo3 video prompt generator Ã¢â‚¬â€ craft cinematic JSON prompts for AI video generation with scene control.",
+        "icon":  "Sparkles",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://veo3gen.aimicrotechlink.cloud"
+    },
+    {
+        "id":  "videostyle-pro",
+        "name":  "Videostyle Pro",
+        "category":  "Video \u0026 Creative",
+        "description":  "VideoStyle Pro ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â browser-based video editing platform with multi-scene timeline, trim/cut/filters, and AI features",
+        "icon":  "Heart",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "virtutalent-manager",
+        "name":  "VirtuTalent Manager",
+        "category":  "Legal \u0026 Professional",
+        "description":  "AI Influencer\" you are likely referring to is Xania Monet. She recently made headlines (around November 2025) for signing a $3 million record deal with Hallwood MediaÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âa massive contract that legitimized AI artists in the mainstream music industry.",
+        "icon":  "Map",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "weathershield-basic",
+        "name":  "WeatherShield Basic",
+        "category":  "Logistics \u0026 Operations",
+        "description":  "WeatherShield Basic",
+        "icon":  "Scale",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "weathershield1-",
+        "name":  "WeatherShield1 ",
+        "category":  "Logistics \u0026 Operations",
+        "description":  "WeatherShield1 A personalized extreme weather preparedness companion that turns forecasts into actionable, health-centric plans.",
+        "icon":  "Film",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "web-design-code",
+        "name":  "Web Design Code",
+        "category":  "Developer Tools",
+        "description":  "AI-powered web design code platform for business and creative automation.",
+        "icon":  "Calculator",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "workflow-analysis-prompt-minimax",
+        "name":  "Workflow Analysis Prompt (MiniMax)",
+        "category":  "Video \u0026 Creative",
+        "description":  "This is an n8n Video Analyzer - a web application that helps users extract AI automation workflows from YouTube videos.",
+        "icon":  "QrCode",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "workflow-genai-architect",
+        "name":  "Workflow GenAI Architect",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "Workflow GenAI Architect take a n8n workflow and recreate that in a app. ",
+        "icon":  "CloudRain",
+        "status":  "Coming Soon",
+        "available":  false
+    },
+    {
+        "id":  "youtube-starter-kits",
+        "name":  "YouTube Starter Kits",
+        "category":  "Video \u0026 Creative",
+        "description":  "Done-for-you YouTube channel starter kits ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â scripts, SEO packages, thumbnails, research, and monetization guides for 4 niches. Launch your channel in a weekend.",
+        "icon":  "Music",
+        "status":  "Beta",
+        "available":  true,
+        "link":  "https://youtube-creator-kits.vercel.app",
+        "priceLabel":  "From $27 one-time",
+        "stripePrices":  [
+                             {
+                                 "label":  "Single Kit",
+                                 "price":  "$27 one-time",
+                                 "priceId":  "price_1TL3Dw0xw5o9mCvn2Tfus5hp",
+                                 "mode":  "payment"
+                             },
+                             {
+                                 "label":  "Mega Bundle (All 4)",
+                                 "price":  "$67 one-time",
+                                 "savings":  "Save $41",
+                                 "priceId":  "price_1TL3Dw0xw5o9mCvniPAQMjKR",
+                                 "mode":  "payment"
+                             }
+                         ]
+    },
+    {
+        "id":  "ai-storyboard-generator",
+        "name":  "AI Storyboard Generator",
+        "category":  "Video \u0026 Creative",
+        "description":  "AI-powered storyboard creation tool. Generate visual story sequences, scene layouts, and production boards from text prompts.",
+        "icon":  "Film",
+        "status":  "Coming Soon",
+        "available":  false,
+        "link":  ""
+    },
+    {
+        "id":  "ai-video-ads-automation",
+        "name":  "AI Video Ads Automation",
+        "category":  "Video \u0026 Creative",
+        "description":  "Automate the creation of video ad campaigns using AI. Generate scripts, visuals, and publish-ready ad content at scale.",
+        "icon":  "Video",
+        "status":  "Coming Soon",
+        "available":  false,
+        "link":  "https://github.com/dashon1/AI-Video-Ads-Automation-MiniMax"
+    },
+    {
+        "id":  "ai-video-story-creator",
+        "name":  "AI Video Story Creator",
+        "category":  "Video \u0026 Creative",
+        "description":  "Create animated video clips from character images with consistent character preservation across multiple scenes.",
+        "icon":  "Clapperboard",
+        "status":  "Coming Soon",
+        "available":  false,
+        "link":  "https://github.com/dashon1/AI-Video-Story-Creator-MiniMax"
+    },
+    {
+        "id":  "cal-ai-dashboard",
+        "name":  "Cal AI Dashboard",
+        "category":  "Health \u0026 Wellness",
+        "description":  "Mobile-first nutrition dashboard built on AI. Track meals, calories, and macros through a Telegram-based AI assistant.",
+        "icon":  "Apple",
+        "status":  "Coming Soon",
+        "available":  false,
+        "link":  "https://github.com/dashon1/cal-ai-dashboard"
+    },
+    {
+        "id":  "codetracker",
+        "name":  "CodeTracker",
+        "category":  "Developer Tools",
+        "description":  "Developer productivity tracker. Log coding sessions, track progress across projects, and visualize your output over time.",
+        "icon":  "Code",
+        "status":  "Coming Soon",
+        "available":  false,
+        "link":  "https://github.com/dashon1/codetracker-genspark"
+    },
+    {
+        "id":  "create-that-4me",
+        "name":  "Create That 4Me",
+        "category":  "Marketing \u0026 Advertising",
+        "description":  "AI-powered content creation pipeline. Manage and deliver marketing content projects through an intelligent workflow system.",
+        "icon":  "PenTool",
+        "status":  "Coming Soon",
+        "available":  false,
+        "link":  "https://github.com/dashon1/Create-that-4me-MiniMax"
+    },
+    {
+        "id":  "creatorflow-studio",
+        "name":  "CreatorFlow Studio",
+        "category":  "Video \u0026 Creative",
+        "description":  "AI-powered workflow automation platform for content creators. Generate videos, images, chatbots, and podcasts from one dashboard.",
+        "icon":  "Workflow",
+        "status":  "Coming Soon",
+        "available":  false,
+        "link":  "https://github.com/dashon1/creatorflow-studio"
+    },
+    {
+        "id":  "content-research-automation",
+        "name":  "Content Research Automation",
+        "link":  "https://nextjsspace-sigma.vercel.app",
+        "category":  "AI \u0026 Automation",
+        "description":  "Keyword management and content research automation ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â track keywords, trigger automated research runs, and integrate with Telegram, WhatsApp, and APIs.",
+        "icon":  "Search",
+        "status":  "Beta",
+        "available":  true,
+        "priceLabel":  "From $19.99/mo"
+    },
+    {
+        "id":  "cine-flow",
+        "name":  "CineFlow",
+        "link":  "https://cineflow.aimicrotechlink.cloud",
+        "category":  "Video \u0026 Creative",
+        "description":  "AI-powered cinematic workflow platform Ã¢â‚¬â€ plan, script, storyboard, and produce video content with AI assistance.",
+        "icon":  "Film",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "code-gen-ai",
+        "name":  "Code Gen AI",
+        "link":  "https://codegen.aimicrotechlink.cloud",
+        "category":  "Developer Tools",
+        "description":  "AI-powered code generator Ã¢â‚¬â€ build web apps, scripts, and automation from natural language prompts.",
+        "icon":  "Code",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "code-master",
+        "name":  "Code Master",
+        "link":  "https://codemaster.aimicrotechlink.cloud",
+        "category":  "Developer Tools",
+        "description":  "Interactive coding challenges and AI code review platform to sharpen developer skills.",
+        "icon":  "Code",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "convo-flow",
+        "name":  "ConvoFlow",
+        "link":  "https://convoflow.aimicrotechlink.cloud",
+        "category":  "AI \u0026 Automation",
+        "description":  "Conversational AI workflow builder Ã¢â‚¬â€ design multi-step chatbots, intake forms, and customer journeys.",
+        "icon":  "MessageSquare",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "crypto-craft",
+        "name":  "CryptoCraft",
+        "link":  "https://cryptocraft.aimicrotechlink.cloud",
+        "category":  "Finance \u0026 Business",
+        "description":  "Crypto portfolio builder and DeFi strategy platform with AI market insights and risk scoring.",
+        "icon":  "TrendingUp",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "eventpix2",
+        "name":  "EventPix 2",
+        "link":  "https://eventpix2.aimicrotechlink.cloud",
+        "category":  "Events \u0026 QR",
+        "description":  "Next-generation event photo sharing with AI tagging, guest galleries, and instant QR check-in.",
+        "icon":  "QrCode",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "form-forge",
+        "name":  "FormForge",
+        "link":  "https://formforge.aimicrotechlink.cloud",
+        "category":  "Developer Tools",
+        "description":  "AI-powered form builder with conditional logic, multi-step flows, and real-time analytics.",
+        "icon":  "LayoutGrid",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "portion-perfect",
+        "name":  "PortionPerfect",
+        "link":  "https://portionperfect.aimicrotechlink.cloud",
+        "category":  "Health \u0026 Wellness",
+        "description":  "AI meal portioning and nutrition tracking Ã¢â‚¬â€ scan meals, get smart portion sizes, and hit your macros.",
+        "icon":  "Activity",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "qrpix",
+        "name":  "QRPix",
+        "link":  "https://qrpix.aimicrotechlink.cloud",
+        "category":  "Events \u0026 QR",
+        "description":  "QR-powered photo sharing and social engagement platform for events, venues, and brands.",
+        "icon":  "QrCode",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "task-flow",
+        "name":  "TaskFlow",
+        "link":  "https://taskflow.aimicrotechlink.cloud",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "AI-enhanced task management with smart scheduling, priority scoring, and team workflow automation.",
+        "icon":  "CheckSquare",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "tempo-tutor",
+        "name":  "TempoTutor",
+        "link":  "https://tempotutor.aimicrotechlink.cloud",
+        "category":  "Education",
+        "description":  "Music practice companion Ã¢â‚¬â€ track sessions, set goals, follow structured learning paths, and improve with AI-guided feedback.",
+        "icon":  "Music",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "tuesdaycom",
+        "name":  "TuesdayCom",
+        "link":  "https://tuesdaycom.aimicrotechlink.cloud",
+        "category":  "Productivity \u0026 Lifestyle",
+        "description":  "Project and team management platform Ã¢â‚¬â€ boards, sprints, analytics, and workload tracking in one place.",
+        "icon":  "LayoutGrid",
+        "status":  "Beta",
+        "available":  true
+    },
+    {
+        "id":  "wealthy-video",
+        "name":  "WealthyVideo",
+        "link":  "https://wealthyvideo.aimicrotechlink.cloud",
+        "category":  "Finance \u0026 Business",
+        "description":  "AI-powered financial video content platform Ã¢â‚¬â€ create wealth education videos, market breakdowns, and investment explainers.",
+        "icon":  "TrendingUp",
+        "status":  "Beta",
+        "available":  true
     }
-  },
-  {
-    "id": "scraper-workflow-genspark",
-    "name": "Scraper Workflow (Genspark)",
-    "category": "Developer Tools",
-    "description": "AI-powered scraper workflow (genspark) platform for business and creative automation.",
-    "icon": "Shield",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "secretvault",
-    "name": "SecretVault",
-    "category": "Productivity & Lifestyle",
-    "description": "Secure, private vault for storing your sensitive notes, passwords, and files.",
-    "icon": "Activity",
-    "status": "Beta",
-    "available": true,
-    "link": "https://secretvault.aimicrotechlink.cloud"
-  },
-  {
-    "id": "securevault",
-    "name": "SecureVault",
-    "link": "https://secure-vault-06029276.base44.app",
-    "category": "Productivity & Lifestyle",
-    "description": "Encrypted personal vault for storing passwords, documents, and sensitive information with AI-assisted organization.",
-    "icon": "Shield",
-    "status": "Beta",
-    "available": true,
-    "stripePrices": [
-      {
-        "label": "Pro Monthly",
-        "price": "$3.99/mo",
-        "priceId": "price_1TKulp0xw5o9mCvn7LtRgkDE",
-        "mode": "subscription"
-      },
-      {
-        "label": "Pro Annual",
-        "price": "$29.99/yr",
-        "savings": "Save 37%",
-        "priceId": "price_1TKulq0xw5o9mCvnl9mtNL6S",
-        "mode": "subscription"
-      }
-    ],
-    "priceLabel": "From $3.99/mo"
-  },
-  {
-    "id": "sheetsync",
-    "name": "SheetSync",
-    "link": "https://sheetsync.aimicrotechlink.cloud",
-    "category": "Developer Tools",
-    "description": "Import, merge, and enrich Google Sheets data into structured records. Advanced column mapping, data validation, and analytics.",
-    "icon": "FileSpreadsheet",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "Free · $9.99/mo",
-    "stripePrices": [
-      {
-        "label": "Pro",
-        "price": "$9.99/mo",
-        "priceId": "price_1TKXFo0xw5o9mCvnH8ahwDjb",
-        "mode": "subscription"
-      },
-      {
-        "label": "Business",
-        "price": "$29.99/mo",
-        "priceId": "price_1TKXFo0xw5o9mCvnZJbAxfpb",
-        "mode": "subscription"
-      },
-      {
-        "label": "Annual",
-        "price": "$89.99/yr",
-        "savings": "Save 25%",
-        "priceId": "price_1TKXFp0xw5o9mCvnfPWUWo5Z",
-        "mode": "subscription"
-      }
-    ]
-  },
-  {
-    "id": "skill-architect-gensparks",
-    "name": "Skill Architect (Gensparks)",
-    "category": "Education",
-    "description": "AI-powered skill architect (gensparks) platform for business and creative automation.",
-    "icon": "Sparkles",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "skillgenie",
-    "name": "SkillGenie",
-    "category": "Education",
-    "description": "SkillSprint – “Master new skills in minutes a day with personalized learning paths, AI-powered tutoring, and engaging micro-lessons.”",
-    "icon": "Heart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "skillswap-gensparks",
-    "name": "Skillswap (Gensparks)",
-    "category": "Community & Social",
-    "description": "AI-powered skillswap (gensparks) platform for business and creative automation.",
-    "icon": "Map",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "socialhub",
-    "name": "Socialhub",
-    "category": "Productivity & Lifestyle",
-    "description": "Base44 App: SocialHub",
-    "icon": "Scale",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "story-canvas",
-    "name": "Story Canvas",
-    "category": "Video & Creative",
-    "description": "Creative Suite that does images story and videos with a editor",
-    "icon": "Film",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "storyweaver-ai---consistent-character-generator",
-    "name": "StoryWeaver AI Consistent Character Generator",
-    "category": "Video & Creative",
-    "description": "Motion Studio Powered by Google Veo 3",
-    "icon": "Calculator",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "subscribe",
-    "name": "Sub-Scribe",
-    "link": "https://subscribe.aimicrotechlink.cloud",
-    "category": "Productivity & Lifestyle",
-    "description": "Smart subscription tracker — monitor all your recurring charges, get renewal alerts, and cancel what you don't use.",
-    "icon": "CreditCard",
-    "status": "Beta",
-    "available": true,
-    "stripePrices": [
-      {
-        "label": "Pro Monthly",
-        "price": "$4.99/mo",
-        "priceId": "price_1TKulm0xw5o9mCvnkTr49XOD",
-        "mode": "subscription"
-      },
-      {
-        "label": "Pro Annual",
-        "price": "$39.99/yr",
-        "savings": "Save 33%",
-        "priceId": "price_1TKuln0xw5o9mCvnfCsxtjBC",
-        "mode": "subscription"
-      }
-    ],
-    "priceLabel": "From $4.99/mo"
-  },
-  {
-    "id": "synchride",
-    "name": "SynchRide",
-    "category": "Logistics & Operations",
-    "description": "Synchronized Car Audio Mesh Network",
-    "icon": "CloudRain",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "top-10-ai-video-creation-app",
-    "name": "Top 10 AI Video Creation App",
-    "category": "Video & Creative",
-    "description": "AI-powered top 10 ai video creation app platform for business and creative automation.",
-    "icon": "Languages",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "top-10-countdown",
-    "name": "Top 10 Countdown",
-    "category": "Video & Creative",
-    "description": "Top 10 Countdown - AI YouTube Video Automation App",
-    "icon": "Music",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "top-10-minimax",
-    "name": "Top 10 (MiniMax)",
-    "category": "Video & Creative",
-    "description": "This is a full-stack AI-powered video creation application that generates engaging video content using artificial intelligence and automated workflow management. It's designed to create \"Top 10\" countdown style videos automatically.",
-    "icon": "LineChart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "twilio-elevenlabs-scheduling",
-    "name": "Twilio ElevenLabs Scheduling",
-    "category": "Logistics & Operations",
-    "description": "This is an AI Phone Call Appointment Scheduling System - a simulation of how an intelligent phone receptionist works.",
-    "icon": "Users",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "u-codewise",
-    "name": "UCodeWise",
-    "link": "https://codewise.aimicrotechlink.cloud",
-    "category": "Education",
-    "description": "Learn to code with AI-guided courses in Python, JavaScript, Java, C, and SQL. Challenges, certifications, tournaments, and interview prep.",
-    "icon": "Code",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "Free · $19.99/mo",
-    "stripePrices": [
-      {
-        "label": "Pro Scholar",
-        "price": "$19.99/mo",
-        "priceId": "price_1TKTh90xw5o9mCvnPfQfxWpe",
-        "mode": "subscription"
-      },
-      {
-        "label": "Team",
-        "price": "$49.99/mo",
-        "priceId": "price_1TKThA0xw5o9mCvnFzm1fPQU",
-        "mode": "subscription"
-      }
-    ]
-  },
-  {
-    "id": "ugc-express",
-    "name": "UGC Express",
-    "category": "Video & Creative",
-    "description": "UGC Express is a full-stack web application for content generation and workflow automation. Here's the complete breakdown:",
-    "icon": "Code",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ugc-google-ad-generator-ai",
-    "name": "UGC Google AD Generator AI",
-    "category": "Video & Creative",
-    "description": "Make UGC style commercials",
-    "icon": "Home",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ultimate-media-agent",
-    "name": "Ultimate Media Agent",
-    "category": "Video & Creative",
-    "description": "AI creative studio: image generation, video creation, social content, ad copy, and brand assets in one platform.",
-    "icon": "Sun",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ultimate-media-agent-minimax",
-    "name": "Ultimate Media Agent (MiniMax)",
-    "category": "Video & Creative",
-    "description": "This is a React-based web dashboard that serves as a GUI for your n8n automation workflows. It provides a visual interface to control all the media creation and automation features",
-    "icon": "LayoutGrid",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "ultra-escape",
-    "name": "Ultra Escape",
-    "category": "Productivity & Lifestyle",
-    "description": "AI-powered ultra escape platform for business and creative automation.",
-    "icon": "Shield",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "universal-analyzer",
-    "name": "Universal Analyzer",
-    "category": "AI & Automation",
-    "description": "Analyze any image doc to understand it completely",
-    "icon": "Activity",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "velocity",
-    "name": "Velocity",
-    "category": "Marketing & Advertising",
-    "description": "AI-powered content generator for Twitter, LinkedIn, Instagram, YouTube, and Facebook. Enter a topic and get viral content instantly.",
-    "icon": "Wand2",
-    "status": "Beta",
-    "available": true,
-    "link": "https://velocity.aimicrotechlink.cloud",
-    "priceLabel": "From $19/mo",
-    "stripePrices": [
-      {
-        "label": "Pro Monthly",
-        "price": "$19/mo",
-        "priceId": "price_1TL2T70xw5o9mCvnMA11BeGg",
-        "mode": "subscription"
-      },
-      {
-        "label": "Pro Annual",
-        "price": "$159/yr",
-        "savings": "Save 30%",
-        "priceId": "price_1TL2T70xw5o9mCvnTgd1XgTY",
-        "mode": "subscription"
-      }
-    ]
-  },
-  {
-    "id": "ventureforge",
-    "name": "Ventureforge",
-    "category": "Finance & Business",
-    "description": "Base44 App: VentureForge",
-    "icon": "TrendingUp",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "veo3-json-prompt-generator-copy",
-    "name": "Veo3 Json Prompt Generator Copy",
-    "category": "AI & Automation",
-    "description": "Base44 App: Veo3 JSON Prompt Generator (Copy)",
-    "icon": "Sparkles",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "videostyle-pro",
-    "name": "Videostyle Pro",
-    "category": "Video & Creative",
-    "description": "VideoStyle Pro — browser-based video editing platform with multi-scene timeline, trim/cut/filters, and AI features",
-    "icon": "Heart",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "virtutalent-manager",
-    "name": "VirtuTalent Manager",
-    "category": "Legal & Professional",
-    "description": "AI Influencer\" you are likely referring to is Xania Monet. She recently made headlines (around November 2025) for signing a $3 million record deal with Hallwood Media—a massive contract that legitimized AI artists in the mainstream music industry.",
-    "icon": "Map",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "weathershield-basic",
-    "name": "WeatherShield Basic",
-    "category": "Logistics & Operations",
-    "description": "WeatherShield Basic",
-    "icon": "Scale",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "weathershield1-",
-    "name": "WeatherShield1 ",
-    "category": "Logistics & Operations",
-    "description": "WeatherShield1 A personalized extreme weather preparedness companion that turns forecasts into actionable, health-centric plans.",
-    "icon": "Film",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "web-design-code",
-    "name": "Web Design Code",
-    "category": "Developer Tools",
-    "description": "AI-powered web design code platform for business and creative automation.",
-    "icon": "Calculator",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "workflow-analysis-prompt-minimax",
-    "name": "Workflow Analysis Prompt (MiniMax)",
-    "category": "Video & Creative",
-    "description": "This is an n8n Video Analyzer - a web application that helps users extract AI automation workflows from YouTube videos.",
-    "icon": "QrCode",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "workflow-genai-architect",
-    "name": "Workflow GenAI Architect",
-    "category": "Marketing & Advertising",
-    "description": "Workflow GenAI Architect take a n8n workflow and recreate that in a app. ",
-    "icon": "CloudRain",
-    "status": "Coming Soon",
-    "available": false
-  },
-  {
-    "id": "youtube-starter-kits",
-    "name": "YouTube Starter Kits",
-    "category": "Video & Creative",
-    "description": "Done-for-you YouTube channel starter kits — scripts, SEO packages, thumbnails, research, and monetization guides for 4 niches. Launch your channel in a weekend.",
-    "icon": "Music",
-    "status": "Beta",
-    "available": true,
-    "link": "https://youtube-creator-kits.vercel.app",
-    "priceLabel": "From $27 one-time",
-    "stripePrices": [
-      {
-        "label": "Single Kit",
-        "price": "$27 one-time",
-        "priceId": "price_1TL3Dw0xw5o9mCvn2Tfus5hp",
-        "mode": "payment"
-      },
-      {
-        "label": "Mega Bundle (All 4)",
-        "price": "$67 one-time",
-        "savings": "Save $41",
-        "priceId": "price_1TL3Dw0xw5o9mCvniPAQMjKR",
-        "mode": "payment"
-      }
-    ]
-  },
-  {
-    "id": "ai-storyboard-generator",
-    "name": "AI Storyboard Generator",
-    "category": "Video & Creative",
-    "description": "AI-powered storyboard creation tool. Generate visual story sequences, scene layouts, and production boards from text prompts.",
-    "icon": "Film",
-    "status": "Coming Soon",
-    "available": false,
-    "link": ""
-  },
-  {
-    "id": "ai-video-ads-automation",
-    "name": "AI Video Ads Automation",
-    "category": "Video & Creative",
-    "description": "Automate the creation of video ad campaigns using AI. Generate scripts, visuals, and publish-ready ad content at scale.",
-    "icon": "Video",
-    "status": "Coming Soon",
-    "available": false,
-    "link": "https://github.com/dashon1/AI-Video-Ads-Automation-MiniMax"
-  },
-  {
-    "id": "ai-video-story-creator",
-    "name": "AI Video Story Creator",
-    "category": "Video & Creative",
-    "description": "Create animated video clips from character images with consistent character preservation across multiple scenes.",
-    "icon": "Clapperboard",
-    "status": "Coming Soon",
-    "available": false,
-    "link": "https://github.com/dashon1/AI-Video-Story-Creator-MiniMax"
-  },
-  {
-    "id": "cal-ai-dashboard",
-    "name": "Cal AI Dashboard",
-    "category": "Health & Wellness",
-    "description": "Mobile-first nutrition dashboard built on AI. Track meals, calories, and macros through a Telegram-based AI assistant.",
-    "icon": "Apple",
-    "status": "Coming Soon",
-    "available": false,
-    "link": "https://github.com/dashon1/cal-ai-dashboard"
-  },
-  {
-    "id": "codetracker",
-    "name": "CodeTracker",
-    "category": "Developer Tools",
-    "description": "Developer productivity tracker. Log coding sessions, track progress across projects, and visualize your output over time.",
-    "icon": "Code",
-    "status": "Coming Soon",
-    "available": false,
-    "link": "https://github.com/dashon1/codetracker-genspark"
-  },
-  {
-    "id": "create-that-4me",
-    "name": "Create That 4Me",
-    "category": "Marketing & Advertising",
-    "description": "AI-powered content creation pipeline. Manage and deliver marketing content projects through an intelligent workflow system.",
-    "icon": "PenTool",
-    "status": "Coming Soon",
-    "available": false,
-    "link": "https://github.com/dashon1/Create-that-4me-MiniMax"
-  },
-  {
-    "id": "creatorflow-studio",
-    "name": "CreatorFlow Studio",
-    "category": "Video & Creative",
-    "description": "AI-powered workflow automation platform for content creators. Generate videos, images, chatbots, and podcasts from one dashboard.",
-    "icon": "Workflow",
-    "status": "Coming Soon",
-    "available": false,
-    "link": "https://github.com/dashon1/creatorflow-studio"
-  },
-  {
-    "id": "content-research-automation",
-    "name": "Content Research Automation",
-    "link": "https://nextjsspace-sigma.vercel.app",
-    "category": "AI & Automation",
-    "description": "Keyword management and content research automation — track keywords, trigger automated research runs, and integrate with Telegram, WhatsApp, and APIs.",
-    "icon": "Search",
-    "status": "Beta",
-    "available": true,
-    "priceLabel": "From $19.99/mo"
-  }
 ]
